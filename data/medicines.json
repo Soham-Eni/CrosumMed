@@ -1,0 +1,3403 @@
+{
+  "Paracetamol 500mg": {
+    "generic": "Acetaminophen",
+    "type": "Oral Medicines",
+    "category": "Analgesic",
+    "price": "₹25",
+    "rating": 8.4,
+    "overview": "Paracetamol 500mg is one of India's most trusted over-the-counter medicines used for relief of mild to moderate pain including headache, toothache, and muscle aches, as well as reducing fever in all age groups. Safe for children and adults when taken at the recommended dose.",
+    "dosage": "500–1000mg every 6–8 hours as needed. Maximum 4g per day. Can be taken with or without food.",
+    "sideEffects": [
+      "Nausea",
+      "Vomiting",
+      "Liver damage on overdose (rare)",
+      "Skin rash (rare)"
+    ],
+    "warnings": [
+      "Do not exceed 4g per day",
+      "Avoid with alcohol",
+      "Not recommended in severe liver disease"
+    ],
+    "history": {
+      "intro": "Paracetamol has a long and well-documented history as one of the world's most widely used analgesics, first synthesized in the 19th century and refined for mass pharmaceutical use in the 20th century.",
+      "timeline": [
+        {
+          "year": "1877",
+          "event": "First synthesized by Harmon Northrop Morse at Johns Hopkins University through the reduction of para-nitrophenol with tin in glacial acetic acid."
+        },
+        {
+          "year": "1893",
+          "event": "German pharmacologist Joseph von Mering tested paracetamol in humans but incorrectly concluded it caused methemoglobinemia, leading to its temporary abandonment."
+        },
+        {
+          "year": "1948",
+          "event": "Bernard Brodie and Julius Axelrod rediscovered paracetamol as a major active metabolite of acetanilide and phenacetin, recognising its safety and efficacy."
+        },
+        {
+          "year": "1953",
+          "event": "McNeil Laboratories in the United States introduced paracetamol as a commercial product under the brand name Tylenol."
+        },
+        {
+          "year": "1956",
+          "event": "Frederick Stearns & Co. launched paracetamol in the UK under the brand name Panadol."
+        },
+        {
+          "year": "1970s",
+          "event": "Paracetamol became widely adopted in India and globally as ibuprofen and aspirin faced concerns about gastrointestinal side effects."
+        }
+      ]
+    },
+    "chemistry": {
+      "formula": "C₈H₉NO₂",
+      "iupacName": "N-(4-hydroxyphenyl)acetamide",
+      "molecularWeight": "151.16 g/mol",
+      "casNumber": "103-90-2",
+      "drugClass": "Analgesic / Antipyretic",
+      "meltingPoint": "168–172°C",
+      "solubility": "Slightly soluble in water (14 mg/mL at 25°C)",
+      "halfLife": "1.5–3 hours",
+      "bioavailability": "63–89% (oral)",
+      "structureInfo": "Paracetamol contains a benzene ring core substituted with a hydroxyl group at position 4 and an acetamido group at position 1. It acts centrally by inhibiting prostaglandin synthesis in the CNS and modulating the endocannabinoid system. Unlike NSAIDs, it has minimal peripheral anti-inflammatory activity.",
+      "formationInfo": "Industrially produced by the acetylation of para-aminophenol with acetic anhydride in the presence of a catalyst. The reaction is simple, highly reproducible, and yields pharmaceutical-grade paracetamol at high purity. The process is carried out under controlled temperature and pH conditions to prevent impurities."
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Paracetamol+500mg"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Paracetamol+500mg"
+      },
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Paracetamol+500mg"
+      },
+      {
+        "name": "Blinkit",
+        "link": "https://blinkit.com/s/?q=Paracetamol+500mg"
+      }
+    ],
+    "wikiTitle": "Paracetamol"
+  },
+  "Dolo 650": {
+    "generic": "Paracetamol 650mg",
+    "type": "Oral Medicines",
+    "category": "Fever Reducer",
+    "price": "₹32",
+    "rating": 9.3,
+    "overview": "Dolo 650 is India's most prescribed paracetamol brand, widely used for viral fever, body ache, headache, and post-vaccination fever. Trusted by millions of Indians and recommended by doctors across the country for its reliable fever-reducing action.",
+    "dosage": "One tablet every 6–8 hours. Do not exceed 4 tablets in 24 hours. Take with water.",
+    "sideEffects": [
+      "Nausea",
+      "Rare liver damage on overdose"
+    ],
+    "warnings": [
+      "Do not take more than 4 tablets in 24 hours",
+      "Consult a doctor if fever persists beyond 3 days"
+    ],
+    "history": {
+      "intro": "Dolo 650 is manufactured by Micro Labs and became a household name in India, especially during the COVID-19 pandemic when it was among the most recommended medicines for fever management.",
+      "timeline": [
+        {
+          "year": "1973",
+          "event": "Micro Labs founded in Bangalore, establishing itself as a leading generic pharmaceutical manufacturer in India."
+        },
+        {
+          "year": "1990s",
+          "event": "Dolo brand launched with multiple dosage strengths catering to different age groups and fever intensities."
+        },
+        {
+          "year": "2020",
+          "event": "During the COVID-19 pandemic, Dolo 650 saw unprecedented demand as it was widely recommended for managing COVID fever by medical professionals across India."
+        },
+        {
+          "year": "2021",
+          "event": "Micro Labs reportedly sold over 350 crore Dolo 650 tablets during the pandemic period, making it one of the highest-selling medicines in Indian pharmaceutical history."
+        }
+      ]
+    },
+    "chemistry": {
+      "formula": "C₈H₉NO₂",
+      "iupacName": "N-(4-hydroxyphenyl)acetamide",
+      "molecularWeight": "151.16 g/mol",
+      "casNumber": "103-90-2",
+      "drugClass": "Analgesic / Antipyretic",
+      "halfLife": "1.5–3 hours",
+      "bioavailability": "63–89% (oral)",
+      "structureInfo": "Same molecular structure as standard paracetamol but formulated at 650mg per tablet for stronger fever and pain management in adults. Acts on hypothalamic heat-regulating centers to reduce fever.",
+      "formationInfo": "Manufactured by acetylation of para-aminophenol under controlled pharmaceutical-grade conditions with proprietary binding agents that improve tablet disintegration and absorption speed."
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Dolo+650"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Dolo+650"
+      },
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Dolo+650"
+      },
+      {
+        "name": "Blinkit",
+        "link": "https://blinkit.com/s/?q=Dolo+650"
+      },
+      {
+        "name": "Zepto",
+        "link": "https://www.zeptonow.com/search?query=Dolo+650"
+      }
+    ],
+    "wikiTitle": "Paracetamol"
+  },
+  "Amoxicillin 500mg": {
+    "generic": "Amoxicillin Trihydrate",
+    "type": "Oral Medicines",
+    "category": "Antibiotic",
+    "price": "₹85",
+    "rating": 8.2,
+    "overview": "Broad-spectrum penicillin antibiotic effective against bacterial infections of the throat, ear, urinary tract, and skin. Works against a wide range of gram-positive and some gram-negative bacteria, making it one of the most commonly prescribed antibiotics globally.",
+    "dosage": "500mg three times daily for 5–7 days. Always complete the full prescribed course even if symptoms improve.",
+    "sideEffects": [
+      "Diarrhea",
+      "Nausea",
+      "Skin rash",
+      "Allergic reaction (rare)",
+      "Yeast overgrowth with long-term use"
+    ],
+    "warnings": [
+      "Do not use if allergic to penicillin",
+      "Complete the full course to prevent antibiotic resistance",
+      "Inform doctor of kidney disease"
+    ],
+    "history": {
+      "intro": "Amoxicillin was developed as an improvement over ampicillin with better oral bioavailability and broader tolerance, and has remained a cornerstone antibiotic in global health for over five decades.",
+      "timeline": [
+        {
+          "year": "1958",
+          "event": "6-Aminopenicillanic acid (6-APA) discovered, enabling the synthesis of a new generation of semi-synthetic penicillins."
+        },
+        {
+          "year": "1972",
+          "event": "Amoxicillin introduced commercially by Beecham Group (now part of GlaxoSmithKline) under the brand name Amoxil."
+        },
+        {
+          "year": "1980s",
+          "event": "Amoxicillin became the most widely prescribed antibiotic worldwide due to its excellent safety profile, broad spectrum, and low cost."
+        },
+        {
+          "year": "2017",
+          "event": "Listed on WHO Model List of Essential Medicines, confirming its status as a critical medicine for global health."
+        }
+      ]
+    },
+    "chemistry": {
+      "formula": "C₁₆H₁₉N₃O₅S",
+      "iupacName": "(2S,5R,6R)-6-[[(2R)-2-amino-2-(4-hydroxyphenyl)acetyl]amino]-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid trihydrate",
+      "molecularWeight": "365.40 g/mol",
+      "casNumber": "61336-70-7",
+      "drugClass": "Beta-lactam / Aminopenicillin",
+      "meltingPoint": "194°C (decomposes)",
+      "solubility": "Freely soluble in water",
+      "halfLife": "61.3 minutes",
+      "bioavailability": "~90% (oral)",
+      "structureInfo": "Amoxicillin contains a beta-lactam ring fused to a thiazolidine ring, characteristic of all penicillins. It inhibits bacterial cell wall synthesis by binding to penicillin-binding proteins (PBPs), preventing cross-linking of peptidoglycan chains and leading to cell lysis.",
+      "formationInfo": "Produced by enzymatic or chemical side-chain modification of 6-APA using D(-)-α-aminophenylacetic acid. Modern production uses fermentation of Penicillium chrysogenum followed by chemical semi-synthesis in controlled conditions."
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Amoxicillin+500mg"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Amoxicillin+500mg"
+      }
+    ],
+    "wikiTitle": "Amoxicillin"
+  },
+  "Azithromycin 500mg": {
+    "generic": "Azithromycin Dihydrate",
+    "type": "Oral Medicines",
+    "category": "Antibiotic",
+    "price": "₹95",
+    "rating": 8.8,
+    "overview": "Macrolide antibiotic used for respiratory tract infections, skin infections, and atypical pneumonia. The convenient once-daily dosing for 3–5 days makes it one of the most prescribed antibiotics in India for community-acquired infections.",
+    "dosage": "500mg once daily for 3–5 days as prescribed. Take on an empty stomach for best absorption.",
+    "sideEffects": [
+      "Nausea",
+      "Diarrhea",
+      "Abdominal pain",
+      "Headache",
+      "QT prolongation at high doses"
+    ],
+    "warnings": [
+      "Use with caution in patients with liver disease",
+      "Avoid with antacids containing aluminum or magnesium"
+    ],
+    "chemistry": {
+      "formula": "C₃₈H₇₂N₂O₁₂",
+      "iupacName": "Azithromycin (9-deoxo-9a-aza-9a-methyl-9a-homoerythromycin A)",
+      "molecularWeight": "748.98 g/mol",
+      "casNumber": "83905-01-5",
+      "drugClass": "Macrolide Antibiotic",
+      "halfLife": "68 hours",
+      "bioavailability": "37% (oral)",
+      "structureInfo": "Azithromycin is a 15-membered ring macrolide derived from erythromycin. It binds to the 50S ribosomal subunit of bacteria and inhibits RNA-dependent protein synthesis. Its unique pharmacokinetics allow tissue concentrations far exceeding plasma levels, enabling shorter treatment courses.",
+      "formationInfo": "Synthesized from erythromycin A by Beckmann rearrangement and methylation. The process was developed by Croatian researchers at Pliva in the 1980s. The drug is now manufactured worldwide using semi-synthetic routes from erythromycin fermentation products."
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Azithromycin+500mg"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Azithromycin+500mg"
+      },
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Azithromycin+500mg"
+      }
+    ],
+    "wikiTitle": "Azithromycin"
+  },
+  "Metformin 500mg": {
+    "generic": "Metformin Hydrochloride",
+    "type": "Oral Medicines",
+    "category": "Diabetes",
+    "price": "₹22",
+    "rating": 8.5,
+    "overview": "First-line oral medication for Type 2 Diabetes management. Reduces blood sugar by decreasing hepatic glucose production and improving insulin sensitivity without causing weight gain, making it the gold standard treatment for newly diagnosed Type 2 diabetics worldwide.",
+    "dosage": "500mg twice daily with meals. Dosage may be gradually increased up to 2000mg per day as advised by a doctor.",
+    "sideEffects": [
+      "Nausea",
+      "Diarrhea",
+      "Metallic taste",
+      "Lactic acidosis (rare)",
+      "Vitamin B12 deficiency (long-term)"
+    ],
+    "warnings": [
+      "Stop before surgery or CT scans with contrast dye",
+      "Not for use in kidney failure (eGFR <30)",
+      "Avoid excessive alcohol"
+    ],
+    "history": {
+      "intro": "Metformin's origins lie in the French lilac plant, and its development into a first-line diabetes drug is one of the most remarkable stories in modern pharmacology, overcoming decades of skepticism to become the world's most prescribed antidiabetic.",
+      "timeline": [
+        {
+          "year": "1922",
+          "event": "Guanidine compounds isolated from Galega officinalis (French lilac) were found to lower blood sugar but were too toxic for clinical use."
+        },
+        {
+          "year": "1929",
+          "event": "Emil Werner and James Bell synthesized metformin for the first time as part of a series of biguanide compounds."
+        },
+        {
+          "year": "1957",
+          "event": "French diabetologist Jean Sterne published the first clinical data on metformin for diabetes treatment and coined the name 'Glucophage' (glucose eater)."
+        },
+        {
+          "year": "1995",
+          "event": "Metformin approved by the US FDA after decades of use in Europe, overcoming concerns about lactic acidosis shared with earlier biguanides."
+        },
+        {
+          "year": "2005",
+          "event": "Recognized as the most prescribed antidiabetic drug worldwide. Research began exploring additional benefits including potential anti-aging and anti-cancer properties."
+        }
+      ]
+    },
+    "chemistry": {
+      "formula": "C₄H₁₁N₅·HCl",
+      "iupacName": "3,3-dimethylbiguanide hydrochloride",
+      "molecularWeight": "165.62 g/mol",
+      "casNumber": "1115-70-4",
+      "drugClass": "Biguanide / Antidiabetic",
+      "meltingPoint": "222–226°C",
+      "solubility": "Freely soluble in water",
+      "halfLife": "4–8.7 hours",
+      "bioavailability": "50–60% (oral)",
+      "structureInfo": "Metformin is a biguanide compound with two guanidine groups joined by a nitrogen bridge. It primarily activates AMP-activated protein kinase (AMPK) in liver cells, inhibiting gluconeogenesis. It also improves peripheral insulin sensitivity and reduces intestinal glucose absorption.",
+      "formationInfo": "Synthesized from dimethylamine and cyanoguanidine (dicyandiamide) in a direct condensation reaction under heat. The final product is converted to the hydrochloride salt for pharmaceutical use. Modern manufacturing is highly optimized for purity and consistency."
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Metformin+500mg"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Metformin+500mg"
+      }
+    ],
+    "wikiTitle": "Metformin"
+  },
+  "Cetirizine 10mg": {
+    "generic": "Cetirizine Hydrochloride",
+    "type": "Oral Medicines",
+    "category": "Antihistamine",
+    "price": "₹18",
+    "rating": 8.3,
+    "overview": "Second-generation antihistamine providing allergy relief with minimal drowsiness compared to older antihistamines. Controls runny nose, sneezing, watery eyes, and hives effectively within one hour of intake.",
+    "dosage": "10mg once daily. Take at bedtime if drowsiness is a concern. Can be taken with or without food.",
+    "sideEffects": [
+      "Mild drowsiness",
+      "Dry mouth",
+      "Fatigue",
+      "Headache"
+    ],
+    "chemistry": {
+      "formula": "C₂₁H₂₅ClN₂O₃·HCl",
+      "iupacName": "[2-[4-[(4-chlorophenyl)-phenylmethyl]piperazin-1-yl]ethoxy]acetic acid dihydrochloride",
+      "molecularWeight": "461.81 g/mol",
+      "casNumber": "83881-51-0",
+      "drugClass": "Second-generation Antihistamine",
+      "halfLife": "8–10 hours",
+      "bioavailability": "70% (oral)",
+      "structureInfo": "Cetirizine selectively antagonizes peripheral H1 receptors with minimal CNS penetration due to its zwitterionic character at physiological pH. This property accounts for its low sedation profile compared to first-generation antihistamines like diphenhydramine.",
+      "formationInfo": "Cetirizine is the carboxylic acid metabolite of hydroxyzine, developed as a metabolically stable second-generation compound. It is synthesized via alkylation of 1-(4-chlorobenzhydryl)piperazine with ethyl ester of chloroacetic acid followed by hydrolysis."
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Cetirizine+10mg"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Cetirizine+10mg"
+      },
+      {
+        "name": "Blinkit",
+        "link": "https://blinkit.com/s/?q=Cetirizine+10mg"
+      },
+      {
+        "name": "Zepto",
+        "link": "https://www.zeptonow.com/search?query=Cetirizine+10mg"
+      }
+    ],
+    "wikiTitle": "Cetirizine"
+  },
+  "Ibuprofen 400mg": {
+    "generic": "Ibuprofen",
+    "type": "Oral Medicines",
+    "category": "Pain Reliever",
+    "price": "₹38",
+    "rating": 8.4,
+    "overview": "NSAID effective for pain, fever, and inflammation. Particularly useful for dental pain, menstrual cramps, arthritis, and sports injuries. Works by inhibiting cyclooxygenase enzymes to reduce prostaglandin synthesis.",
+    "dosage": "400mg every 6–8 hours with food. Maximum 1200mg per day without prescription. Do not exceed 2400mg per day with medical supervision.",
+    "sideEffects": [
+      "Stomach upset",
+      "Nausea",
+      "Heartburn",
+      "Dizziness",
+      "Risk of GI bleeding with prolonged use"
+    ],
+    "warnings": [
+      "Always take with food",
+      "Avoid in last trimester of pregnancy",
+      "Caution in kidney or heart disease",
+      "Do not combine with aspirin or other NSAIDs"
+    ],
+    "history": {
+      "intro": "Ibuprofen was discovered as part of a major research effort to find a safer alternative to aspirin for arthritis treatment, and went on to become one of the three most used over-the-counter pain medications in the world.",
+      "timeline": [
+        {
+          "year": "1961",
+          "event": "Stewart Adams and John Nicholson at Boots Pure Drug Company in the UK synthesized ibuprofen as part of a research program to develop anti-inflammatory drugs."
+        },
+        {
+          "year": "1969",
+          "event": "Ibuprofen approved in the UK as a prescription medicine under the brand name Brufen for rheumatoid arthritis."
+        },
+        {
+          "year": "1983",
+          "event": "Approved for OTC sale in the United States at a 200mg dose under the brand name Advil, making it accessible without a prescription."
+        },
+        {
+          "year": "2000s",
+          "event": "Became one of the most sold OTC medicines globally. Research expanded to explore its potential role in reducing Alzheimer's risk and other inflammatory conditions."
+        }
+      ]
+    },
+    "chemistry": {
+      "formula": "C₁₃H₁₈O₂",
+      "iupacName": "(RS)-2-(4-(2-methylpropyl)phenyl)propanoic acid",
+      "molecularWeight": "206.28 g/mol",
+      "casNumber": "15687-27-1",
+      "drugClass": "NSAID / Propionic acid derivative",
+      "meltingPoint": "75–77.5°C",
+      "halfLife": "1.8–2 hours",
+      "bioavailability": "80–100% (oral)",
+      "structureInfo": "Ibuprofen is a propionic acid derivative NSAID that nonselectively inhibits COX-1 and COX-2 enzymes. This dual inhibition blocks prostaglandin synthesis, reducing pain signaling and the inflammatory cascade. The S(+) enantiomer is the pharmacologically active form.",
+      "formationInfo": "Manufactured via the Boots synthesis or the BHC synthesis route. The BHC process (adopted commercially) uses isobutylbenzene as starting material and achieves synthesis in three steps with very high atom efficiency, earning the Presidential Green Chemistry Award in 1997."
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Ibuprofen+400mg"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Ibuprofen+400mg"
+      },
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Ibuprofen+400mg"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Ibuprofen+400mg"
+      }
+    ],
+    "wikiTitle": "Ibuprofen"
+  },
+  "Pantoprazole 40mg": {
+    "generic": "Pantoprazole Sodium Sesquihydrate",
+    "type": "Oral Medicines",
+    "category": "Antacid",
+    "price": "₹48",
+    "rating": 8.6,
+    "overview": "Proton pump inhibitor providing powerful acid suppression for GERD, peptic ulcers, and acid reflux. Offers all-day and all-night relief by irreversibly blocking the H+/K+-ATPase enzyme system at the secretory surface of gastric parietal cells.",
+    "dosage": "40mg once daily before breakfast for 4–8 weeks. Do not crush or chew the tablet.",
+    "sideEffects": [
+      "Headache",
+      "Diarrhea",
+      "Nausea",
+      "Abdominal pain",
+      "Low magnesium with long-term use"
+    ],
+    "warnings": [
+      "Long-term use may increase risk of bone fractures",
+      "Monitor magnesium levels with prolonged use",
+      "May mask symptoms of gastric cancer"
+    ],
+    "chemistry": {
+      "formula": "C₁₆H₁₅F₂N₃O₄S·Na·1.5H₂O",
+      "iupacName": "sodium 5-(difluoromethoxy)-2-[(3,4-dimethoxypyridin-2-yl)methylsulfinyl]benzimidazol-1-ide sesquihydrate",
+      "molecularWeight": "432.4 g/mol",
+      "casNumber": "138786-67-1",
+      "drugClass": "Proton Pump Inhibitor (PPI)",
+      "halfLife": "1–1.9 hours",
+      "bioavailability": "77% (oral)",
+      "structureInfo": "Pantoprazole is a substituted benzimidazole prodrug that is selectively activated in the acidic environment of parietal cell canaliculi. The active sulfenamide form covalently binds to cysteine residues on H+/K+-ATPase, irreversibly suppressing acid secretion.",
+      "formationInfo": "Synthesized through condensation of a mercaptobenzimidazole intermediate with a chloromethyl-pyridine derivative followed by oxidation to the sulfoxide. The sodium salt sesquihydrate form is used for improved stability in pharmaceutical formulations."
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Pantoprazole+40mg"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Pantoprazole+40mg"
+      },
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Pantoprazole+40mg"
+      }
+    ],
+    "wikiTitle": "Pantoprazole"
+  },
+  "Atorvastatin 10mg": {
+    "generic": "Atorvastatin Calcium",
+    "type": "Oral Medicines",
+    "category": "Cholesterol",
+    "price": "₹55",
+    "rating": 8.7,
+    "overview": "HMG-CoA reductase inhibitor used to lower LDL cholesterol and triglycerides while raising HDL cholesterol. Proven to significantly reduce the risk of heart attack, stroke, and cardiovascular events in high-risk patients.",
+    "dosage": "10–80mg once daily, usually at bedtime. Can be taken with or without food. Dosage adjusted by physician based on cholesterol levels.",
+    "sideEffects": [
+      "Muscle pain (myalgia)",
+      "Headache",
+      "Nausea",
+      "Diarrhea",
+      "Rare rhabdomyolysis at high doses"
+    ],
+    "warnings": [
+      "Stop immediately if unexplained muscle pain or weakness occurs",
+      "Avoid during pregnancy and breastfeeding",
+      "Avoid grapefruit juice — inhibits drug metabolism"
+    ],
+    "history": {
+      "intro": "Atorvastatin, sold under the brand Lipitor, became the best-selling pharmaceutical drug in history, reflecting the global epidemic of cardiovascular disease and the extraordinary effectiveness of statins in prevention.",
+      "timeline": [
+        {
+          "year": "1985",
+          "event": "Atorvastatin synthesized by Bruce Roth at Parke-Davis (later acquired by Pfizer) after researchers targeted a more potent statin than lovastatin."
+        },
+        {
+          "year": "1996",
+          "event": "Approved by the US FDA and launched globally under the brand name Lipitor. Clinical trials showed superior LDL reduction compared to existing statins."
+        },
+        {
+          "year": "2003",
+          "event": "Lipitor became the world's best-selling drug with annual revenues exceeding $10 billion USD, a position it held for several consecutive years."
+        },
+        {
+          "year": "2011",
+          "event": "Patent expired, opening the market to generic atorvastatin. Prices dropped dramatically, making the drug accessible to hundreds of millions globally."
+        }
+      ]
+    },
+    "chemistry": {
+      "formula": "C₃₃H₃₅FN₂O₅·Ca",
+      "iupacName": "calcium bis[(3R,5R)-7-[2-(4-fluorophenyl)-3-phenyl-4-(phenylcarbamoyl)-5-propan-2-ylpyrrol-1-yl]-3,5-dihydroxyheptanoate]",
+      "molecularWeight": "1209.4 g/mol",
+      "casNumber": "134523-03-8",
+      "drugClass": "Statin / HMG-CoA Reductase Inhibitor",
+      "halfLife": "14 hours",
+      "bioavailability": "12% (extensive first-pass metabolism)",
+      "structureInfo": "Atorvastatin competitively inhibits HMG-CoA reductase, the rate-limiting enzyme in cholesterol biosynthesis. By reducing hepatic cholesterol production, it upregulates LDL receptors on liver cells, increasing clearance of circulating LDL from the bloodstream.",
+      "formationInfo": "Manufactured via multi-step stereoselective synthesis involving Diels-Alder reactions and asymmetric reduction steps. The calcium salt form improves stability and bioavailability. Industrial synthesis uses chiral catalysts to ensure correct stereochemistry of the active enantiomer."
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Atorvastatin+10mg"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Atorvastatin+10mg"
+      }
+    ],
+    "wikiTitle": "Atorvastatin"
+  },
+  "Aspirin 75mg": {
+    "generic": "Acetylsalicylic Acid",
+    "type": "Oral Medicines",
+    "category": "Antiplatelet",
+    "price": "₹15",
+    "rating": 8.9,
+    "overview": "Low-dose aspirin used daily for prevention of heart attack and stroke in high-risk patients by irreversibly inhibiting platelet aggregation. One of the oldest and most studied medicines in the world with a proven cardiovascular protective effect.",
+    "dosage": "75mg once daily with water, preferably after food. Do not crush or chew enteric-coated tablets. Take at the same time each day.",
+    "sideEffects": [
+      "Stomach irritation",
+      "Gastrointestinal bleeding (rare)",
+      "Easy bruising",
+      "Tinnitus at high doses"
+    ],
+    "warnings": [
+      "Never give to children under 16 (risk of Reye's syndrome)",
+      "Use with caution if taking blood thinners",
+      "Stop before elective surgery as advised by doctor"
+    ],
+    "history": {
+      "intro": "Aspirin is arguably the most historically significant pharmaceutical compound ever produced, with origins in ancient herbal medicine and a continuous evolution from willow bark remedy to a cornerstone of modern cardiovascular therapy.",
+      "timeline": [
+        {
+          "year": "400 BC",
+          "event": "Hippocrates described using willow bark extract (containing salicin) to relieve pain and fever, the earliest documented use of the active natural precursor to aspirin."
+        },
+        {
+          "year": "1853",
+          "event": "Charles Frédéric Gerhardt first synthesized acetylsalicylic acid, though the discovery was not fully recognized at the time."
+        },
+        {
+          "year": "1897",
+          "event": "Felix Hoffmann at Bayer AG re-synthesized and stabilized acetylsalicylic acid, leading to its commercial development. Bayer registered the trademark 'Aspirin' in 1899."
+        },
+        {
+          "year": "1960s",
+          "event": "Antiplatelet properties discovered — researchers found aspirin prevented blood clotting. This opened entirely new cardiovascular indications."
+        },
+        {
+          "year": "1988",
+          "event": "ISIS-2 trial definitively proved that aspirin reduces mortality after myocardial infarction by 23%, cementing its role in cardiology."
+        }
+      ]
+    },
+    "chemistry": {
+      "formula": "C₉H₈O₄",
+      "iupacName": "2-acetoxybenzoic acid",
+      "molecularWeight": "180.16 g/mol",
+      "casNumber": "50-78-2",
+      "drugClass": "NSAID / Antiplatelet",
+      "meltingPoint": "135°C",
+      "halfLife": "15–20 minutes (aspirin); active metabolite salicylate: 2–3 hours",
+      "bioavailability": "80–100% (oral)",
+      "structureInfo": "Aspirin irreversibly acetylates serine 530 of cyclooxygenase-1 (COX-1) in platelets, permanently inhibiting thromboxane A2 production. Since platelets cannot synthesize new COX-1, the antiplatelet effect lasts for the entire platelet lifespan of 7–10 days.",
+      "formationInfo": "Produced industrially by esterification of salicylic acid with acetic anhydride in the presence of an acid catalyst (phosphoric or sulfuric acid). The reaction is straightforward and highly scalable, making aspirin one of the cheapest pharmaceuticals to produce at scale."
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Aspirin+75mg"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Aspirin+75mg"
+      },
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Aspirin+75mg"
+      }
+    ],
+    "wikiTitle": "Aspirin"
+  },
+  "Omeprazole 20mg": {
+    "generic": "Omeprazole",
+    "type": "Oral Medicines",
+    "category": "Antacid",
+    "price": "₹35",
+    "rating": 8.4,
+    "overview": "First proton pump inhibitor to be widely marketed, offering effective relief from gastroesophageal reflux disease, peptic ulcers, and H. pylori eradication regimens. Reduces stomach acid production by up to 90%.",
+    "dosage": "20mg once daily before breakfast for 4–8 weeks. Take capsule whole — do not crush or chew.",
+    "sideEffects": [
+      "Headache",
+      "Diarrhea",
+      "Flatulence",
+      "Nausea",
+      "Abdominal pain"
+    ],
+    "warnings": [
+      "Not recommended for long-term use without medical supervision",
+      "May reduce effectiveness of clopidogrel"
+    ],
+    "chemistry": {
+      "formula": "C₁₇H₁₉N₃O₃S",
+      "iupacName": "5-methoxy-2-[(4-methoxy-3,5-dimethylpyridin-2-yl)methylsulfinyl]-1H-benzimidazole",
+      "molecularWeight": "345.42 g/mol",
+      "casNumber": "73590-58-6",
+      "drugClass": "Proton Pump Inhibitor",
+      "halfLife": "0.5–1 hour",
+      "bioavailability": "35–76% (oral, increases with repeated dosing)",
+      "structureInfo": "Omeprazole is a prodrug converted to its active sulfenamide form only in the acidic environment of the parietal cell. The activated form binds covalently to the H+/K+-ATPase pump, irreversibly suppressing acid secretion. It was the first PPI to demonstrate this mechanism clinically.",
+      "formationInfo": "Synthesized from 2-mercaptobenzimidazole and substituted pyridine intermediates through condensation and oxidation steps. The commercial formulation uses enteric-coated pellets to protect the drug from gastric acid degradation before reaching the small intestine."
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Omeprazole+20mg"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Omeprazole+20mg"
+      },
+      {
+        "name": "Blinkit",
+        "link": "https://blinkit.com/s/?q=Omeprazole+20mg"
+      }
+    ],
+    "wikiTitle": "Omeprazole"
+  },
+  "Montelukast 10mg": {
+    "type": "Oral Medicines",
+    "category": "Antiallergic",
+    "price": "₹72",
+    "rating": 8.1,
+    "overview": "Leukotriene receptor antagonist used for the long-term prevention and management of asthma, and to relieve symptoms of seasonal and perennial allergic rhinitis. Taken once daily to reduce airway inflammation and bronchoconstriction.",
+    "dosage": "10mg once daily in the evening. Can be taken with or without food. Not for acute asthma attacks.",
+    "sideEffects": [
+      "Headache",
+      "Abdominal pain",
+      "Fatigue",
+      "Mood changes and depression (rare)",
+      "Sleep disturbances"
+    ],
+    "warnings": [
+      "FDA black box warning: may cause serious neuropsychiatric events",
+      "Not for acute bronchospasm",
+      "Monitor for behavioral changes especially in children"
+    ],
+    "chemistry": {
+      "formula": "C₃₅H₃₆ClNO₃S",
+      "iupacName": "2-[(1R)-1-[[(1S)-1-[3-[(1E)-2-(7-chloroquinolin-2-yl)vinyl]phenyl]-3-[2-(2-hydroxypropan-2-yl)phenyl]propyl]sulfanylmethyl]cyclopropyl]acetic acid",
+      "molecularWeight": "586.18 g/mol",
+      "casNumber": "158966-92-8",
+      "drugClass": "Leukotriene Receptor Antagonist",
+      "halfLife": "2.7–5.5 hours",
+      "bioavailability": "64% (oral)",
+      "structureInfo": "Montelukast selectively antagonizes the CysLT1 receptor, blocking the action of cysteinyl leukotrienes (LTC4, LTD4, LTE4). These leukotrienes are potent bronchoconstrictors and inflammatory mediators released during allergic reactions. Blocking them reduces both bronchoconstriction and airway inflammation.",
+      "formationInfo": "A structurally complex molecule synthesized through multiple stereoselective steps including chiral center formation via asymmetric synthesis. The sodium salt form is used in commercial tablets for improved water solubility and bioavailability."
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Montelukast+10mg"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Montelukast+10mg"
+      }
+    ],
+    "wikiTitle": "Montelukast"
+  },
+  "Levocetirizine 5mg": {
+    "generic": "Levocetirizine Dihydrochloride",
+    "type": "Oral Medicines",
+    "category": "Antihistamine",
+    "price": "₹28",
+    "rating": 8.5,
+    "overview": "Third-generation antihistamine and the active enantiomer of cetirizine. Provides powerful allergy relief for allergic rhinitis, urticaria, and eczema with an excellent safety profile and minimal sedation even at therapeutic doses.",
+    "dosage": "5mg once daily in the evening. Take with or without food. Reduce dose to 2.5mg in elderly or renally impaired patients.",
+    "sideEffects": [
+      "Mild drowsiness",
+      "Dry mouth",
+      "Headache",
+      "Fatigue"
+    ],
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Levocetirizine+5mg"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Levocetirizine+5mg"
+      },
+      {
+        "name": "Zepto",
+        "link": "https://www.zeptonow.com/search?query=Levocetirizine+5mg"
+      }
+    ],
+    "wikiTitle": "Levocetirizine"
+  },
+  "Clopidogrel 75mg": {
+    "generic": "Clopidogrel Bisulfate",
+    "type": "Oral Medicines",
+    "category": "Antiplatelet",
+    "price": "₹68",
+    "rating": 8.6,
+    "overview": "Potent antiplatelet agent used after heart attacks, stents, or strokes to prevent blood clot formation. Often prescribed in combination with aspirin for dual antiplatelet therapy in high-risk cardiovascular patients.",
+    "dosage": "75mg once daily with or without food. Do not stop without consulting a doctor, especially if you have a stent.",
+    "sideEffects": [
+      "Bleeding (bruising, nosebleeds)",
+      "Diarrhea",
+      "Rash",
+      "Rare severe bleeding"
+    ],
+    "warnings": [
+      "Never stop suddenly after a coronary stent — risk of stent thrombosis",
+      "Inform all treating doctors and dentists you are on clopidogrel",
+      "Avoid omeprazole — reduces effectiveness"
+    ],
+    "history": {
+      "intro": "Clopidogrel was developed as a successor to ticlopidine, offering similar antiplatelet efficacy with a much better safety profile, and became one of the most prescribed cardiovascular drugs worldwide under the brand name Plavix.",
+      "timeline": [
+        {
+          "year": "1998",
+          "event": "Clopidogrel approved by the US FDA under the brand name Plavix, developed by Sanofi-Synthelabo and Bristol-Myers Squibb."
+        },
+        {
+          "year": "2001",
+          "event": "CURE trial demonstrated that dual antiplatelet therapy with clopidogrel and aspirin significantly reduced cardiovascular events in acute coronary syndrome patients."
+        },
+        {
+          "year": "2006",
+          "event": "Became the second best-selling drug in the world by revenue, reflecting the enormous burden of cardiovascular disease globally."
+        },
+        {
+          "year": "2012",
+          "event": "Generic clopidogrel became available after patent expiry, drastically reducing costs and improving access in developing countries including India."
+        }
+      ]
+    },
+    "chemistry": {
+      "formula": "C₁₆H₁₆ClNO₂S·H₂SO₄",
+      "iupacName": "methyl (+)-(S)-alpha-(2-chlorophenyl)-6,7-dihydrothieno[3,2-c]pyridine-5(4H)-acetate sulfate",
+      "molecularWeight": "419.9 g/mol",
+      "casNumber": "135046-48-9",
+      "drugClass": "P2Y12 ADP Receptor Antagonist",
+      "halfLife": "~6 hours (active metabolite)",
+      "bioavailability": "~50% (oral, requires hepatic bioactivation)",
+      "structureInfo": "Clopidogrel is an irreversible prodrug that requires hepatic oxidation by CYP2C19 to form its active thiol metabolite. This metabolite selectively and irreversibly binds the P2Y12 ADP receptor on platelets, preventing ADP-mediated platelet activation and aggregation for the platelet's lifetime.",
+      "formationInfo": "Synthesized from methyl-2-chlorophenylglycinate through cyclization with a thienopyridine intermediate. The bisulfate salt form is used in commercial tablets. CYP2C19 genetic polymorphisms in patients significantly affect the drug's clinical efficacy — poor metabolizers respond less well."
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Clopidogrel+75mg"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Clopidogrel+75mg"
+      }
+    ],
+    "wikiTitle": "Clopidogrel"
+  },
+  "Domperidone 10mg": {
+    "generic": "Domperidone Maleate",
+    "type": "Oral Medicines",
+    "category": "Antiemetic",
+    "price": "₹30",
+    "rating": 7.9,
+    "overview": "Dopamine receptor antagonist used to relieve nausea, vomiting, and delayed gastric emptying. Acts peripherally without crossing the blood-brain barrier, making it safer than metoclopramide for long-term use in gastric motility disorders.",
+    "dosage": "10mg up to three times daily before meals and at bedtime. Maximum 30mg per day. Do not exceed recommended dose.",
+    "sideEffects": [
+      "Dry mouth",
+      "Headache",
+      "Galactorrhea (rare)",
+      "QT prolongation at high doses"
+    ],
+    "warnings": [
+      "Use lowest effective dose for shortest possible time",
+      "Not recommended in patients with cardiac arrhythmias",
+      "Avoid in liver disease"
+    ],
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Domperidone+10mg"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Domperidone+10mg"
+      },
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Domperidone+10mg"
+      }
+    ],
+    "wikiTitle": "Domperidone"
+  },
+  "Vitamin D3 60000 IU": {
+    "generic": "Cholecalciferol",
+    "type": "Oral Medicines",
+    "category": "Vitamin",
+    "price": "₹45",
+    "rating": 8.8,
+    "overview": "High-dose Vitamin D3 sachet or capsule for treating Vitamin D deficiency, which is extremely common in India due to indoor lifestyles and dietary patterns. Essential for calcium absorption, bone health, immune function, and mood regulation.",
+    "dosage": "One 60000 IU dose weekly for 8–12 weeks (loading dose), then monthly maintenance. Take with a fatty meal for best absorption.",
+    "sideEffects": [
+      "Nausea and constipation at toxic doses",
+      "Hypercalcemia with excessive use",
+      "Weakness and confusion with overdose"
+    ],
+    "warnings": [
+      "Do not exceed recommended duration without blood test monitoring",
+      "Toxic in very high repeated doses — follow doctor's advice",
+      "Caution in kidney stones history"
+    ],
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Vitamin+D3+60000+IU"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Vitamin+D3+60000"
+      },
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Vitamin+D3+60000+IU"
+      },
+      {
+        "name": "Blinkit",
+        "link": "https://blinkit.com/s/?q=Vitamin+D3+60000"
+      }
+    ],
+    "wikiTitle": "Cholecalciferol"
+  },
+  "ORS Electrolyte Sachet": {
+    "type": "Oral Medicines",
+    "category": "Rehydration",
+    "price": "₹12",
+    "rating": 9.0,
+    "overview": "Oral Rehydration Salt sachets for rapid treatment of dehydration caused by diarrhea, vomiting, excessive sweating, or fever. The WHO-recommended glucose-electrolyte formula restores lost fluids and electrolytes effectively and safely in all age groups.",
+    "dosage": "Dissolve one sachet in 1 litre of clean water. Drink small sips frequently. A child under 2 years needs 50–100ml after every loose stool; older children 100–200ml; adults 200–400ml.",
+    "sideEffects": [
+      "Nausea if consumed too quickly",
+      "Rarely high sodium if not prepared correctly"
+    ],
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=ORS+Electrolyte+Sachet"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=ORS+Sachet"
+      },
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=ORS+Electrolyte+Sachet"
+      },
+      {
+        "name": "Blinkit",
+        "link": "https://blinkit.com/s/?q=ORS+Sachet"
+      },
+      {
+        "name": "Zepto",
+        "link": "https://www.zeptonow.com/search?query=ORS+Sachet"
+      }
+    ],
+    "wikiTitle": "Oral rehydration therapy"
+  },
+  "Soframycin Skin Cream": {
+    "generic": "Framycetin Sulphate",
+    "type": "Skin & Topical",
+    "category": "Anti-Infective Cream",
+    "price": "₹85",
+    "rating": 8.3,
+    "overview": "Framycetin-based antibiotic cream for the treatment of bacterial skin infections including impetigo, infected wounds, burns, and secondary infected dermatoses. Provides broad-spectrum antibacterial coverage against common skin pathogens.",
+    "howToUse": "Clean and dry the affected area thoroughly. Apply a thin layer of cream 2–3 times daily. Cover with a sterile dressing if needed. Do not apply to large areas of the body for extended periods.",
+    "sideEffects": [
+      "Skin sensitization",
+      "Contact dermatitis with prolonged use",
+      "Rare allergic reaction"
+    ],
+    "warnings": [
+      "For external use only",
+      "Avoid contact with eyes and mucous membranes",
+      "Not for use in the ear if the eardrum is perforated"
+    ],
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Soframycin+Skin+Cream"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Soframycin+Cream"
+      },
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Soframycin+Skin+Cream"
+      },
+      {
+        "name": "Blinkit",
+        "link": "https://blinkit.com/s/?q=Soframycin+Cream"
+      }
+    ],
+    "wikiTitle": "Framycetin"
+  },
+  "Clotrimazole Cream 1%": {
+    "generic": "Clotrimazole",
+    "type": "Skin & Topical",
+    "category": "Antifungal Cream",
+    "price": "₹55",
+    "rating": 8.4,
+    "overview": "Broad-spectrum antifungal cream for treating ringworm, athlete's foot, jock itch, and candidal skin infections. Disrupts fungal cell membrane integrity by inhibiting ergosterol synthesis, leading to fungal cell death.",
+    "howToUse": "Clean and dry the affected area. Apply a thin layer of cream twice daily, morning and evening. Continue use for 2–4 weeks even if symptoms improve. Do not bandage tightly.",
+    "sideEffects": [
+      "Mild burning or stinging",
+      "Skin redness",
+      "Peeling on initial application"
+    ],
+    "chemistry": {
+      "formula": "C₂₂H₁₇ClN₂",
+      "iupacName": "1-[(2-chlorophenyl)diphenylmethyl]imidazole",
+      "molecularWeight": "344.84 g/mol",
+      "casNumber": "23593-75-1",
+      "drugClass": "Imidazole Antifungal",
+      "structureInfo": "Clotrimazole inhibits the fungal CYP51 enzyme (lanosterol 14α-demethylase), blocking the conversion of lanosterol to ergosterol. Ergosterol is essential for fungal membrane integrity. Without it, the fungal cell membrane becomes permeable and the organism cannot survive.",
+      "formationInfo": "Synthesized from imidazole and a trityl chloride derivative via nucleophilic substitution. Bayer AG developed clotrimazole in the late 1960s, and it remains one of the most effective and affordable antifungal agents available over the counter."
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Clotrimazole+Cream+1%"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Clotrimazole+Cream"
+      },
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Clotrimazole+Cream+1%"
+      }
+    ],
+    "wikiTitle": "Clotrimazole"
+  },
+  "Volini Pain Relief Gel 30g": {
+    "generic": "Diclofenac Diethylamine + Linseed Oil + Methyl Salicylate + Menthol",
+    "type": "Skin & Topical",
+    "category": "Pain Relief Gel",
+    "price": "₹115",
+    "rating": 8.5,
+    "overview": "Multi-ingredient topical analgesic gel combining a diclofenac NSAID with cooling methyl salicylate and menthol for fast-acting pain relief in muscle aches, joint pain, sports injuries, and backache. Provides targeted relief at the site of pain.",
+    "howToUse": "Apply a small amount of gel to the affected area and rub gently until absorbed. Use 3–4 times daily. Wash hands thoroughly after application. Do not use on broken skin.",
+    "sideEffects": [
+      "Skin redness",
+      "Tingling at application site",
+      "Skin rash in sensitive individuals"
+    ],
+    "warnings": [
+      "For external use only",
+      "Do not apply near eyes or mouth",
+      "Avoid prolonged use on large skin areas",
+      "Not for use during pregnancy"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Volini+Pain+Relief+Gel+30g"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Volini+Pain+Relief+Gel"
+      },
+      {
+        "name": "Blinkit",
+        "link": "https://blinkit.com/s/?q=Volini+Gel"
+      },
+      {
+        "name": "Zepto",
+        "link": "https://www.zeptonow.com/search?query=Volini+Gel"
+      },
+      {
+        "name": "Instamart",
+        "link": "https://www.swiggy.com/instamart/search?query=Volini+Gel"
+      }
+    ],
+    "wikiTitle": "Diclofenac"
+  },
+  "Boroline Antiseptic Cream": {
+    "type": "Skin & Topical",
+    "category": "Antiseptic Cream",
+    "price": "₹45",
+    "rating": 8.7,
+    "overview": "India's iconic antiseptic and moisturizing cream, trusted for over 90 years for healing chapped lips, cracked heels, minor cuts, and dry skin. Contains boric acid, zinc oxide, and lanolin for antiseptic, soothing, and moisturizing properties.",
+    "howToUse": "Apply a small quantity to affected area and gently massage. Use at bedtime for chapped skin and heels. Apply on minor cuts after cleaning. Reapply as needed.",
+    "ingredients": [
+      "Boric Acid 5%",
+      "Zinc Oxide 5%",
+      "Anhydrous Lanolin 8.5%",
+      "White soft paraffin base"
+    ],
+    "history": {
+      "intro": "Boroline is one of India's oldest consumer healthcare brands, with a history stretching back to the pre-independence era and a loyal following across generations of Indian families.",
+      "timeline": [
+        {
+          "year": "1929",
+          "event": "Boroline launched by Gourmohon Dutta under the brand G.D. Pharmaceuticals in Calcutta, making it one of India's first indigenous cosmetic healthcare products."
+        },
+        {
+          "year": "1930s",
+          "event": "Became extremely popular across Bengal and spread to other parts of India as a trusted household cream for skin protection and healing."
+        },
+        {
+          "year": "1947",
+          "event": "During India's independence movement, Boroline was promoted as a Swadeshi (made-in-India) product, boosting its patriotic appeal and mass adoption."
+        },
+        {
+          "year": "2000s",
+          "event": "Despite competition from multinational brands, Boroline maintained strong sales and brand loyalty, becoming a cultural icon referenced in Indian literature and media."
+        }
+      ]
+    },
+    "stores": [
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Boroline+Antiseptic+Cream"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Boroline+Antiseptic+Cream"
+      },
+      {
+        "name": "Blinkit",
+        "link": "https://blinkit.com/s/?q=Boroline+Cream"
+      }
+    ],
+    "wikiTitle": "Zinc oxide"
+  },
+  "Calamine Lotion 100ml": {
+    "generic": "Calamine + Zinc Oxide",
+    "type": "Skin & Topical",
+    "category": "Skin Soothing Lotion",
+    "price": "₹65",
+    "rating": 8.1,
+    "overview": "Soothing topical lotion for relieving itching, minor skin irritations, insect bites, sunburn, prickly heat, and chickenpox rashes. The combination of calamine and zinc oxide creates a drying and cooling effect that calms inflamed skin.",
+    "howToUse": "Shake the bottle well before use. Apply a thin layer to the affected skin area using a cotton pad. Allow to dry on skin. Reapply up to 4 times daily as needed.",
+    "ingredients": [
+      "Calamine (ferric oxide + zinc oxide) 15%",
+      "Zinc Oxide 5%",
+      "Glycerin",
+      "Bentonite",
+      "Sodium citrate"
+    ],
+    "warnings": [
+      "For external use only",
+      "Avoid contact with eyes",
+      "Not for application to large broken skin areas"
+    ],
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Calamine+Lotion"
+      },
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Calamine+Lotion+100ml"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Calamine+Lotion"
+      }
+    ],
+    "wikiTitle": "Calamine"
+  },
+  "Himalaya Neem Face Wash": {
+    "type": "Skin & Topical",
+    "category": "Skin Care",
+    "price": "₹95",
+    "rating": 8.2,
+    "overview": "Herbal face wash formulated with neem and turmeric extracts for daily cleansing and acne prevention. Gently removes dirt and excess oil while controlling bacterial growth that causes breakouts, leaving skin fresh and clear without over-drying.",
+    "howToUse": "Wet face with water. Apply a small amount of face wash and gently massage in circular motions for 30–60 seconds. Rinse thoroughly with water. Use twice daily for best results.",
+    "ingredients": [
+      "Neem leaf extract (Azadirachta indica)",
+      "Turmeric (Curcuma longa)",
+      "Aloe vera gel",
+      "Glycerin",
+      "Citric acid"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Himalaya+Neem+Face+Wash"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Himalaya+Neem+Face+Wash"
+      },
+      {
+        "name": "Blinkit",
+        "link": "https://blinkit.com/s/?q=Himalaya+Neem+Face+Wash"
+      },
+      {
+        "name": "Instamart",
+        "link": "https://www.swiggy.com/instamart/search?query=Himalaya+Neem+Face+Wash"
+      }
+    ],
+    "wikiTitle": "Azadirachta indica"
+  },
+  "Minoxidil 5% Solution": {
+    "generic": "Minoxidil",
+    "type": "Skin & Topical",
+    "category": "Hair Treatment",
+    "price": "₹385",
+    "rating": 8.0,
+    "overview": "Clinically proven topical solution for male and female pattern hair loss (androgenetic alopecia). Stimulates hair follicles from telogen (resting) to anagen (growth) phase, resulting in regrowth of thicker, longer hair with consistent twice-daily use.",
+    "howToUse": "Apply 1ml solution (approximately 20 drops) to dry scalp at the area of hair thinning. Gently spread with fingertips. Do not wash hair for 4 hours. Use twice daily — morning and evening.",
+    "sideEffects": [
+      "Scalp irritation or dryness",
+      "Initial shedding in first 2–4 weeks (normal)",
+      "Unwanted facial hair growth",
+      "Rarely dizziness or rapid heartbeat"
+    ],
+    "warnings": [
+      "Results take 3–6 months of consistent use",
+      "Hair loss returns if treatment is stopped",
+      "Do not use on inflamed or sunburned scalp",
+      "Not for use by persons under 18"
+    ],
+    "history": {
+      "intro": "Minoxidil's journey from antihypertensive tablet to hair regrowth solution is one of the most surprising drug repurposing stories in pharmaceutical history, discovered entirely by accident in the 1970s.",
+      "timeline": [
+        {
+          "year": "1963",
+          "event": "Minoxidil first synthesized by Upjohn Company as an antihypertensive agent to treat severe hypertension."
+        },
+        {
+          "year": "1970s",
+          "event": "Clinical use as an oral antihypertensive revealed an unexpected side effect: significant hair growth (hypertrichosis) in patients, regardless of gender."
+        },
+        {
+          "year": "1988",
+          "event": "Rogaine (topical minoxidil 2%) approved by the US FDA as the first drug treatment for male pattern baldness."
+        },
+        {
+          "year": "1996",
+          "event": "5% solution approved for men, showing faster and more significant regrowth than the 2% formulation."
+        },
+        {
+          "year": "2014",
+          "event": "Foam formulation approved for women, providing a more convenient application method with reduced systemic absorption."
+        }
+      ]
+    },
+    "chemistry": {
+      "formula": "C₉H₁₅N₅O",
+      "iupacName": "6-(1-piperidinyl)-2,4-pyrimidinediamine 3-oxide",
+      "molecularWeight": "209.25 g/mol",
+      "casNumber": "38304-91-5",
+      "drugClass": "Potassium Channel Opener / Vasodilator",
+      "halfLife": "22 hours",
+      "bioavailability": "1–2% topical absorption",
+      "structureInfo": "Minoxidil opens ATP-sensitive potassium channels in vascular smooth muscle and hair follicle cells, causing hyperpolarization. In hair follicles, this promotes the anagen growth phase and increases follicular cell proliferation. The exact molecular mechanism for hair growth promotion is still being studied.",
+      "formationInfo": "Synthesized from 2,4-dichloro-6-(1-piperidinyl)pyrimidine via oxidation. The topical solution formulation uses propylene glycol and alcohol as solvents to enhance penetration through the scalp. Concentration optimization studies compared 2%, 5%, and higher concentrations for efficacy."
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Minoxidil+5%+Solution"
+      },
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Minoxidil+5+Solution"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Minoxidil+5+Solution"
+      }
+    ],
+    "wikiTitle": "Minoxidil"
+  },
+  "Asthalin 100mcg Inhaler": {
+    "generic": "Salbutamol Sulphate",
+    "type": "Respiratory",
+    "category": "MDI Inhaler",
+    "price": "₹135",
+    "rating": 8.9,
+    "overview": "Short-acting beta-2 adrenergic bronchodilator for rapid relief of acute asthma attacks and bronchospasm in COPD. Known as a rescue inhaler, it provides bronchodilation within 5 minutes and lasts 4–6 hours, making it an essential emergency medicine for asthma patients.",
+    "dosage": "2 puffs (200mcg total) as needed for acute symptoms. For prevention before exercise, 2 puffs 15 minutes before activity. Shake well before use. Maximum 8 puffs in 24 hours.",
+    "sideEffects": [
+      "Tremor of hands",
+      "Rapid heartbeat (palpitations)",
+      "Headache",
+      "Mild anxiety",
+      "Low potassium with excessive use"
+    ],
+    "warnings": [
+      "Not for long-term daily use without a preventer inhaler",
+      "Seek medical help if needed more than 3 times per week",
+      "Keep away from heat and direct sunlight"
+    ],
+    "history": {
+      "intro": "Salbutamol transformed asthma care by providing the first short-acting beta-2 selective bronchodilator with significantly fewer cardiovascular side effects than earlier non-selective agents.",
+      "timeline": [
+        {
+          "year": "1966",
+          "event": "Salbutamol synthesized by David Jack and a team at Allen and Hanburys (now GlaxoSmithKline) as a selective beta-2 agonist, distinguishing it from the non-selective isoprenaline."
+        },
+        {
+          "year": "1969",
+          "event": "Launched in the UK under the brand name Ventolin, rapidly becoming the standard rescue inhaler for asthma worldwide."
+        },
+        {
+          "year": "1980",
+          "event": "Cipla introduced Asthalin in India as an affordable generic alternative, making salbutamol accessible to hundreds of millions of Indians."
+        },
+        {
+          "year": "2000s",
+          "event": "Remains on the WHO Model List of Essential Medicines. HFA (hydrofluoroalkane) propellant versions introduced replacing ozone-depleting CFCs."
+        }
+      ]
+    },
+    "chemistry": {
+      "formula": "C₁₃H₂₁NO₃·½H₂SO₄",
+      "iupacName": "(RS)-2-(tert-butylamino)-1-(4-hydroxy-3-hydroxymethylphenyl)ethanol sulfate",
+      "molecularWeight": "576.7 g/mol",
+      "casNumber": "51022-70-9",
+      "drugClass": "Short-acting Beta-2 Agonist (SABA)",
+      "halfLife": "3.8–6 hours",
+      "bioavailability": "10–20% inhaled (rest deposited in oropharynx)",
+      "structureInfo": "Salbutamol selectively stimulates beta-2 adrenergic receptors in bronchial smooth muscle. This activates adenylyl cyclase, increasing cAMP, which activates protein kinase A and leads to smooth muscle relaxation and bronchodilation. Its selectivity for beta-2 over beta-1 receptors minimizes cardiac side effects.",
+      "formationInfo": "Synthesized from 4-hydroxy-3-methylphenol derivatives through a multi-step process involving Mannich reaction and selective reduction. The sulfate salt form provides chemical stability in the inhaler formulation. Micronized particle size (1–5 microns) ensures optimal deposition in bronchial airways."
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Asthalin+Inhaler"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Asthalin+Inhaler"
+      },
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Asthalin+100mcg+Inhaler"
+      }
+    ],
+    "wikiTitle": "Salbutamol"
+  },
+  "Foracort 200 Inhaler": {
+    "generic": "Formoterol Fumarate + Budesonide",
+    "type": "Respiratory",
+    "category": "DPI Inhaler",
+    "price": "₹385",
+    "rating": 8.7,
+    "overview": "Combination dry powder inhaler containing a long-acting bronchodilator (formoterol) and an inhaled corticosteroid (budesonide) for the maintenance treatment of asthma and COPD. Controls both bronchoconstriction and airway inflammation with a single device.",
+    "dosage": "1–2 puffs twice daily (morning and evening). Not for acute attacks — use rescue inhaler for that. Rinse mouth with water after each use to prevent oral thrush.",
+    "sideEffects": [
+      "Oral candidiasis (thrush)",
+      "Hoarseness of voice",
+      "Throat irritation",
+      "Tremor",
+      "Palpitations"
+    ],
+    "warnings": [
+      "Always rinse mouth after use to prevent oral thrush",
+      "Do not use for acute asthma attacks",
+      "Do not stop without consulting a doctor even if feeling better"
+    ],
+    "chemistry": {
+      "formula": "Formoterol: C₁₉H₂₄N₂O₄ | Budesonide: C₂₅H₃₄O₆",
+      "drugClass": "LABA + ICS Combination",
+      "halfLife": "Formoterol: 10 hours | Budesonide: 2–3 hours",
+      "structureInfo": "Formoterol is a long-acting beta-2 agonist providing sustained bronchodilation for 12 hours. Budesonide is an inhaled corticosteroid that suppresses airway inflammation by binding glucocorticoid receptors and reducing cytokine production. The combination addresses both components of asthma — bronchoconstriction and inflammation.",
+      "formationInfo": "Each component is separately micronized and blended in precise ratios. Budesonide exists as a 1:1 mixture of two epimers (22R and 22S), both pharmacologically active. The dry powder formulation uses lactose as a carrier to ensure accurate dosing per actuation."
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Foracort+200+Inhaler"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Foracort+200+Inhaler"
+      }
+    ],
+    "wikiTitle": "Formoterol/budesonide"
+  },
+  "Dr. Morepen Nebulizer Machine": {
+    "type": "Respiratory",
+    "category": "Nebulizer Device",
+    "price": "₹1200",
+    "rating": 8.4,
+    "overview": "Compressor-based nebulizer machine for converting liquid medication into a fine mist that can be inhaled directly into the lungs. Used at home by asthma and COPD patients for administering bronchodilators and steroids more effectively than standard inhalers in severe cases.",
+    "instructions": "1. Place the nebulizer on a flat, stable surface. 2. Fill the medication cup with the prescribed solution (usually 2–4ml). 3. Attach the mouthpiece or mask. 4. Connect the tubing to the compressor. 5. Turn on the compressor and breathe calmly through the mouthpiece. 6. Treatment takes 10–15 minutes until mist stops. 7. Clean and dry all parts after every use.",
+    "features": [
+      "Compressor-driven with 0.5 micron particle size for deep lung penetration",
+      "Suitable for both adults and children (includes pediatric mask)",
+      "Low noise operation — under 60 dB",
+      "Durable compressor motor with 500+ hour lifespan",
+      "Includes adult mask, child mask, mouthpiece, 2 air filters, and 2 medication cups",
+      "Portable with carrying case — suitable for home and travel use"
+    ],
+    "warnings": [
+      "Clean all parts after every session to prevent bacterial contamination",
+      "Do not use tap water — use sterile saline or prescribed solution only",
+      "Replace air filter every 3 months"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Dr+Morepen+Nebulizer+Machine"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Dr+Morepen+Nebulizer"
+      },
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Dr+Morepen+Nebulizer"
+      }
+    ],
+    "wikiTitle": "Nebulizer"
+  },
+  "Omron HEM-7142T1 BP Monitor": {
+    "generic": "Automatic Upper Arm Blood Pressure Monitor with Bluetooth",
+    "type": "Medical Devices",
+    "category": "Diagnostic Device",
+    "price": "₹2850",
+    "rating": 9.1,
+    "overview": "Smart Bluetooth blood pressure monitor that automatically syncs readings to the Omron Connect app on your smartphone. Stores up to 60 readings per user and features irregular heartbeat detection, providing a reliable home monitoring solution for hypertensive patients.",
+    "instructions": "1. Sit quietly for 5 minutes before measuring. 2. Wrap cuff on bare left upper arm, 2cm above the elbow. 3. Sit with back supported and feet flat on floor. 4. Place arm at heart level on a table. 5. Press the START button and remain completely still. 6. The cuff will inflate and then slowly deflate. 7. View reading on display. 8. Sync to Omron Connect app via Bluetooth for trend tracking.",
+    "features": [
+      "Clinically validated for accuracy — validated by international hypertension societies",
+      "Bluetooth connectivity — syncs automatically with Omron Connect iOS/Android app",
+      "Stores 60 readings with date and time stamps",
+      "IntelliWrap cuff — fits arm circumferences 22–42cm",
+      "Irregular heartbeat (IHB) detection with visual alert",
+      "Movement error indicator alerts if arm moved during measurement",
+      "4 AA battery-powered with low battery indicator",
+      "Two-user memory for couples"
+    ],
+    "warnings": [
+      "Wait 5 minutes of seated rest before measuring",
+      "Do not measure over clothing",
+      "Caffeine or exercise before measurement can give falsely high readings"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Omron+HEM-7142T1+BP+Monitor"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Omron+HEM-7142T1+BP+Monitor"
+      },
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Omron+BP+Monitor+Bluetooth"
+      }
+    ],
+    "wikiTitle": "Sphygmomanometer"
+  },
+  "Accu-Chek Active Glucometer Kit": {
+    "generic": "Blood Glucose Monitoring System",
+    "type": "Medical Devices",
+    "category": "Diagnostic Device",
+    "price": "₹1850",
+    "rating": 9.0,
+    "overview": "Roche's widely used blood glucose monitoring system for self-testing by diabetic patients at home. The kit provides fast 5-second results with a small 1µl blood sample volume, making daily glucose monitoring quick and relatively painless.",
+    "instructions": "1. Wash and dry hands thoroughly. 2. Insert a fresh Accu-Chek Active test strip into the meter until you hear a click. 3. Use the lancing device to prick the fingertip. 4. Touch the tip of the test strip to the blood drop. 5. Read the result on the screen in 5 seconds. 6. Dispose of the lancet safely. 7. Record the reading in the logbook or app.",
+    "features": [
+      "5-second test time for quick results",
+      "Tiny 1 microliter blood sample required",
+      "Large backlit display for easy reading",
+      "Stores 500 test results with date and time",
+      "No coding required — each test strip has built-in coding",
+      "Audio function for visually impaired users",
+      "Data transfer to PC or smartphone via micro-USB",
+      "Includes 10 test strips, 10 lancets, lancing device, and carry case"
+    ],
+    "warnings": [
+      "Calibrate with control solution monthly",
+      "Test strips expire — always check date",
+      "Readings may be inaccurate if hands are not clean and dry",
+      "Consult doctor for interpretation of results"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Accu-Chek+Active+Glucometer+Kit"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Accu-Chek+Active+Glucometer"
+      },
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Accu-Chek+Active+Glucometer"
+      }
+    ],
+    "wikiTitle": "Glucometer"
+  },
+  "Digital Thermometer Dr. Morepen": {
+    "type": "Medical Devices",
+    "category": "Diagnostic Device",
+    "price": "₹199",
+    "rating": 8.3,
+    "overview": "Fast and accurate digital clinical thermometer with a flexible tip for safe and comfortable temperature measurement across oral, rectal, and axillary sites. Features a clear beep alarm when measurement is complete and an automatic shutdown to conserve battery.",
+    "instructions": "1. Press the ON button to power on. 2. Rinse tip with cold water or 70% alcohol and dry. 3. For oral use: place under tongue and close mouth. For axillary: place in armpit. 4. Hold still until the thermometer beeps. 5. Read temperature on the LCD screen. 6. Clean tip after use and store in the protective cap.",
+    "features": [
+      "Flexible stainless steel tip for safe use in all three sites",
+      "Fast 60-second reading time",
+      "Audible beep when reading is complete",
+      "Memory recall — displays last reading on startup",
+      "Fever alarm: beeps 10 times if temperature exceeds 37.5°C",
+      "Automatic shutdown after 10 minutes",
+      "Waterproof probe for easy cleaning",
+      "Battery included — CR1225 lithium cell"
+    ],
+    "warnings": [
+      "Do not use for rectal temperature in infants — use a dedicated rectal thermometer",
+      "Wait 15 minutes after eating or drinking before oral measurement",
+      "Do not drop or expose to extreme temperatures"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Dr+Morepen+Digital+Thermometer"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Dr+Morepen+Digital+Thermometer"
+      },
+      {
+        "name": "Blinkit",
+        "link": "https://blinkit.com/s/?q=Digital+Thermometer"
+      }
+    ],
+    "wikiTitle": "Medical thermometer"
+  },
+  "Pulse Oximeter Fingertip": {
+    "type": "Medical Devices",
+    "category": "Diagnostic Device",
+    "price": "₹650",
+    "rating": 8.6,
+    "overview": "Non-invasive clip-on device for instant measurement of blood oxygen saturation (SpO2) and pulse rate at the fingertip. Essential for monitoring respiratory conditions, COVID-19 recovery, high-altitude activity, and COPD management at home.",
+    "instructions": "1. Ensure finger is warm and not wearing nail polish. 2. Insert index or middle finger into the device. 3. Press the power button once. 4. Hold still for 10–15 seconds while device reads. 5. Note the SpO2 percentage and pulse rate (BPM) shown on the OLED display. 6. A normal SpO2 is 95–100%. Below 90% requires medical attention.",
+    "features": [
+      "OLED display showing SpO2 and pulse rate simultaneously",
+      "4-direction display rotation for comfortable reading at all angles",
+      "Normal SpO2 range 70–100%, pulse range 30–250 BPM",
+      "Auto power-off after 8 seconds of no signal",
+      "Low battery indicator",
+      "Compact and lightweight — ideal for travel",
+      "Includes 2 AAA batteries and lanyard"
+    ],
+    "warnings": [
+      "Not a medical device for clinical diagnosis — for personal monitoring only",
+      "Nail polish, dark skin tones, or poor circulation can affect readings",
+      "Seek immediate medical attention if SpO2 drops below 90%"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Pulse+Oximeter+Fingertip"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Pulse+Oximeter+Fingertip"
+      },
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Pulse+Oximeter"
+      }
+    ],
+    "wikiTitle": "Pulse oximetry"
+  },
+  "Tynor Knee Cap": {
+    "generic": "Neoprene Knee Support Brace",
+    "type": "Medical Devices",
+    "category": "Supportive Aid",
+    "price": "₹290",
+    "rating": 8.1,
+    "overview": "Elastic neoprene knee support for providing compression, warmth, and stability to the knee joint. Recommended for mild arthritis, ligament sprains, post-surgical recovery, and sports knee pain management. Designed to fit the knee's natural contour.",
+    "instructions": "1. Identify your knee circumference (measure 15cm above the center of the knee). 2. Select the correct size: S (33–36cm), M (37–40cm), L (41–44cm), XL (45–48cm). 3. Slide the brace over your foot and up your leg. 4. Position the center hole over the kneecap. 5. Ensure the brace fits snugly but not so tight it restricts circulation. 6. Wear during activity. Remove during sleep.",
+    "features": [
+      "Medical grade neoprene with inner terry fabric for comfort and sweat absorption",
+      "Patella (kneecap) opening for targeted support and pressure relief",
+      "Bilateral spiral stays prevent the brace from rolling down during activity",
+      "Open design allows full range of motion",
+      "Available in sizes Small through XX-Large"
+    ],
+    "warnings": [
+      "Remove immediately if you experience numbness, tingling, or skin color changes",
+      "Do not wear for more than 4 continuous hours",
+      "Consult a physiotherapist for correct sizing and usage duration"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Tynor+Knee+Cap"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Tynor+Knee+Cap"
+      },
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Tynor+Knee+Cap"
+      }
+    ],
+    "wikiTitle": "Knee brace"
+  },
+  "Tears Naturale Eye Drops": {
+    "generic": "Dextran 70 + Hypromellose",
+    "type": "Eye, Ear & Nose",
+    "category": "Eye Drops",
+    "price": "₹85",
+    "rating": 8.5,
+    "overview": "Artificial tear lubricant eye drops that mimic natural tear film for relief of dry, irritated, or tired eyes caused by prolonged screen use, air-conditioning, contact lens wear, or dry eye syndrome. Provides long-lasting lubrication without blurring vision.",
+    "dosage": "1–2 drops in the affected eye(s) as needed. Can be used up to 4 times daily or as recommended by an ophthalmologist. Tilt head back, look up, and instill drops gently.",
+    "sideEffects": [
+      "Transient mild blurring immediately after application",
+      "Mild stinging on instillation (rare)"
+    ],
+    "chemistry": {
+      "formula": "Dextran 70: polysaccharide polymer | Hypromellose: cellulose ether polymer",
+      "drugClass": "Ophthalmic Lubricant / Artificial Tear",
+      "structureInfo": "Dextran 70 is a high-molecular-weight glucose polymer that increases tear viscosity and retention time on the ocular surface. Hypromellose (hydroxypropyl methylcellulose) is a water-soluble cellulose derivative that forms a protective film over the cornea, preventing evaporative loss.",
+      "formationInfo": "Dextran is produced by fermentation of sucrose by Leuconostoc mesenteroides bacteria, followed by fractionation to the 70 kDa molecular weight range. Hypromellose is derived from cellulose through methylation and hydroxypropylation reactions. Both are formulated in isotonic, pH-balanced buffered saline."
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Tears+Naturale+Eye+Drops"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Tears+Naturale+Eye+Drops"
+      },
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Tears+Naturale+Eye+Drops"
+      }
+    ],
+    "wikiTitle": "Artificial tears"
+  },
+  "Otrivin 0.1% Nasal Drops": {
+    "generic": "Xylometazoline Hydrochloride",
+    "type": "Eye, Ear & Nose",
+    "category": "Nasal Drops and Spray",
+    "price": "₹72",
+    "rating": 8.2,
+    "overview": "Fast-acting nasal decongestant providing relief from blocked nose due to the common cold, sinusitis, and hay fever. Works within 2 minutes and lasts up to 10 hours by constricting nasal blood vessels to reduce swelling and congestion.",
+    "dosage": "Adults and children over 12: 2–3 drops or 1 spray in each nostril 2–3 times daily. Do not use for more than 5–7 consecutive days. For children under 12: use 0.05% formulation.",
+    "sideEffects": [
+      "Temporary burning or stinging",
+      "Dry nasal mucosa",
+      "Rebound congestion with prolonged use (rhinitis medicamentosa)"
+    ],
+    "warnings": [
+      "Do not use for more than 7 days — causes rebound congestion (rhinitis medicamentosa)",
+      "Not for infants — use appropriate infant formulation",
+      "Use with caution in hypertension and hyperthyroidism"
+    ],
+    "chemistry": {
+      "formula": "C₁₆H₂₄N₂·HCl",
+      "iupacName": "2-(4-tert-butyl-2,6-dimethylbenzyl)-4,5-dihydro-1H-imidazole hydrochloride",
+      "molecularWeight": "280.84 g/mol",
+      "casNumber": "1218-35-5",
+      "drugClass": "Alpha-2 Adrenergic Agonist / Nasal Decongestant",
+      "halfLife": "~5 hours",
+      "structureInfo": "Xylometazoline is an imidazoline derivative that stimulates alpha-2 adrenergic receptors in nasal blood vessels, causing vasoconstriction. This reduces blood flow to the nasal mucosa, decreasing swelling and fluid secretion, thereby opening the nasal passages.",
+      "formationInfo": "Synthesized from 4-tert-butyl-2,6-dimethylbenzaldehyde through condensation with ethylenediamine to form the imidazoline ring. Commercial nasal drops use 0.1% concentration in isotonic saline with benzalkonium chloride as a preservative."
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Otrivin+0.1%+Nasal+Drops"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Otrivin+Nasal+Drops"
+      },
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Otrivin+Nasal+Drops"
+      }
+    ],
+    "wikiTitle": "Xylometazoline"
+  },
+  "Waxsol Ear Drops": {
+    "generic": "Docusate Sodium 0.5%",
+    "type": "Eye, Ear & Nose",
+    "category": "Ear Drops",
+    "price": "₹55",
+    "rating": 7.9,
+    "overview": "Ear wax softening drops used to dissolve and loosen hardened earwax for easy removal. Safe and effective for use before ear syringing or as a standalone treatment for mild to moderate earwax accumulation causing discomfort or hearing reduction.",
+    "dosage": "Fill the ear canal with drops (approximately 0.5ml) and plug with cotton wool for 15 minutes. Repeat twice daily for 3–4 days, then gently clean the ear with warm water irrigation.",
+    "sideEffects": [
+      "Mild temporary discomfort on instillation",
+      "Rarely skin irritation around the ear"
+    ],
+    "warnings": [
+      "Do not use if eardrum is perforated or if you have had ear surgery",
+      "Do not use in children under 1 year without medical advice",
+      "Warm the drops to body temperature by holding in hand for 1 minute before use"
+    ],
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Waxsol+Ear+Drops"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Waxsol+Ear+Drops"
+      }
+    ],
+    "wikiTitle": "Ear drop"
+  },
+  "Cipladine Eye Drops 0.5%": {
+    "generic": "Ciprofloxacin Hydrochloride",
+    "type": "Eye, Ear & Nose",
+    "category": "Eye Drops",
+    "price": "₹48",
+    "rating": 8.6,
+    "overview": "Fluoroquinolone antibiotic eye drops for treating bacterial conjunctivitis, corneal ulcers, and acute bacterial eye infections. Offers broad-spectrum coverage against common ocular pathogens including Staphylococcus aureus and Pseudomonas aeruginosa.",
+    "dosage": "1–2 drops in affected eye(s) every 2 hours while awake for the first 2 days, then every 4 hours for the next 5 days. Complete the full course.",
+    "sideEffects": [
+      "Burning or stinging on instillation",
+      "Temporary blurring of vision",
+      "Eye discomfort",
+      "Allergic reaction (rare)"
+    ],
+    "warnings": [
+      "Remove contact lenses before instillation",
+      "Do not touch eye with dropper tip",
+      "Complete the full prescribed course"
+    ],
+    "chemistry": {
+      "formula": "C₁₇H₁₈FN₃O₃·HCl·H₂O",
+      "iupacName": "1-cyclopropyl-6-fluoro-4-oxo-7-piperazin-1-ylquinoline-3-carboxylic acid hydrochloride monohydrate",
+      "molecularWeight": "385.82 g/mol",
+      "casNumber": "86393-32-0",
+      "drugClass": "Fluoroquinolone Antibiotic",
+      "structureInfo": "Ciprofloxacin inhibits bacterial DNA gyrase and topoisomerase IV enzymes, preventing DNA replication and transcription in bacterial cells. The 0.5% ophthalmic formulation achieves bactericidal concentrations in the cornea and anterior chamber without systemic absorption.",
+      "formationInfo": "Synthesized through nucleophilic substitution on a fluorinated quinolone core with cyclopropylamine and piperazine side chains. The ophthalmic solution is buffered to pH 4.5–5.5 with benzalkonium chloride as preservative and sodium chloride for isotonicity."
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Cipladine+Eye+Drops"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Ciprofloxacin+Eye+Drops"
+      },
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Ciprofloxacin+Eye+Drops"
+      }
+    ],
+    "wikiTitle": "Povidone-iodine"
+  },
+  "Sofradex Eye & Ear Drops": {
+    "generic": "Framycetin Sulphate + Gramicidin + Dexamethasone",
+    "type": "Eye, Ear & Nose",
+    "category": "Eye Drops",
+    "price": "₹90",
+    "rating": 8.3,
+    "overview": "Triple-combination antibiotic and corticosteroid drops for treating infected inflammatory conditions of the eye and outer ear including bacterial conjunctivitis with inflammation, otitis externa, and post-operative eye inflammation.",
+    "dosage": "Eye: 2 drops every 4 hours (max 6 times daily), reduce as condition improves. Ear: 3 drops 3–4 times daily or as directed by physician.",
+    "sideEffects": [
+      "Transient stinging",
+      "Raised intraocular pressure with prolonged use",
+      "Adrenal suppression with excessive use",
+      "Corneal thinning (rare)"
+    ],
+    "warnings": [
+      "Do not use for more than 7 days in the eye without ophthalmic supervision — risk of raised eye pressure",
+      "Not for use with perforated eardrum",
+      "Contains steroids — not for viral or fungal eye infections"
+    ],
+    "chemistry": {
+      "formula": "Framycetin: C₂₃H₄₆N₆O₁₃ | Dexamethasone: C₂₂H₂₉FO₅",
+      "drugClass": "Antibiotic + Corticosteroid Combination",
+      "structureInfo": "Framycetin (neomycin B) inhibits bacterial protein synthesis at the 30S ribosomal subunit. Gramicidin disrupts bacterial cell membrane integrity. Dexamethasone inhibits phospholipase A2 and reduces production of prostaglandins and leukotrienes, suppressing ocular inflammation.",
+      "formationInfo": "Framycetin is derived from Streptomyces fradiae fermentation. Gramicidin is a naturally occurring cyclic peptide from Bacillus brevis. Dexamethasone is synthetically produced. All three are combined in a sterile aqueous buffer with thimerosal preservative at precisely calibrated concentrations."
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Sofradex+Eye+Ear+Drops"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Sofradex+Eye+Drops"
+      }
+    ],
+    "wikiTitle": "Dexamethasone"
+  },
+  "Betadine Antiseptic Solution 100ml": {
+    "generic": "Povidone-Iodine 10% w/v",
+    "type": "Wound Care",
+    "category": "Antiseptic Solution",
+    "price": "₹110",
+    "rating": 8.7,
+    "overview": "Broad-spectrum antiseptic solution for cleaning cuts, wounds, abrasions, and surgical sites. Kills bacteria, viruses, fungi, and spores on contact, making it one of the most comprehensive topical antiseptics available. The classic golden-brown solution trusted in hospitals worldwide.",
+    "howToUse": "Clean the wound area. Apply Betadine undiluted to the wound with a sterile swab or pour directly. Allow to dry — do not rinse off immediately. For large wounds: dilute to 1% with sterile water. Apply 1–3 times daily.",
+    "sideEffects": [
+      "Temporary skin staining (brown color)",
+      "Skin irritation or burning in sensitive individuals",
+      "Rare iodine sensitivity reaction"
+    ],
+    "warnings": [
+      "Do not use in neonates",
+      "Avoid prolonged use over large body surface areas",
+      "Not for regular wound cleaning in deep puncture wounds"
+    ],
+    "history": {
+      "intro": "Betadine is the brand name for povidone-iodine, a complexed form of iodine developed to harness the germicidal power of iodine while eliminating the skin-irritating properties that limited the use of simple iodine tinctures.",
+      "timeline": [
+        {
+          "year": "1829",
+          "event": "Elemental iodine first discovered and its antiseptic properties recognized by French physician Jean Lugol, who developed Lugol's solution."
+        },
+        {
+          "year": "1955",
+          "event": "Povidone-iodine synthesized at General Aniline and Film Corporation. The polyvinylpyrrolidone polymer complexes iodine, releasing it slowly and reducing irritation."
+        },
+        {
+          "year": "1961",
+          "event": "Betadine commercialized by Purdue Frederick Company, becoming the standard pre-operative skin preparation in operating theaters worldwide."
+        },
+        {
+          "year": "1980s",
+          "event": "Widely adopted in Indian hospitals and households as the primary wound antiseptic, replacing mercurochrome and other older antiseptics."
+        }
+      ]
+    },
+    "stores": [
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Betadine+Antiseptic+Solution+100ml"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Betadine+Antiseptic+Solution"
+      },
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Betadine+Antiseptic+Solution"
+      }
+    ],
+    "wikiTitle": "Povidone-iodine"
+  },
+  "Dettol Antiseptic Liquid 250ml": {
+    "type": "Wound Care",
+    "category": "Antiseptic Solution",
+    "price": "₹130",
+    "rating": 8.8,
+    "overview": "Multi-purpose antiseptic liquid containing chloroxylenol (PCMX) for cleaning wounds, skin disinfection, and general household hygiene. The iconic antiseptic with a distinctive medicinal scent, trusted in Indian homes for over 85 years for wound care and surface disinfection.",
+    "howToUse": "For wounds: dilute 1 cap in 20 parts water. Apply with cotton. For bathing: add 2 caps to a bucket of water. For surface cleaning: add 4 caps to 500ml water and wipe surfaces. Never apply undiluted directly to skin.",
+    "sideEffects": [
+      "Skin irritation if used undiluted",
+      "Allergic reaction in PCMX-sensitive individuals"
+    ],
+    "warnings": [
+      "Always dilute before skin application — never apply undiluted",
+      "Toxic if swallowed — keep out of reach of children",
+      "Rinse thoroughly if getting into eyes"
+    ],
+    "history": {
+      "intro": "Dettol was developed by Reckitt & Colman in the early 20th century and became one of the most recognized antiseptic brands globally, with a particularly strong following in India and South Asia.",
+      "timeline": [
+        {
+          "year": "1932",
+          "event": "Dettol first launched in the UK and quickly adopted in Indian hospitals and homes during the British colonial period."
+        },
+        {
+          "year": "1940s",
+          "event": "Used extensively in military field hospitals during World War II for wound treatment and infection prevention."
+        },
+        {
+          "year": "1960s",
+          "event": "Became a household staple in India with aggressive marketing campaigns emphasizing protection of families from germs."
+        },
+        {
+          "year": "2020",
+          "event": "Experienced unprecedented global demand surge during the COVID-19 pandemic as households sought reliable antiseptic products for surface and skin hygiene."
+        }
+      ]
+    },
+    "stores": [
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Dettol+Antiseptic+Liquid+250ml"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Dettol+Antiseptic+Liquid+250ml"
+      },
+      {
+        "name": "Blinkit",
+        "link": "https://blinkit.com/s/?q=Dettol+Antiseptic+Liquid"
+      },
+      {
+        "name": "Zepto",
+        "link": "https://www.zeptonow.com/search?query=Dettol+Antiseptic"
+      },
+      {
+        "name": "Instamart",
+        "link": "https://www.swiggy.com/instamart/search?query=Dettol+Antiseptic"
+      }
+    ],
+    "wikiTitle": "Dettol"
+  },
+  "Band-Aid Assorted Strips 20s": {
+    "type": "Wound Care",
+    "category": "Bandages and Dressings",
+    "price": "₹85",
+    "rating": 8.4,
+    "overview": "Flexible fabric adhesive bandage strips for covering minor cuts, scrapes, and blisters. The sterile non-stick pad absorbs wound fluids while the breathable fabric backing stretches with movement, keeping the wound protected and clean.",
+    "instructions": "1. Clean the wound thoroughly with water and mild soap or antiseptic. 2. Dry the area completely. 3. Select an appropriately sized strip. 4. Peel the paper backing from the adhesive tabs without touching the pad. 5. Center the pad over the wound and press the adhesive tabs firmly to dry skin. 6. Change daily or when the bandage becomes wet, soiled, or loose.",
+    "warnings": [
+      "Do not apply to deep, infected, or puncture wounds without medical advice",
+      "Change daily or when soiled",
+      "Do not use on sensitive skin without testing — adhesive may cause irritation"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Band-Aid+Assorted+Strips+20s"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Band-Aid+Assorted+Strips"
+      },
+      {
+        "name": "Blinkit",
+        "link": "https://blinkit.com/s/?q=Band-Aid+Strips"
+      },
+      {
+        "name": "Zepto",
+        "link": "https://www.zeptonow.com/search?query=Band-Aid+Strips"
+      }
+    ],
+    "wikiTitle": "Band-Aid"
+  },
+  "Savlon Antiseptic Cream 25g": {
+    "generic": "Chlorhexidine Gluconate + Cetrimide",
+    "type": "Wound Care",
+    "category": "Antiseptic Solution",
+    "price": "₹62",
+    "rating": 8.4,
+    "overview": "Dual-action antiseptic cream for minor cuts, burns, scrapes, and superficial skin infections. The cream base provides longer skin contact time than liquid antiseptics and offers gentle moisturizing alongside antibacterial action.",
+    "howToUse": "Clean the wound with water. Apply a thin layer of Savlon cream directly to the wound or on a gauze dressing 2–3 times daily. Cover with a dressing if needed. Continue until the wound heals.",
+    "sideEffects": [
+      "Mild stinging on application",
+      "Skin sensitization with prolonged use"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Savlon+Antiseptic+Cream+25g"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Savlon+Antiseptic+Cream"
+      },
+      {
+        "name": "Blinkit",
+        "link": "https://blinkit.com/s/?q=Savlon+Antiseptic+Cream"
+      },
+      {
+        "name": "Zepto",
+        "link": "https://www.zeptonow.com/search?query=Savlon+Antiseptic+Cream"
+      }
+    ],
+    "wikiTitle": "Chlorhexidine"
+  },
+  "Insulin Glargine 100 IU/ml": {
+    "generic": "Insulin Glargine",
+    "type": "Injectables",
+    "category": "Insulin",
+    "price": "₹1250",
+    "rating": 9.2,
+    "overview": "Long-acting basal insulin analog providing stable 24-hour blood glucose control in Type 1 and Type 2 diabetes patients. Designed for once-daily subcutaneous injection, it mimics the body's natural background insulin secretion with no pronounced peak, reducing nocturnal hypoglycemia risk.",
+    "dosage": "Administered subcutaneously once daily at the same time each day. Dose determined individually by the physician. Do not mix with other insulins. Rotate injection sites to prevent lipodystrophy.",
+    "sideEffects": [
+      "Hypoglycemia (low blood sugar)",
+      "Injection site reactions (pain, redness, swelling)",
+      "Lipodystrophy with repeated injection at same site",
+      "Rare allergic reactions"
+    ],
+    "warnings": [
+      "Never administer intravenously",
+      "Monitor blood glucose regularly",
+      "Store opened pen at room temperature — do not freeze",
+      "Carry glucose tablets in case of hypoglycemia"
+    ],
+    "history": {
+      "intro": "Insulin glargine represents a major milestone in insulin therapy — the first truly long-acting insulin analog with no pronounced peak, dramatically improving glycemic control while reducing the risk of nocturnal hypoglycemia that plagued older NPH insulin regimens.",
+      "timeline": [
+        {
+          "year": "1921",
+          "event": "Frederick Banting and Charles Best discovered insulin at the University of Toronto, transforming Type 1 diabetes from a death sentence to a manageable condition."
+        },
+        {
+          "year": "1982",
+          "event": "First recombinant human insulin (Humulin) produced using Escherichia coli genetic engineering, replacing animal-derived insulins."
+        },
+        {
+          "year": "2000",
+          "event": "Insulin glargine (Lantus) approved by the FDA, becoming the first long-acting insulin analog. Developed by Sanofi through modification of the human insulin B-chain."
+        },
+        {
+          "year": "2015",
+          "event": "Basaglar (biosimilar glargine) approved in the US, reducing costs. Multiple biosimilar glargine products now available globally including in India."
+        }
+      ]
+    },
+    "chemistry": {
+      "formula": "C₂₆₇H₄₀₄N₇₂O₇₈S₆",
+      "iupacName": "21A-Gly-30Ba-L-Arg-30Bb-L-Arg insulin (human)",
+      "molecularWeight": "6063 Da",
+      "casNumber": "160337-95-1",
+      "drugClass": "Long-acting Insulin Analog",
+      "halfLife": "~24 hours",
+      "bioavailability": "~65% (subcutaneous)",
+      "structureInfo": "Glargine differs from human insulin by replacement of asparagine at position A21 with glycine, and addition of two arginine residues at the C-terminus of the B-chain. These modifications shift the isoelectric point, making it insoluble at physiological pH. After injection, it forms microprecipitates in the subcutaneous tissue that slowly dissolve and release insulin without peaks.",
+      "formationInfo": "Produced by recombinant DNA technology using Escherichia coli K12 strain modified with a synthetic gene encoding the glargine precursor. After fermentation, the proinsulin-like precursor undergoes enzymatic processing to the mature two-chain structure."
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Insulin+Glargine"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Insulin+Glargine"
+      }
+    ],
+    "wikiTitle": "Insulin glargine"
+  },
+  "Hepatitis B Vaccine": {
+    "generic": "Recombinant Hepatitis B Surface Antigen",
+    "type": "Injectables",
+    "category": "Vaccine",
+    "price": "₹250",
+    "rating": 9.5,
+    "overview": "Highly effective recombinant vaccine providing long-term protection against Hepatitis B virus (HBV) infection, which can cause chronic liver disease, cirrhosis, and liver cancer. Part of the national immunization schedule for all newborns in India.",
+    "dosage": "Primary schedule: 3 doses at 0, 1, and 6 months. Newborns: first dose within 24 hours of birth. Healthcare workers and high-risk adults: post-vaccination serology testing recommended. Each dose 1ml intramuscular injection in the deltoid.",
+    "sideEffects": [
+      "Injection site soreness or redness",
+      "Mild fever",
+      "Fatigue for 1–2 days",
+      "Headache",
+      "Serious allergic reactions extremely rare"
+    ],
+    "warnings": [
+      "Do not administer to persons with known hypersensitivity to yeast or vaccine components",
+      "Delay vaccination during moderate to severe acute illness",
+      "Administer in the deltoid — not the gluteal muscle (poor immune response)"
+    ],
+    "history": {
+      "intro": "The Hepatitis B vaccine has a remarkable history as the world's first cancer-preventing vaccine and the first vaccine produced using recombinant DNA technology for widespread human use.",
+      "timeline": [
+        {
+          "year": "1963",
+          "event": "Baruch Blumberg discovers the Australia antigen (later named HBsAg), the surface protein of Hepatitis B virus, earning him the Nobel Prize in Physiology or Medicine in 1976."
+        },
+        {
+          "year": "1969",
+          "event": "Blumberg and Irving Millman develop the first experimental Hepatitis B vaccine concept based on HBsAg isolated from chronic carriers."
+        },
+        {
+          "year": "1981",
+          "event": "First plasma-derived Hepatitis B vaccine approved (Merck), produced from HBsAg isolated from HBV carrier plasma. Highly effective but production-limited."
+        },
+        {
+          "year": "1986",
+          "event": "First recombinant Hepatitis B vaccine approved, produced by expressing HBsAg in yeast (Saccharomyces cerevisiae). Safer, scalable production replaced plasma-derived vaccines."
+        },
+        {
+          "year": "1992",
+          "event": "WHO recommended universal infant Hepatitis B vaccination. India included it in the national immunization program in 2002, dramatically reducing new HBV infections."
+        }
+      ]
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Hepatitis+B+Vaccine"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Hepatitis+B+Vaccine"
+      }
+    ],
+    "wikiTitle": "Hepatitis B vaccine"
+  },
+  "Tetanus Toxoid Injection": {
+    "generic": "Tetanus Toxoid Adsorbed",
+    "type": "Injectables",
+    "category": "Vaccine",
+    "price": "₹45",
+    "rating": 9.3,
+    "overview": "Immunizing agent for prevention of tetanus (lockjaw), a potentially fatal bacterial disease caused by Clostridium tetani toxin. Required after deep wounds, animal bites, and for pregnancy immunization. Provides 10 years of protection after full primary series.",
+    "dosage": "For wound prophylaxis: 0.5ml IM injection in deltoid. Primary series: 3 doses at 0, 1–2 months, 6–12 months. Booster every 10 years. Pregnancy: 2 doses (TT1 and TT2 at least 1 month apart).",
+    "sideEffects": [
+      "Injection site pain and swelling",
+      "Low-grade fever",
+      "Fatigue",
+      "Rarely anaphylaxis"
+    ],
+    "warnings": [
+      "Do not administer IV",
+      "Ensure clean injection technique",
+      "Have epinephrine available for anaphylaxis management",
+      "Not a treatment — does not reverse active tetanus infection"
+    ],
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Tetanus+Toxoid+Injection"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Tetanus+Toxoid+Injection"
+      }
+    ],
+    "wikiTitle": "Tetanus vaccine"
+  },
+  "Vitamin B12 Injection 1000mcg": {
+    "generic": "Cyanocobalamin",
+    "type": "Injectables",
+    "category": "Therapeutic Injection",
+    "price": "₹28",
+    "rating": 8.8,
+    "overview": "Injectable form of Vitamin B12 for treating B12 deficiency caused by pernicious anemia, malabsorption disorders, strict vegetarian diet, or metformin use. Bypasses gut absorption entirely, making it effective when oral supplementation fails.",
+    "dosage": "Deficiency treatment: 1000mcg IM daily for 7 days, then weekly for 4 weeks, then monthly for maintenance. Specific dosing based on serum B12 levels and clinical response.",
+    "sideEffects": [
+      "Injection site pain",
+      "Mild diarrhea",
+      "Headache",
+      "Peripheral vascular thrombosis (rare)"
+    ],
+    "warnings": [
+      "Monitor serum potassium after starting treatment in patients with severe deficiency",
+      "Hypokalemia may occur during initial treatment as new blood cells are produced"
+    ],
+    "chemistry": {
+      "formula": "C₆₃H₈₈CoN₁₄O₁₄P",
+      "iupacName": "Cyanocobalamin",
+      "molecularWeight": "1355.38 g/mol",
+      "casNumber": "68-19-9",
+      "drugClass": "Water-soluble Vitamin / Cobalamin",
+      "halfLife": "6 days",
+      "structureInfo": "Cyanocobalamin is a synthetic form of vitamin B12 containing a cyano group bound to cobalt. In the body it is converted to the active coenzymes methylcobalamin and adenosylcobalamin, essential for DNA synthesis, myelin formation, and red blood cell maturation. The cobalt-centered corrin ring structure is unique to B12 among vitamins.",
+      "formationInfo": "Produced by fermentation using bacteria such as Propionibacterium shermanii or Pseudomonas denitrificans under anaerobic conditions, followed by extensive purification and cyanidation to yield the stable cyanocobalamin form. It is the form most suitable for pharmaceutical injection due to superior stability."
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Vitamin+B12+Injection+1000mcg"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Vitamin+B12+Injection"
+      }
+    ],
+    "wikiTitle": "Cyanocobalamin"
+  },
+  "Diclofenac 75mg Injection": {
+    "generic": "Diclofenac Sodium",
+    "type": "Injectables",
+    "category": "Therapeutic Injection",
+    "price": "₹22",
+    "rating": 8.0,
+    "overview": "Injectable NSAID for rapid relief of acute moderate to severe pain including renal colic, post-operative pain, acute musculoskeletal pain, and migraines when oral medications are insufficient or not tolerated.",
+    "dosage": "75mg by deep intramuscular injection into the upper outer quadrant of the buttock. Maximum 2 injections (150mg) per day. Do not use for more than 2 days by injection.",
+    "sideEffects": [
+      "Injection site pain and tissue necrosis (if incorrectly placed)",
+      "Nausea",
+      "Dizziness",
+      "Rare renal impairment with prolonged use"
+    ],
+    "warnings": [
+      "Must be administered by a healthcare professional",
+      "Do not inject IV or subcutaneously — must be deep IM",
+      "Contraindicated in active peptic ulcer, renal failure, and post-cardiac surgery"
+    ],
+    "chemistry": {
+      "formula": "C₁₄H₁₁Cl₂NO₂·Na",
+      "iupacName": "sodium 2-(2-(2,6-dichlorophenylamino)phenyl)acetate",
+      "molecularWeight": "318.13 g/mol",
+      "casNumber": "15307-79-6",
+      "drugClass": "NSAID / Phenylacetic Acid Derivative",
+      "halfLife": "1–2 hours",
+      "bioavailability": "~100% IM",
+      "structureInfo": "Diclofenac preferentially inhibits COX-2 over COX-1, reducing prostaglandin synthesis at the site of inflammation and injury. Its sodium salt formulation allows dissolution in aqueous solution for injection. The injectable form achieves therapeutic plasma levels within 20–30 minutes.",
+      "formationInfo": "Synthesized from 2,6-dichloroaniline and 2-halo-phenylacetic acid derivatives through Ullmann-type condensation followed by carboxylation. The sodium salt form is dissolved in propylene glycol, water, and benzyl alcohol for the injectable formulation."
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Diclofenac+75mg+Injection"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Diclofenac+Injection"
+      }
+    ],
+    "wikiTitle": "Diclofenac"
+  },
+  "Similac Advance Infant Formula": {
+    "generic": "Whey Protein + DHA + ARA + Vitamins",
+    "type": "Baby & Feminine Care",
+    "category": "Baby Care",
+    "price": "₹685",
+    "rating": 8.8,
+    "overview": "Stage 1 infant formula for babies from birth to 6 months, formulated to closely resemble the nutritional profile of breast milk. Contains DHA and ARA for brain and eye development, nucleotides to support immune function, and a whey-dominant protein blend for easy digestion.",
+    "dosage": "Mix 1 level unpacked scoop (8.8g) with 60ml cooled boiled water. Shake well and test temperature before feeding. Prepare fresh for each feeding. Follow feeding chart based on baby's weight and age — typically 6–8 feedings per day for newborns.",
+    "sideEffects": [
+      "Constipation in some infants during adjustment",
+      "Gas and fussiness in first few days",
+      "Spit-up more common than with breast milk"
+    ],
+    "warnings": [
+      "Breastfeeding is recommended as the preferred method of infant feeding",
+      "Prepare only as directed — over or under concentration can be harmful",
+      "Do not use microwave to warm — creates hot spots"
+    ],
+    "ingredients": [
+      "Whey Protein Concentrate",
+      "Skim Milk",
+      "Vegetable Oils (Palm, Soy, Coconut, High-Oleic Sunflower)",
+      "Lactose",
+      "DHA (docosahexaenoic acid)",
+      "ARA (arachidonic acid)",
+      "Nucleotides",
+      "Vitamins A, C, D, E, K, B-complex",
+      "Iron, Zinc, Calcium, Phosphorus"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Similac+Advance+Infant+Formula"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Similac+Advance+Infant+Formula"
+      },
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Similac+Advance+Infant+Formula"
+      }
+    ],
+    "wikiTitle": "Infant formula"
+  },
+  "Pampers New Born Diapers 22s": {
+    "type": "Baby & Feminine Care",
+    "category": "Baby Care",
+    "price": "₹310",
+    "rating": 8.6,
+    "overview": "Ultra-soft newborn diapers for babies weighing 2–5 kg with a special umbilical cord notch to protect the healing navel. Features an Aloe-enriched inner layer for skin gentleness and an exterior wetness indicator that turns blue when wet, helping parents know when to change.",
+    "instructions": "1. Lay baby on a clean surface. 2. Lift baby's bottom and slide the diaper under with the back waistband level with the top of the baby's waist. 3. Bring the front panel up through the legs. 4. Unfold the stretchy side tabs and attach symmetrically to the front panel. 5. Ensure the diaper is snug but not tight — check leg cuffs are pointing outward. 6. Change every 2–3 hours or immediately after soiling.",
+    "warnings": [
+      "Dispose of used diapers hygienically — do not flush",
+      "Do not reuse disposable diapers",
+      "Keep out of reach of children — choking hazard"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Pampers+New+Born+Diapers+22s"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Pampers+New+Born+Diapers"
+      },
+      {
+        "name": "Blinkit",
+        "link": "https://blinkit.com/s/?q=Pampers+Newborn+Diapers"
+      }
+    ],
+    "wikiTitle": "Diaper"
+  },
+  "Prega News Pregnancy Test Kit": {
+    "generic": "hCG Urine Pregnancy Test Strip",
+    "type": "Baby & Feminine Care",
+    "category": "Feminine Care",
+    "price": "₹55",
+    "rating": 9.0,
+    "overview": "Rapid home pregnancy test for detecting hCG (human Chorionic Gonadotropin) hormone in urine from the first day of a missed period. Provides clear, easy-to-read results in 5 minutes with over 99% accuracy, making it India's most trusted home pregnancy test.",
+    "dosage": "Collect urine in a clean container (midstream, first morning urine preferred for highest hCG concentration). Dip the test strip in urine for exactly 5 seconds. Lay flat on a clean surface. Read result after exactly 3–5 minutes. Two lines = Pregnant. One line = Not Pregnant.",
+    "sideEffects": [
+      "No side effects — this is a diagnostic test device, not a medicine"
+    ],
+    "warnings": [
+      "False negative possible if tested too early before missed period or with very dilute urine",
+      "Positive result should always be confirmed by a doctor",
+      "Do not read results after 10 minutes — line may appear due to evaporation (evaporation line)"
+    ],
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Prega+News+Pregnancy+Test"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Prega+News"
+      },
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Prega+News+Pregnancy+Test+Kit"
+      },
+      {
+        "name": "Blinkit",
+        "link": "https://blinkit.com/s/?q=Prega+News+Pregnancy+Test"
+      },
+      {
+        "name": "Zepto",
+        "link": "https://www.zeptonow.com/search?query=Prega+News+Test"
+      }
+    ],
+    "wikiTitle": "Pregnancy test"
+  },
+  "Himalaya Diaper Rash Cream": {
+    "type": "Baby & Feminine Care",
+    "category": "Baby Care",
+    "price": "₹110",
+    "rating": 8.3,
+    "overview": "Gentle zinc oxide-based cream with herbal ingredients for preventing and treating diaper rash in infants. Creates a protective barrier against wetness and friction while soothing already irritated skin. Fragrance-free and hypoallergenic.",
+    "howToUse": "Clean baby's bottom gently with a soft cloth or unscented baby wipe. Pat dry completely. Apply a generous layer of cream at every diaper change. Do not rub into skin — gentle application creates a protective barrier.",
+    "ingredients": [
+      "Zinc Oxide 10%",
+      "Indian Aloe (Aloe vera)",
+      "Country Mallow (Bala) extract",
+      "Winter Cherry (Ashwagandha)",
+      "Fragrance-free mineral oil base",
+      "Beeswax"
+    ],
+    "warnings": [
+      "For external use only",
+      "Avoid contact with eyes",
+      "Discontinue if rash worsens or does not improve within 7 days — consult a doctor"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Himalaya+Diaper+Rash+Cream"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Himalaya+Diaper+Rash+Cream"
+      },
+      {
+        "name": "Blinkit",
+        "link": "https://blinkit.com/s/?q=Himalaya+Diaper+Rash+Cream"
+      }
+    ],
+    "wikiTitle": "Diaper rash"
+  },
+  "Dabur Chyawanprash 500g": {
+    "type": "AYUSH",
+    "category": "Ayurvedic Medicine",
+    "price": "₹260",
+    "rating": 8.5,
+    "overview": "India's most trusted classical Ayurvedic immune booster formulated with Amla as the base ingredient and over 40 herbs and minerals. Used for centuries to build immunity, improve strength, enhance digestion, and promote longevity. Suitable for all age groups from 3 years and above.",
+    "dosage": "Children (3–14 years): 1 teaspoon (5g) twice daily. Adults: 1–2 teaspoons (10g) twice daily. Take with warm milk in the morning and before bedtime. Best consumed during winter months for immunity building.",
+    "sideEffects": [
+      "Mild nausea on empty stomach in sensitive individuals",
+      "May increase blood sugar in diabetics (contains sugar)"
+    ],
+    "ingredients": [
+      "Amla (Emblica officinalis) — primary ingredient",
+      "Ashwagandha (Withania somnifera)",
+      "Guduchi / Giloy (Tinospora cordifolia)",
+      "Shatavari (Asparagus racemosus)",
+      "Pippali (Piper longum)",
+      "Ghee and Sesame Oil",
+      "Honey",
+      "40+ additional Ayurvedic herbs and minerals"
+    ],
+    "history": {
+      "intro": "Chyawanprash is named after the sage Chyavana, whose story is documented in ancient Indian texts. It is one of the oldest formulations in Ayurveda with historical records stretching back over 2500 years.",
+      "timeline": [
+        {
+          "year": "~1000 BC",
+          "event": "The formulation is attributed to the Ashwini Kumaras (twin physicians of the gods) who created it to restore the health and vitality of the sage Chyavana as described in the Charaka Samhita."
+        },
+        {
+          "year": "600 BC",
+          "event": "The Charaka Samhita — the classical Ayurvedic medical text — documented the complete Chyawanprash formula, listing over 40 ingredients in specific proportions."
+        },
+        {
+          "year": "1949",
+          "event": "Dabur India began commercial production of Chyawanprash, using the classical Ayurvedic formula standardized for consistent quality and mass production."
+        },
+        {
+          "year": "2020",
+          "event": "Chyawanprash saw a massive surge in demand during the COVID-19 pandemic as Indians turned to traditional immunity-boosting remedies."
+        }
+      ]
+    },
+    "stores": [
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Dabur+Chyawanprash+500g"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Dabur+Chyawanprash+500g"
+      },
+      {
+        "name": "Blinkit",
+        "link": "https://blinkit.com/s/?q=Dabur+Chyawanprash"
+      },
+      {
+        "name": "Instamart",
+        "link": "https://www.swiggy.com/instamart/search?query=Dabur+Chyawanprash"
+      }
+    ],
+    "wikiTitle": "Chyawanprash"
+  },
+  "Dabur Giloy Juice 1L": {
+    "generic": "Tinospora Cordifolia Stem Extract",
+    "type": "AYUSH",
+    "category": "Herbal Supplement",
+    "price": "₹180",
+    "rating": 8.3,
+    "overview": "Giloy (Guduchi) juice for immunity building, chronic fever management, metabolic health, and fatigue recovery. Considered a Rasayana (rejuvenating herb) in Ayurveda, it is one of the three amritas (divine nectars) mentioned in ancient Indian texts.",
+    "dosage": "30ml diluted in an equal volume of water, taken twice daily on an empty stomach. Can be combined with Amla or Neem juice for enhanced effect. Best taken in the morning before breakfast.",
+    "sideEffects": [
+      "Hypoglycemia if taken alongside diabetes medication",
+      "Constipation in some users",
+      "Avoid in autoimmune disorders — may exacerbate immune activity"
+    ],
+    "warnings": [
+      "Consult physician before use with diabetes medications",
+      "Avoid in pregnancy and breastfeeding",
+      "Do not use with immunosuppressant drugs"
+    ],
+    "ingredients": [
+      "Tinospora cordifolia stem extract (standardized to 5% bitter principles)",
+      "Water",
+      "Citric acid as preservative"
+    ],
+    "history": {
+      "intro": "Giloy (Tinospora cordifolia) has been used in Ayurvedic and folk medicine for thousands of years and is among the most revered medicinal plants in India's traditional health systems.",
+      "timeline": [
+        {
+          "year": "~600 BC",
+          "event": "Referenced in the Charaka Samhita and Sushruta Samhita as Guduchi — one of the most important rejuvenating herbs in Ayurveda for fever, inflammation, and immunity."
+        },
+        {
+          "year": "2000s",
+          "event": "Modern pharmacological research began confirming traditional claims — studies showed immunomodulatory, anti-inflammatory, antipyretic, and hepatoprotective properties."
+        },
+        {
+          "year": "2020",
+          "event": "Ministry of AYUSH, Government of India, officially recommended Giloy as part of immunity-boosting protocols during the COVID-19 pandemic, leading to an enormous surge in demand."
+        }
+      ]
+    },
+    "stores": [
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Dabur+Giloy+Juice+1L"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Dabur+Giloy+Juice"
+      },
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Dabur+Giloy+Juice"
+      },
+      {
+        "name": "Blinkit",
+        "link": "https://blinkit.com/s/?q=Dabur+Giloy+Juice"
+      }
+    ],
+    "wikiTitle": "Tinospora cordifolia"
+  },
+  "Himalaya Liv.52 DS Tablets": {
+    "type": "AYUSH",
+    "category": "Herbal Supplement",
+    "price": "₹140",
+    "rating": 8.6,
+    "overview": "Himalaya's flagship hepatoprotective herbal supplement for liver health. The DS (Double Strength) formulation protects liver cells from toxins, promotes regeneration of damaged liver tissue, stimulates appetite, and supports digestion. Widely recommended by doctors for alcohol-related liver stress and during antibiotic or chemotherapy courses.",
+    "dosage": "2 tablets twice daily with water before meals. For children: 1 tablet twice daily. Can be taken long-term for maintenance of liver health.",
+    "sideEffects": [
+      "Generally well tolerated",
+      "Mild nausea on empty stomach in rare cases"
+    ],
+    "ingredients": [
+      "Himsra (Capparis spinosa — Caper Bush)",
+      "Kasani (Cichorium intybus — Chicory)",
+      "Mandur Bhasma (purified iron)",
+      "Kakamachi (Solanum nigrum — Black Nightshade)",
+      "Arjuna (Terminalia arjuna)",
+      "Biranjasipha (Achillea millefolium — Yarrow)",
+      "Jhavuka (Tamarix gallica — French Tamarisk)"
+    ],
+    "history": {
+      "intro": "Liv.52 is one of the most researched herbal formulations in the world, with over 375 clinical studies published and a market presence spanning more than 70 countries since its launch in 1955.",
+      "timeline": [
+        {
+          "year": "1955",
+          "event": "Liv.52 formulated and launched by Himalaya Drug Company as a liver tonic, making it one of the earliest standardized Ayurvedic preparations for hepatoprotection."
+        },
+        {
+          "year": "1970s",
+          "event": "Clinical studies began validating the hepatoprotective activity of the formulation against toxic liver damage from carbon tetrachloride and other hepatotoxins."
+        },
+        {
+          "year": "2000",
+          "event": "Became available in over 70 countries, making it one of the most globally distributed Ayurvedic products."
+        }
+      ]
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Himalaya+Liv.52+DS"
+      },
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Himalaya+Liv+52+DS+Tablets"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Himalaya+Liv52+DS"
+      },
+      {
+        "name": "Blinkit",
+        "link": "https://blinkit.com/s/?q=Himalaya+Liv+52+DS"
+      }
+    ],
+    "wikiTitle": "Liv.52"
+  },
+  "Patanjali Ashwagandha Capsules": {
+    "generic": "Withania Somnifera Root Extract",
+    "type": "AYUSH",
+    "category": "Ayurvedic Medicine",
+    "price": "₹120",
+    "rating": 8.0,
+    "overview": "Ashwagandha (Indian ginseng) capsules for reducing stress and anxiety, improving energy and stamina, supporting hormonal balance, and enhancing cognitive function. One of Ayurveda's most powerful adaptogens used for over 3000 years.",
+    "dosage": "1–2 capsules twice daily with warm milk or water. Take for at least 8 weeks for noticeable effects. Best taken at night for its sleep-enhancing properties.",
+    "sideEffects": [
+      "Mild sedation",
+      "Nausea or digestive upset in some users",
+      "Avoid in pregnancy — may stimulate uterine contractions"
+    ],
+    "ingredients": [
+      "Ashwagandha root extract (Withania somnifera) standardized to 5% withanolides",
+      "Ashwagandha root powder"
+    ],
+    "warnings": [
+      "Avoid during pregnancy and breastfeeding",
+      "May interact with thyroid medications — monitor TSH levels",
+      "Consult physician if taking sedatives"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Patanjali+Ashwagandha+Capsules"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Patanjali+Ashwagandha+Capsules"
+      },
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Patanjali+Ashwagandha+Capsules"
+      }
+    ],
+    "wikiTitle": "Withania somnifera"
+  },
+  "Boiron Arnica Montana 30C": {
+    "type": "AYUSH",
+    "category": "Homeopathic Medicine",
+    "price": "₹105",
+    "rating": 7.6,
+    "overview": "Homeopathic preparation of Arnica montana used for bruises, muscle soreness after physical exertion, minor injuries, and shock. Popular among athletes and sports persons for managing muscle trauma and post-exercise recovery.",
+    "dosage": "5 pellets dissolved under the tongue 3 times daily. For acute injuries: 5 pellets every 15 minutes for 1 hour, then 3 times daily. Avoid eating or drinking 15 minutes before and after taking.",
+    "sideEffects": [
+      "No known side effects at homeopathic potency"
+    ],
+    "ingredients": [
+      "Arnica montana 30C (ultra-high dilution of Mountain Arnica flower tincture)",
+      "Sucrose/lactose pellets as vehicle"
+    ],
+    "history": {
+      "intro": "Arnica has been used in European folk medicine for centuries and became one of the foundational remedies of homeopathy when Samuel Hahnemann developed the system in the early 19th century.",
+      "timeline": [
+        {
+          "year": "1500s",
+          "event": "Arnica used in European alpine folk medicine for bruising and muscle pain, particularly in Switzerland, Germany, and Austria."
+        },
+        {
+          "year": "1796",
+          "event": "Samuel Hahnemann, founder of homeopathy, included Arnica montana among the first remedies he proved under his new system, finding it especially useful for injuries and trauma."
+        },
+        {
+          "year": "1932",
+          "event": "Boiron founded in Lyon, France by twin brothers Henri and Jean Boiron, establishing the laboratory that would become the world's largest homeopathic pharmaceutical company."
+        },
+        {
+          "year": "2000s",
+          "event": "Arnica 30C became widely used by athletes and in sports medicine as a non-pharmacological recovery aid, despite ongoing scientific debate about the mechanism of homeopathic dilutions."
+        }
+      ]
+    },
+    "stores": [
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Boiron+Arnica+Montana+30C"
+      },
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Arnica+Montana+30C"
+      }
+    ],
+    "wikiTitle": "Arnica montana"
+  },
+  "Supradyn Daily Multivitamin": {
+    "generic": "Multivitamin + Multimineral + Antioxidant Tablet",
+    "type": "Wellness & Nutrition",
+    "category": "Vitamins and Supplements",
+    "price": "₹250",
+    "rating": 8.4,
+    "overview": "Comprehensive once-daily multivitamin-mineral tablet providing 11 vitamins, 5 minerals, and antioxidant coenzyme Q10 to fill nutritional gaps in modern diets. Designed for adults with active or demanding lifestyles who need assured daily nutritional coverage.",
+    "dosage": "1 tablet daily with a meal. Do not take on an empty stomach. Take at the same time each day for best results. Not a substitute for a balanced diet.",
+    "sideEffects": [
+      "Urine discoloration (bright yellow from riboflavin — normal)",
+      "Nausea if taken on empty stomach",
+      "Constipation from iron in sensitive individuals"
+    ],
+    "ingredients": [
+      "Vitamin A (beta-carotene)",
+      "Vitamin C 75mg",
+      "Vitamin D3 400 IU",
+      "Vitamin E 10mg",
+      "Vitamin B1, B2, B6, B12",
+      "Folic Acid 400mcg",
+      "Biotin",
+      "Pantothenic Acid",
+      "Calcium 100mg",
+      "Iron 14mg",
+      "Zinc 10mg",
+      "Magnesium",
+      "Coenzyme Q10"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Supradyn+Daily+Multivitamin"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Supradyn+Daily+Multivitamin"
+      },
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Supradyn+Daily+Multivitamin"
+      },
+      {
+        "name": "Blinkit",
+        "link": "https://blinkit.com/s/?q=Supradyn+Multivitamin"
+      }
+    ],
+    "wikiTitle": "Multivitamin"
+  },
+  "Omega-3 Fish Oil 1000mg": {
+    "generic": "EPA + DHA from Marine Fish Oil",
+    "type": "Wellness & Nutrition",
+    "category": "Vitamins and Supplements",
+    "price": "₹380",
+    "rating": 8.5,
+    "overview": "Enteric-coated omega-3 fish oil capsules providing EPA (eicosapentaenoic acid) and DHA (docosahexaenoic acid) for cardiovascular health, triglyceride reduction, joint flexibility, brain function, and anti-inflammatory support. Enteric coating prevents fishy burps.",
+    "dosage": "1–2 capsules daily with meals. For therapeutic use (triglyceride reduction), 2–4g EPA+DHA daily as prescribed by physician.",
+    "sideEffects": [
+      "Fishy aftertaste (minimized by enteric coating)",
+      "Mild gastrointestinal discomfort",
+      "Increased bleeding time at very high doses"
+    ],
+    "warnings": [
+      "Use with caution if on blood-thinning medications",
+      "Inform surgeon before elective surgery — may increase bleeding time",
+      "Choose products tested for heavy metals and contaminants"
+    ],
+    "ingredients": [
+      "Fish Oil 1000mg",
+      "Eicosapentaenoic Acid (EPA) 180mg",
+      "Docosahexaenoic Acid (DHA) 120mg",
+      "Mixed tocopherols as antioxidant preservative",
+      "Enteric-coated gelatin capsule"
+    ],
+    "chemistry": {
+      "formula": "EPA: C₂₀H₃₀O₂ | DHA: C₂₂H₃₂O₂",
+      "drugClass": "Omega-3 Polyunsaturated Fatty Acid",
+      "halfLife": "EPA ~20 hours | DHA ~24 hours",
+      "structureInfo": "EPA is a 20-carbon omega-3 fatty acid with 5 double bonds; DHA is a 22-carbon omega-3 with 6 double bonds. Both are precursors to anti-inflammatory eicosanoids and resolvins that reduce systemic inflammation. DHA is a structural component of neuronal membranes and retinal photoreceptors.",
+      "formationInfo": "Extracted from cold-water fatty fish (sardines, anchovies, mackerel) by molecular distillation to concentrate omega-3 fatty acids and remove contaminants. Enteric coating applied through fluid-bed coating process prevents dissolution in stomach acid."
+    },
+    "stores": [
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Omega-3+Fish+Oil+1000mg"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Omega-3+Fish+Oil+1000mg"
+      },
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Omega+3+Fish+Oil+1000mg"
+      }
+    ],
+    "wikiTitle": "Omega-3 fatty acid"
+  },
+  "Protinex Original 250g": {
+    "type": "Wellness & Nutrition",
+    "category": "Health Food",
+    "price": "₹310",
+    "rating": 8.2,
+    "overview": "Protein supplement powder made from hydrolyzed groundnut protein for daily protein supplementation in adults with inadequate dietary protein intake. Each serving provides approximately 8g of easily digestible protein along with vitamins for energy metabolism and immune support.",
+    "dosage": "Add 3 heaped teaspoons (25g) to a glass of warm milk or water. Stir well until dissolved. Take once or twice daily. Can also be mixed into food preparations.",
+    "sideEffects": [
+      "Gas and bloating if taking too much at once",
+      "Not recommended for those with groundnut (peanut) allergy"
+    ],
+    "ingredients": [
+      "Hydrolyzed Groundnut Protein (primary ingredient)",
+      "Vitamins A, B1, B2, B6, B12, C, D, E",
+      "Niacin",
+      "Folic Acid",
+      "Sucrose",
+      "Calcium Carbonate",
+      "Natural and artificial flavors (in flavored variants)"
+    ],
+    "warnings": [
+      "Contains groundnut protein — not suitable for peanut allergy sufferers",
+      "Not a complete meal replacement for children or infants"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Protinex+Original+250g"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Protinex+Original+250g"
+      },
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Protinex+Original+250g"
+      },
+      {
+        "name": "Blinkit",
+        "link": "https://blinkit.com/s/?q=Protinex+Original"
+      }
+    ],
+    "wikiTitle": "Dietary supplement"
+  },
+  "Listerine Mouthwash 250ml": {
+    "generic": "Thymol + Menthol + Eucalyptol + Methyl Salicylate",
+    "type": "Wellness & Nutrition",
+    "category": "Oral Care",
+    "price": "₹115",
+    "rating": 8.6,
+    "overview": "Antiseptic mouthwash combining four essential oils to kill 99.9% of germs that brushing and flossing alone miss. Fights gingivitis, reduces plaque formation, prevents bad breath, and reaches between teeth and along the gumline for complete mouth hygiene.",
+    "howToUse": "Pour 20ml (roughly 4 teaspoons) into a cup. Swish vigorously for 30 seconds. Spit out — do not swallow. Use twice daily after brushing and flossing. Do not eat or drink for 30 minutes after use.",
+    "sideEffects": [
+      "Intense burning sensation (especially for first-time users)",
+      "Temporary alteration of taste sensation",
+      "Tooth staining with overuse"
+    ],
+    "warnings": [
+      "Do not swallow",
+      "Not recommended for children under 12 years",
+      "Contains alcohol — not suitable for persons avoiding alcohol intake"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Listerine+Mouthwash+250ml"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Listerine+Mouthwash+250ml"
+      },
+      {
+        "name": "Blinkit",
+        "link": "https://blinkit.com/s/?q=Listerine+Mouthwash"
+      },
+      {
+        "name": "Instamart",
+        "link": "https://www.swiggy.com/instamart/search?query=Listerine+Mouthwash"
+      },
+      {
+        "name": "Zepto",
+        "link": "https://www.zeptonow.com/search?query=Listerine+Mouthwash"
+      }
+    ],
+    "wikiTitle": "Listerine"
+  },
+  "Sensodyne Sensitive Toothpaste 70g": {
+    "type": "Wellness & Nutrition",
+    "category": "Oral Care",
+    "price": "₹160",
+    "rating": 8.7,
+    "overview": "Clinically proven toothpaste for tooth sensitivity relief. Regular twice-daily brushing builds a protective layer over exposed dentinal tubules, reducing the transmission of pain signals to the tooth nerve from triggers like cold, heat, sweet, and acid over time.",
+    "howToUse": "Apply a pea-sized amount to a soft-bristled toothbrush. Brush gently for 2 minutes, covering all tooth surfaces and gumline. Spit — do not rinse immediately. Use twice daily, morning and night. Results seen after 2 weeks of consistent use.",
+    "ingredients": [
+      "Potassium Nitrate 5% (desensitizing agent)",
+      "Sodium Fluoride 0.221% (1000 ppm fluoride, anti-cavity)",
+      "Hydrated silica (mild abrasive)",
+      "Glycerin",
+      "PEG-8 (humectant)",
+      "Sodium carboxymethylcellulose (thickener)",
+      "Flavor, Saccharin"
+    ],
+    "warnings": [
+      "Not for use in children under 6",
+      "Do not swallow — contact Poison Control if large amounts ingested by child",
+      "See a dentist if sensitivity persists after 4 weeks of use"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Sensodyne+Sensitive+Toothpaste+70g"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Sensodyne+Sensitive+Toothpaste"
+      },
+      {
+        "name": "Blinkit",
+        "link": "https://blinkit.com/s/?q=Sensodyne+Toothpaste"
+      },
+      {
+        "name": "Instamart",
+        "link": "https://www.swiggy.com/instamart/search?query=Sensodyne+Toothpaste"
+      }
+    ],
+    "wikiTitle": "Toothpaste"
+  },
+  "Benadryl Cough Syrup 100ml": {
+    "generic": "Diphenhydramine + Ammonium Chloride + Sodium Citrate",
+    "type": "Oral Medicines",
+    "category": "Cough and Cold",
+    "price": "₹70",
+    "rating": 7.8,
+    "overview": "Triple-combination cough syrup containing an antihistamine (diphenhydramine), expectorant (ammonium chloride), and alkalizer (sodium citrate) for relief of dry and productive coughs associated with the common cold, flu, and allergic respiratory conditions.",
+    "dosage": "Adults: 2 teaspoons (10ml) every 4–6 hours. Children (6–12 years): 1 teaspoon (5ml) every 4–6 hours. Children under 6: as directed by physician. Shake well before use.",
+    "sideEffects": [
+      "Drowsiness (significant — avoid driving)",
+      "Dry mouth",
+      "Blurred vision",
+      "Urinary retention",
+      "Constipation"
+    ],
+    "warnings": [
+      "Causes significant drowsiness — do not drive or operate machinery",
+      "Not for children under 2 years",
+      "Avoid alcohol consumption during treatment"
+    ],
+    "chemistry": {
+      "formula": "Diphenhydramine: C₁₇H₂₁NO·HCl",
+      "iupacName": "2-(diphenylmethoxy)-N,N-dimethylethanamine hydrochloride",
+      "molecularWeight": "291.82 g/mol",
+      "casNumber": "147-24-0",
+      "drugClass": "First-generation Antihistamine / Antitussive",
+      "halfLife": "4–8 hours",
+      "structureInfo": "Diphenhydramine is a first-generation H1 receptor antagonist with significant CNS penetration, producing sedation in addition to antihistamine effects. It also blocks the cough reflex centrally. Ammonium chloride acts as an expectorant by increasing bronchial secretions, while sodium citrate reduces viscosity of mucus.",
+      "formationInfo": "Diphenhydramine synthesized via Grignard reaction of 2-chloro-N,N-dimethylethanamine with diphenylmethanol precursor. The syrup formulation combines all three actives in a palatable base with glycerin, sorbitol, and cherry or honey flavor."
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Benadryl+Cough+Syrup+100ml"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Benadryl+Cough+Syrup"
+      },
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Benadryl+Cough+Syrup+100ml"
+      },
+      {
+        "name": "Blinkit",
+        "link": "https://blinkit.com/s/?q=Benadryl+Cough+Syrup"
+      }
+    ],
+    "wikiTitle": "Diphenhydramine"
+  },
+  "Ascoril LS Syrup 100ml": {
+    "generic": "Levosalbutamol + Ambroxol + Guaifenesin",
+    "type": "Oral Medicines",
+    "category": "Cough and Cold",
+    "price": "₹95",
+    "rating": 8.3,
+    "overview": "Triple-action expectorant syrup combining a bronchodilator (levosalbutamol), mucolytic (ambroxol), and expectorant (guaifenesin) for comprehensive relief of productive cough with bronchospasm, as in bronchitis, asthma-related cough, and respiratory infections.",
+    "dosage": "Adults: 2 teaspoons (10ml) three times daily. Children (6–12 years): 1 teaspoon (5ml) three times daily. Take after meals. Drink extra fluids to loosen mucus.",
+    "sideEffects": [
+      "Tremor (from levosalbutamol)",
+      "Headache",
+      "Palpitations",
+      "Nausea",
+      "Dizziness"
+    ],
+    "warnings": [
+      "Use with caution in diabetes and hypertension",
+      "Not recommended for children under 2 without medical supervision",
+      "May cause false positive drug tests for amphetamines"
+    ],
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Ascoril+LS+Syrup+100ml"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Ascoril+LS+Syrup"
+      },
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Ascoril+LS+Syrup+100ml"
+      }
+    ],
+    "wikiTitle": "Bromhexine"
+  },
+  "Digene Antacid Gel 200ml": {
+    "generic": "Aluminium Hydroxide + Magnesium Hydroxide + Simethicone",
+    "type": "Oral Medicines",
+    "category": "Antacid",
+    "price": "₹85",
+    "rating": 8.1,
+    "overview": "Fast-acting liquid antacid gel for quick neutralization of excess stomach acid, providing relief from heartburn, acidity, gas, bloating, and upset stomach within minutes of ingestion. The simethicone component specifically targets gas and bloating.",
+    "dosage": "Adults: 1–2 tablespoons (15–30ml) after meals and at bedtime, or as directed by physician. Children (6–12 years): 1 teaspoon (5ml) after meals. Shake bottle well before use.",
+    "sideEffects": [
+      "Constipation (from aluminum hydroxide)",
+      "Diarrhea (from magnesium hydroxide)",
+      "May reduce absorption of other medications taken simultaneously"
+    ],
+    "warnings": [
+      "Take other medications at least 2 hours apart from antacids",
+      "Long-term use of aluminum-containing antacids may affect bone density",
+      "Not recommended in kidney failure"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Digene+Antacid+Gel+200ml"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Digene+Antacid+Gel"
+      },
+      {
+        "name": "Blinkit",
+        "link": "https://blinkit.com/s/?q=Digene+Antacid+Gel"
+      },
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Digene+Antacid+Gel+200ml"
+      }
+    ],
+    "wikiTitle": "Antacid"
+  },
+  "Meftal Spas Tablet": {
+    "generic": "Mefenamic Acid + Dicyclomine Hydrochloride",
+    "type": "Baby & Feminine Care",
+    "category": "Feminine Care",
+    "price": "₹52",
+    "rating": 8.5,
+    "overview": "Combination analgesic and antispasmodic tablet for relief of moderate to severe menstrual cramps (dysmenorrhea), intestinal colic, and renal or biliary colic. The mefenamic acid relieves pain and inflammation while dicyclomine relaxes smooth muscle spasm.",
+    "dosage": "1 tablet up to 3 times daily with food. Start at the onset of menstrual pain. Do not use for more than 3 days continuously without medical advice.",
+    "sideEffects": [
+      "Nausea",
+      "Diarrhea",
+      "Dizziness",
+      "Dry mouth",
+      "Drowsiness",
+      "GI upset"
+    ],
+    "warnings": [
+      "Not for use in the last trimester of pregnancy",
+      "Avoid in peptic ulcer disease",
+      "Do not exceed 3 tablets daily"
+    ],
+    "chemistry": {
+      "formula": "Mefenamic Acid: C₁₅H₁₅NO₂ | Dicyclomine: C₁₉H₃₅NO₂·HCl",
+      "drugClass": "NSAID + Antispasmodic Combination",
+      "halfLife": "Mefenamic acid: 2–4 hours",
+      "structureInfo": "Mefenamic acid inhibits both COX-1 and COX-2, reducing prostaglandin synthesis that drives menstrual cramping. Dicyclomine is a muscarinic receptor antagonist that directly relaxes smooth muscle spasm of the uterus and gastrointestinal tract, providing additional antispasmodic relief.",
+      "formationInfo": "Both actives combined in standard pharmaceutical tablet form. Mefenamic acid synthesized from 2-chlorobenzoic acid and 2,3-dimethylaniline. Dicyclomine synthesized from bicyclohexyl intermediates through amide formation and reduction steps."
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Meftal+Spas+Tablet"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Meftal+Spas"
+      },
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Meftal+Spas+Tablet"
+      }
+    ],
+    "wikiTitle": "Mefenamic acid"
+  },
+  "Zincovit Syrup 200ml": {
+    "generic": "Zinc + Multivitamin Syrup",
+    "type": "Wellness & Nutrition",
+    "category": "Vitamins and Supplements",
+    "price": "₹125",
+    "rating": 8.3,
+    "overview": "Zinc-enriched multivitamin syrup for children and adults to support immune function, growth, skin health, and recovery from illness. Zinc plays a central role in over 300 enzymatic reactions and is particularly important during childhood growth phases and post-illness recovery.",
+    "dosage": "Children (1–6 years): 5ml once daily. Children (6–12 years): 5ml twice daily. Adults: 10ml twice daily. Shake well before use. Can be taken directly or mixed with juice.",
+    "sideEffects": [
+      "Nausea if taken on empty stomach",
+      "Bright yellow urine from riboflavin — normal and harmless"
+    ],
+    "ingredients": [
+      "Zinc Sulphate Monohydrate 7.5mg",
+      "Vitamin A 1667 IU",
+      "Vitamin D3 133 IU",
+      "Vitamin E 5mg",
+      "Vitamin C 30mg",
+      "Vitamin B1, B2, B6 2mg each",
+      "Vitamin B12 1mcg",
+      "Niacinamide 10mg",
+      "Folic Acid 67mcg"
+    ],
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Zincovit+Syrup+200ml"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Zincovit+Syrup"
+      },
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Zincovit+Syrup+200ml"
+      }
+    ],
+    "wikiTitle": "Zinc"
+  },
+  "Calcium + Vitamin D3 Tablet": {
+    "generic": "Calcium Carbonate + Cholecalciferol",
+    "type": "Wellness & Nutrition",
+    "category": "Vitamins and Supplements",
+    "price": "₹135",
+    "rating": 8.6,
+    "overview": "Essential mineral supplement for bone health, providing calcium and Vitamin D3 together for optimal absorption. Calcium D3 supplementation is particularly important for postmenopausal women, the elderly, pregnant women, and individuals with low dairy intake to prevent osteoporosis.",
+    "dosage": "1 tablet twice daily with meals. Take with a full glass of water. Do not take with iron supplements — take 2 hours apart. Vitamin D3 enhances intestinal calcium absorption significantly.",
+    "sideEffects": [
+      "Constipation",
+      "Gas and bloating",
+      "Hypercalcemia with excessive long-term use"
+    ],
+    "warnings": [
+      "Avoid in hypercalcemia or kidney stones history",
+      "Total daily calcium from food plus supplement should not exceed 2500mg",
+      "Separate from thyroid medications by at least 4 hours"
+    ],
+    "chemistry": {
+      "formula": "Calcium Carbonate: CaCO₃ | Cholecalciferol: C₂₇H₄₄O",
+      "drugClass": "Calcium + Vitamin D Supplement",
+      "structureInfo": "Calcium carbonate provides elemental calcium (40% by weight) for bone mineralization, muscle function, and nerve signaling. Cholecalciferol (D3) undergoes hepatic and renal hydroxylation to form calcitriol (active D3), which upregulates intestinal calcium absorption channels and promotes calcium reabsorption in the kidneys.",
+      "formationInfo": "Calcium carbonate is derived from limestone or oyster shell through purification and milling. Cholecalciferol is produced by UV-B irradiation of 7-dehydrocholesterol (derived from lanolin). Both are combined in a tablet with excipients for consistent dissolution and bioavailability."
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Calcium+Vitamin+D3+Tablet"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Calcium+Vitamin+D3+Tablet"
+      },
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Calcium+Vitamin+D3+Tablet"
+      }
+    ],
+    "wikiTitle": "Calcium carbonate"
+  },
+  "Burnol Cream 20g": {
+    "generic": "Aminacrine Hydrochloride + Cetrimide",
+    "type": "Wound Care",
+    "category": "Antiseptic Solution",
+    "price": "₹58",
+    "rating": 7.8,
+    "overview": "India's iconic burn remedy cream containing an aminacrine antiseptic and cetrimide surfactant for first aid treatment of minor burns, scalds, and abrasions. Provides antiseptic coverage to prevent wound infection while cooling and soothing the burn area.",
+    "howToUse": "For minor burns: cool the burn under running cold water for 10–15 minutes first. Apply Burnol cream thinly to the cooled burn. Cover with a clean dressing. Reapply 2–3 times daily. Do not apply to large or severe burns — seek emergency care.",
+    "sideEffects": [
+      "Mild stinging on application",
+      "Skin sensitization with prolonged use"
+    ],
+    "warnings": [
+      "Not for severe burns — medical emergency",
+      "Do not use on infected wounds",
+      "Cool burn with water first — do not apply cream directly to fresh burn without cooling"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Burnol+Cream+20g"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Burnol+Cream+20g"
+      },
+      {
+        "name": "Blinkit",
+        "link": "https://blinkit.com/s/?q=Burnol+Cream"
+      }
+    ],
+    "wikiTitle": "Silver sulfadiazine"
+  },
+  "Metronidazole 400mg": {
+    "generic": "Metronidazole",
+    "type": "Oral Medicines",
+    "category": "Antibiotic",
+    "price": "₹28",
+    "rating": 8.2,
+    "overview": "Nitroimidazole antibiotic and antiprotozoal agent effective against anaerobic bacterial infections and protozoal infections including amoebiasis, giardiasis, bacterial vaginosis, and dental infections. Essential medicine for treating serious anaerobic infections.",
+    "dosage": "Bacterial infections: 400mg three times daily for 5–7 days. Amoebiasis: 400–800mg three times daily for 5–10 days. Take with food to reduce nausea.",
+    "sideEffects": [
+      "Nausea and vomiting",
+      "Metallic taste in mouth",
+      "Dizziness",
+      "Dark urine (normal)",
+      "Peripheral neuropathy with very long-term use"
+    ],
+    "warnings": [
+      "Strict avoidance of alcohol during and 48 hours after treatment — severe disulfiram-like reaction",
+      "Do not use in first trimester of pregnancy"
+    ],
+    "chemistry": {
+      "formula": "C₆H₉N₃O₃",
+      "iupacName": "2-(2-methyl-5-nitroimidazol-1-yl)ethanol",
+      "molecularWeight": "171.15 g/mol",
+      "casNumber": "443-48-1",
+      "drugClass": "Nitroimidazole Antibiotic",
+      "halfLife": "6–8 hours",
+      "bioavailability": "~100% (oral)",
+      "structureInfo": "Metronidazole is a prodrug selectively activated by anaerobic organisms through nitro-group reduction by ferredoxin-linked redox proteins. The active radical intermediate creates DNA strand breaks and inhibits nucleic acid synthesis, causing cell death. Aerobic organisms lack the low-redox proteins needed for activation — explaining the drug's selectivity for anaerobes.",
+      "formationInfo": "Synthesized from 2-methylimidazole through sequential nitration and N-alkylation with ethylene oxide. The relatively simple structure allows inexpensive production, contributing to its widespread availability as an essential medicine. First synthesized at Rhône-Poulenc in France in 1959."
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Metronidazole+400mg"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Metronidazole+400mg"
+      }
+    ],
+    "wikiTitle": "Metronidazole"
+  },
+  "Whisper Ultra Sanitary Pads 15s": {
+    "type": "Baby & Feminine Care",
+    "category": "Feminine Care",
+    "price": "₹170",
+    "rating": 8.8,
+    "overview": "Ultra-thin sanitary pads with 3-in-1 protection — absorbs fluid, prevents leakage, and neutralizes odor. The XL size with side wings provides overnight and heavy-flow protection with the Air-Fresh technology that keeps skin feeling dry and comfortable.",
+    "instructions": "1. Wash hands before use. 2. Remove paper backing from adhesive strip. 3. Press firmly onto the center of clean underwear, adhesive side down. 4. Fold and press side wings under the underwear. 5. Change pad every 4–8 hours or when soaked, whichever is sooner. 6. Wrap used pad and dispose in a bin — do not flush.",
+    "warnings": [
+      "Change pads regularly to prevent bacterial growth and infection",
+      "Do not flush — use waste bins only",
+      "Discontinue use if skin irritation develops"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Whisper+Ultra+Sanitary+Pads+15s"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Whisper+Ultra+Sanitary+Pads"
+      },
+      {
+        "name": "Blinkit",
+        "link": "https://blinkit.com/s/?q=Whisper+Ultra+Sanitary+Pads"
+      },
+      {
+        "name": "Zepto",
+        "link": "https://www.zeptonow.com/search?query=Whisper+Sanitary+Pads"
+      },
+      {
+        "name": "Instamart",
+        "link": "https://www.swiggy.com/instamart/search?query=Whisper+Sanitary+Pads"
+      }
+    ],
+    "wikiTitle": "Sanitary napkin"
+  },
+  "Koflet Herbal Cough Syrup": {
+    "type": "AYUSH",
+    "category": "Ayurvedic Medicine",
+    "price": "₹80",
+    "rating": 7.9,
+    "overview": "Himalaya's Ayurvedic cough syrup combining multiple herbal ingredients traditionally used in Indian medicine for cough, sore throat, and upper respiratory infections. Provides soothing relief for both dry and productive cough without causing drowsiness.",
+    "dosage": "Adults: 2 teaspoons (10ml) three times daily. Children (5–12 years): 1 teaspoon (5ml) three times daily. Children under 5: as directed by physician. Shake well before use.",
+    "sideEffects": [
+      "Generally well tolerated with no significant adverse effects reported"
+    ],
+    "ingredients": [
+      "Vasaka (Malabar Nut — Adhatoda vasica) leaf extract",
+      "Yashtimadhu (Licorice root — Glycyrrhiza glabra)",
+      "Tulsi (Holy Basil — Ocimum sanctum)",
+      "Bibhitaka (Terminalia bellirica)",
+      "Ginger (Zingiber officinale)",
+      "Honey as vehicle"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Koflet+Herbal+Cough+Syrup"
+      },
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Koflet+Herbal+Cough+Syrup"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Koflet+Herbal+Cough+Syrup"
+      }
+    ],
+    "wikiTitle": "Adhatoda vasica"
+  },
+  "Budecort 0.5mg Respules": {
+    "generic": "Budesonide",
+    "type": "Respiratory",
+    "category": "Nebulizer Solution",
+    "price": "₹255",
+    "rating": 8.8,
+    "overview": "Inhaled corticosteroid nebulizer solution for the maintenance treatment and prevention of asthma and croup in infants and children, and COPD in adults who cannot use inhalers effectively. Administered via a nebulizer machine for direct anti-inflammatory action in the airways.",
+    "dosage": "Asthma in children: 0.5–1mg per nebulization, once or twice daily. Adults (COPD): 1–2mg twice daily. Must be used with a nebulizer machine. Duration as prescribed by physician.",
+    "sideEffects": [
+      "Oral thrush (rinse mouth and face after use)",
+      "Cough and hoarseness",
+      "Rare adrenal suppression with high doses long-term"
+    ],
+    "warnings": [
+      "Rinse face and mouth with water after every nebulization to prevent oral thrush",
+      "Not for acute asthma attacks — use bronchodilator first",
+      "Discontinue gradually if long-term use — do not stop abruptly"
+    ],
+    "chemistry": {
+      "formula": "C₂₅H₃₄O₆",
+      "iupacName": "(RS)-11β,16α,17,21-Tetrahydroxypregna-1,4-diene-3,20-dione cyclic 16,17-acetal with butyraldehyde",
+      "molecularWeight": "430.53 g/mol",
+      "casNumber": "51333-22-3",
+      "drugClass": "Inhaled Corticosteroid (ICS)",
+      "halfLife": "2.8 hours (plasma)",
+      "bioavailability": "6–10% systemically (most is deposited in airway, acting locally)",
+      "structureInfo": "Budesonide binds glucocorticoid receptors with high affinity and lipophilicity, allowing deep lung tissue penetration and prolonged local retention. It suppresses airway inflammation by inhibiting NF-κB transcription, reducing production of cytokines, chemokines, and inflammatory cell recruitment to the bronchial mucosa.",
+      "formationInfo": "Synthesized from hydrocortisone acetate through multi-step steroid modification including introduction of 16α,17α-acetal with butyraldehyde. Nebulizer suspension prepared in isotonic saline at precisely controlled particle size for optimal aerosol generation by jet and ultrasonic nebulizers."
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Budecort+0.5mg+Respules"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Budecort+Respules"
+      }
+    ],
+    "wikiTitle": "Budesonide"
+  },
+  "Gabapentin 300mg": {
+    "generic": "Gabapentin",
+    "type": "Oral Medicines",
+    "category": "Neuropathic Pain",
+    "price": "₹88",
+    "rating": 8.1,
+    "overview": "Anticonvulsant and analgesic used for neuropathic pain conditions including diabetic peripheral neuropathy, post-herpetic neuralgia, and as an adjunct in epilepsy. Also used for restless leg syndrome and as an off-label treatment for anxiety.",
+    "dosage": "Start at 300mg once daily on day 1, increase to 300mg twice daily on day 2, and 300mg three times daily on day 3. Maintenance: 900–1800mg daily in divided doses. Do not stop abruptly.",
+    "sideEffects": [
+      "Dizziness and somnolence (very common)",
+      "Ataxia (unsteady gait)",
+      "Fatigue",
+      "Peripheral edema",
+      "Weight gain"
+    ],
+    "warnings": [
+      "Do not stop suddenly — taper under medical supervision",
+      "Avoid driving or machinery until you know how it affects you",
+      "Monitor for suicidal ideation (FDA black box warning for antiepileptics)"
+    ],
+    "chemistry": {
+      "formula": "C₉H₁₇NO₂",
+      "iupacName": "2-(1-(aminomethyl)cyclohexyl)acetic acid",
+      "molecularWeight": "171.24 g/mol",
+      "casNumber": "60142-96-3",
+      "drugClass": "Anticonvulsant / Gabapentinoid",
+      "halfLife": "5–7 hours",
+      "bioavailability": "27–60% (oral, inversely proportional to dose due to saturable absorption)",
+      "structureInfo": "Gabapentin is structurally related to GABA but does not act on GABA receptors. It binds the α2δ-1 subunit of voltage-gated calcium channels in the CNS, reducing calcium influx at presynaptic nerve terminals and decreasing release of excitatory neurotransmitters including glutamate, norepinephrine, and substance P.",
+      "formationInfo": "Synthesized from cyclohexanone through Strecker synthesis to introduce the aminomethyl group, followed by reduction and hydrolysis to yield the final acetic acid structure. Originally designed as a lipophilic GABA analog that could cross the blood-brain barrier, though its ultimate mechanism of action proved different from GABA receptor modulation."
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Gabapentin+300mg"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Gabapentin+300mg"
+      }
+    ],
+    "wikiTitle": "Gabapentin"
+  },
+  "Losartan 50mg": {
+    "generic": "Losartan Potassium",
+    "type": "Oral Medicines",
+    "category": "Antihypertensive",
+    "price": "₹48",
+    "rating": 8.5,
+    "overview": "Angiotensin II receptor blocker (ARB) for treatment of hypertension, heart failure, and diabetic nephropathy. Losartan was the first ARB approved for clinical use and offers an excellent safety profile, particularly suitable for patients who develop a dry cough with ACE inhibitors.",
+    "dosage": "50mg once daily. Dose can be increased to 100mg once daily if needed. Take at the same time each day with or without food.",
+    "sideEffects": [
+      "Dizziness",
+      "Fatigue",
+      "Elevated potassium (hyperkalemia)",
+      "Hypotension in volume-depleted patients"
+    ],
+    "warnings": [
+      "Do not use during pregnancy — causes fetal harm",
+      "Monitor kidney function and potassium levels regularly",
+      "Avoid potassium supplements or potassium-sparing diuretics"
+    ],
+    "chemistry": {
+      "formula": "C₂₂H₂₂ClKN₆O",
+      "iupacName": "potassium 2-butyl-4-chloro-1-[[2'-(1H-tetrazol-5-yl)biphenyl-4-yl]methyl]imidazole-5-carboxylate",
+      "molecularWeight": "461.01 g/mol",
+      "casNumber": "124750-99-8",
+      "drugClass": "Angiotensin II Receptor Blocker (ARB)",
+      "halfLife": "Losartan: 2 hours; Active metabolite EXP3174: 6–9 hours",
+      "bioavailability": "33% (oral)",
+      "structureInfo": "Losartan is an AT1 receptor antagonist that blocks angiotensin II-mediated vasoconstriction, aldosterone release, and sodium retention. Unlike ACE inhibitors, it does not increase bradykinin levels, avoiding the dry cough side effect. It is a prodrug partially converted to the more active metabolite EXP3174 by CYP2C9.",
+      "formationInfo": "Synthesized by Merck through structure-activity relationship studies on biphenyl imidazole scaffolds. The potassium salt improves aqueous solubility. DuPont chemists initially discovered the ARB class, and Merck developed losartan through extensive medicinal chemistry optimization."
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Losartan+50mg"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Losartan+50mg"
+      }
+    ],
+    "wikiTitle": "Losartan"
+  },
+  "Micropore Surgical Tape 1 inch": {
+    "type": "Wound Care",
+    "category": "Bandages and Dressings",
+    "price": "₹72",
+    "rating": 8.2,
+    "overview": "3M's paper-based hypoallergenic surgical tape for securing dressings, IV cannula tubing, nasogastric tubes, and medical devices to the skin. The non-woven paper backing tears easily without scissors and allows skin to breathe, minimizing maceration under the tape.",
+    "instructions": "1. Ensure skin is clean and dry. 2. Cut or tear required length — tears easily by hand. 3. Secure the dressing by pressing firmly along all edges of the tape. 4. Smooth down completely to ensure good adhesion. 5. When removing, peel slowly back on itself parallel to the skin — do not pull upward.",
+    "warnings": [
+      "Do not use over infected or broken skin",
+      "Remove slowly to avoid skin trauma — especially in elderly or fragile skin patients",
+      "Not for use as primary wound dressing"
+    ],
+    "stores": [
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Micropore+Surgical+Tape+1+inch"
+      },
+      {
+        "name": "Flipkart",
+        "link": "https://www.flipkart.com/search?q=Micropore+Surgical+Tape"
+      },
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Micropore+Surgical+Tape"
+      }
+    ],
+    "wikiTitle": "Medical tape"
+  },
+  "Flonase Nasal Spray": {
+    "generic": "Fluticasone Propionate 50mcg",
+    "type": "Eye, Ear & Nose",
+    "category": "Nasal Drops and Spray",
+    "price": "₹320",
+    "rating": 8.6,
+    "overview": "Corticosteroid nasal spray for the long-term treatment of allergic and non-allergic rhinitis (hay fever). Reduces nasal inflammation, congestion, sneezing, and runny nose. Unlike antihistamines, Flonase addresses all nasal allergy symptoms and takes several days to reach full effect.",
+    "dosage": "Adults and children over 12: 2 sprays in each nostril once daily. When controlled, reduce to 1 spray per nostril daily. Children 4–11 years: 1 spray per nostril once daily. Prime pump before first use.",
+    "sideEffects": [
+      "Nasal dryness and irritation",
+      "Headache",
+      "Epistaxis (nosebleed)",
+      "Rarely: nasal septum perforation with long-term use"
+    ],
+    "warnings": [
+      "Do not use for acute sinusitis without medical advice",
+      "Contact with eyes can cause glaucoma with prolonged use",
+      "Full effect takes 1–2 weeks of consistent daily use"
+    ],
+    "chemistry": {
+      "formula": "C₂₅H₃₁F₃O₅S",
+      "iupacName": "(6α,11β,16α,17α)-6α,9-difluoro-11-hydroxy-16α-methyl-3-oxo-17-(1-oxopropoxy)androsta-1,4-diene-17β-carbothioic acid S-fluoromethyl ester",
+      "molecularWeight": "500.57 g/mol",
+      "casNumber": "80474-14-2",
+      "drugClass": "Intranasal Corticosteroid",
+      "halfLife": "~3 hours (plasma)",
+      "bioavailability": "~1% nasal; extensive first-pass metabolism limits systemic effects",
+      "structureInfo": "Fluticasone propionate is a synthetic corticosteroid with very high glucocorticoid receptor affinity (18× greater than dexamethasone). Its high lipophilicity and extensive first-pass hepatic metabolism result in negligible systemic bioavailability from nasal administration, providing potent local anti-inflammatory action with minimal systemic steroid effects.",
+      "formationInfo": "Synthesized from 17α-hydroxyprogesterone through a multi-step steroid modification process. The S-fluoromethyl carbothioate group is critical for the drug's high receptor affinity and metabolic profile. Available as an aqueous suspension spray with microcrystalline cellulose and benzalkonium chloride."
+    },
+    "stores": [
+      {
+        "name": "Tata 1mg",
+        "link": "https://www.1mg.com/search/all?name=Flonase+Nasal+Spray"
+      },
+      {
+        "name": "PharmEasy",
+        "link": "https://pharmeasy.in/search/all?name=Fluticasone+Nasal+Spray"
+      },
+      {
+        "name": "Amazon",
+        "link": "https://www.amazon.in/s?k=Flonase+Nasal+Spray"
+      }
+    ],
+    "wikiTitle": "Fluticasone propionate"
+  }
+}
