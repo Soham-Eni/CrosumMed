@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CrosumMed | AI Powered Pharmaceutical Ecosystem Portal</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CrosumMed — Search medicines, read research articles, and stay updated with pharmaceutical news.">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+/* Landing-specific: hide normal header search, show expanded hero instead */
+.header[data-mode="expanded"] .header-search-wrap { display: none !important; }
+.header[data-mode="expanded"] { position: relative; box-shadow: none; border-bottom: none; }
+
+.landing-hero {
+    background: var(--header-bg);
+    padding: 50px 28px 44px;
+    text-align: center;
+    border-bottom: 1px solid var(--header-border);
+    box-shadow: var(--header-shadow);
+}
+.landing-heading { font-size: 38px; font-weight: 800; color: #fff; margin: 0 0 8px; }
+.landing-examples { font-size: 14px; color: rgba(200,225,255,0.55); margin: 0 0 28px; line-height: 1.5; }
+.landing-examples span { color: rgba(255,255,255,0.7); font-weight: 600; }
+
+/* Search bar in hero */
+.landing-search-bar {
+    display: flex; align-items: stretch; max-width: 680px; margin: 0 auto;
+    background: var(--search-bg); border: 1px solid var(--search-border);
+    border-radius: 12px; overflow: visible; position: relative;
+}
+.landing-search-bar:focus-within { border-color: var(--brand-primary); box-shadow: 0 0 0 3px rgba(11,83,148,0.15); }
+[data-theme="dark"] .landing-search-bar:focus-within { box-shadow: 0 0 0 3px rgba(77,163,232,0.15); }
+
+.landing-type-btn { background: var(--search-type-bg); border: none; padding: 0 16px; font-size: 13.5px;
+    cursor: pointer; height: 48px; display: flex; align-items: center; gap: 6px;
+    color: var(--search-type-text); font-weight: 600; white-space: nowrap; border-radius: 11px 0 0 11px; }
+.landing-type-btn:hover { background: var(--brand-surface-hover); }
+
+.landing-type-dropdown { position: absolute; top: calc(100% + 4px); left: 0;
+    background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 8px;
+    width: 200px; display: none; z-index: 3000; box-shadow: var(--shadow-lg); overflow: hidden; }
+.landing-type-dropdown div { padding: 10px 14px; cursor: pointer; font-size: 14px;
+    color: var(--text-primary); transition: background 0.15s; }
+.landing-type-dropdown div:hover { background: var(--bg-accent); color: var(--brand-primary); }
+
+.landing-search-input { border: none; outline: none; flex: 1; padding: 0 16px; font-size: 15px;
+    background: transparent; color: var(--search-text); height: 48px; min-width: 0; }
+.landing-search-input::placeholder { color: var(--search-placeholder); }
+
+.landing-search-submit { background: var(--brand-primary); border: none; width: 54px; color: #fff;
+    cursor: pointer; display: flex; align-items: center; justify-content: center;
+    border-radius: 0 11px 11px 0; font-size: 16px; transition: background 0.2s; }
+.landing-search-submit:hover { background: var(--brand-dark); }
+
+.landing-suggestions { position: absolute; top: calc(100% + 4px); left: 0; right: 0;
+    background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 10px;
+    box-shadow: var(--shadow-lg); max-height: 240px; overflow-y: auto; z-index: 2000; display: none; }
+
+/* Body */
+.landing-body { max-width: 1200px; margin: 0 auto; padding: 24px 20px; }
+
+/* Section heading */
+.section-label { font-size: 20px; font-weight: 700; color: var(--brand-primary); margin: 28px 0 14px;
+    display: flex; align-items: center; gap: 10px; }
+.section-label i { font-size: 18px; opacity: 0.7; }
+
+@media (max-width: 600px) {
+    .landing-heading { font-size: 26px; }
+    .landing-hero { padding: 36px 16px 30px; }
+    .carousel-card { flex: 0 0 calc(80% - 8px); }
+    .landing-search-bar { width: 100%; max-width: 100%; }
+    .landing-type-btn { font-size: 12px; padding: 0 10px; }
+    .landing-search-input { font-size: 13px; padding: 0 10px; }
+    .landing-search-submit { width: 44px; }
+}
+
+/* Landing carousel card overrides */
+.landing-body .carousel-card {
+    flex: 0 0 calc(20% - 13px);
+    min-width: 220px;
+    border: 1px solid var(--border-color);
+}
+.landing-body .carousel-card-img {
+    height: 150px;
+    background: linear-gradient(135deg, #0B5394, #1565C0);
+}
+[data-theme="dark"] .landing-body .carousel-card-img {
+    background: linear-gradient(135deg, #1a2d42, #223a52);
+}
+.landing-body .carousel-card-img i {
+    color: rgba(255,255,255,0.7);
+    opacity: 1;
+}
+.landing-body .carousel-card-body {
+    padding: 14px 16px;
+    background: var(--bg-card);
+}
+.landing-body .carousel-card-body h4 {
+    font-size: 14.5px;
+    color: var(--text-primary);
+}
+.landing-body .carousel-card-body p {
+    font-size: 12.5px;
+    color: var(--text-secondary);
+}
+.landing-body .carousel-card-footer {
+    background: var(--brand-primary);
+    color: #fff;
+    font-size: 12.5px;
+    border-top: none;
+    padding: 10px 16px;
+}
+[data-theme="dark"] .landing-body .carousel-card-footer {
+    background: #1a2d42;
+    color: #90caf9;
+}
+@media (max-width: 900px) {
+    .landing-body .carousel-card { flex: 0 0 calc(33.33% - 11px); min-width: 200px; }
+}
+@media (max-width: 600px) {
+    .landing-body .carousel-card { flex: 0 0 calc(70% - 8px); min-width: 180px; }
+}
+</style>
+</head>
+<body>
+<div class="page-content">
+<div id="header-placeholder"></div>
+
+<!-- EXPANDED HERO SEARCH -->
+<div class="landing-hero">
+    <h1 class="landing-heading" id="landingHeading">Search your products</h1>
+    <p class="landing-examples" id="landingExamples">like <span>medicines, fitness products, cosmetics, medical devices</span> and more</p>
+
+    <div class="landing-search-bar" id="landingSearchBar">
+        <div style="position:relative;">
+            <button type="button" class="landing-type-btn" id="landingTypeBtn">PharmaProducts <i class="fa-solid fa-chevron-down"></i></button>
+            <div class="landing-type-dropdown" id="landingTypeDropdown">
+                <div data-type="PharmaProducts">PharmaProducts</div>
+                <div data-type="PharmaArticles">PharmaArticles</div>
+                <div data-type="PharmaNews">PharmaNews</div>
+            </div>
+        </div>
+        <form id="landingSearchForm" action="search.html" method="GET" style="display:flex;flex:1;">
+            <input type="text" class="landing-search-input" id="landingSearchInput" name="query" placeholder="Search medicines, products…" autocomplete="off">
+            <input type="hidden" id="landingTypeHidden" name="type" value="PharmaProducts">
+            <button type="submit" class="landing-search-submit"><i class="fa-solid fa-search"></i></button>
+        </form>
+        <div class="landing-suggestions" id="landingSuggestions"></div>
+    </div>
+</div>
+
+<!-- BODY CONTENT -->
+<div class="landing-body">
+
+    <!-- DISCLAIMER -->
+    <div class="disclaimer-box">
+        <i class="fa-solid fa-triangle-exclamation"></i>
+        <div><strong>Medical Disclaimer:</strong> Information on CrosumMed is for general informational purposes only and should not be considered medical advice. Always consult a qualified healthcare professional before using any pharmaceutical product. CrosumMed does not guarantee the accuracy of all information and is not liable for decisions made based on this data.</div>
+    </div>
+
+    <!-- PRODUCTS CAROUSEL -->
+    <div class="section-label"><i class="fa-solid fa-capsules"></i> Featured Products</div>
+    <div class="carousel-section">
+        <div class="carousel-wrap" id="productCarousel">
+            <button class="carousel-btn left" onclick="carouselScroll('productTrack',-1)"><i class="fa-solid fa-chevron-left"></i></button>
+            <div class="carousel-track" id="productTrack"></div>
+            <button class="carousel-btn right" onclick="carouselScroll('productTrack',1)"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <!-- ARTICLES CAROUSEL -->
+    <div class="section-label"><i class="fa-solid fa-newspaper"></i> Latest Articles</div>
+    <div class="carousel-section">
+        <div class="carousel-wrap" id="articleCarousel">
+            <button class="carousel-btn left" onclick="carouselScroll('articleTrack',-1)"><i class="fa-solid fa-chevron-left"></i></button>
+            <div class="carousel-track" id="articleTrack"></div>
+            <button class="carousel-btn right" onclick="carouselScroll('articleTrack',1)"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <!-- NEWS CAROUSEL -->
+    <div class="section-label"><i class="fa-solid fa-rss"></i> Pharma News</div>
+    <div class="carousel-section">
+        <div class="carousel-wrap" id="newsCarousel">
+            <button class="carousel-btn left" onclick="carouselScroll('newsTrack',-1)"><i class="fa-solid fa-chevron-left"></i></button>
+            <div class="carousel-track" id="newsTrack"></div>
+            <button class="carousel-btn right" onclick="carouselScroll('newsTrack',1)"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+</div>
+
+<div id="footer-placeholder"></div>
+</div>
+
+<script src="js/global.js"></script>
+<script>
+/* ===== LANDING PAGE LOGIC ===== */
+
+var landingTypeBtn = document.getElementById("landingTypeBtn");
+var landingDropdown = document.getElementById("landingTypeDropdown");
+var landingTypeHidden = document.getElementById("landingTypeHidden");
+var currentLandingType = "PharmaProducts";
+
+// Heading/examples text per type
+var LANDING_TEXT = {
+    "PharmaProducts": { heading: "Search your products", examples: "like <span>medicines, fitness products, cosmetics, medical devices</span> and more" },
+    "PharmaArticles": { heading: "Search your articles", examples: "like <span>clinical trials, drug research, pharmacology, treatment guides</span> and more" },
+    "PharmaNews": { heading: "Search pharma news", examples: "like <span>drug approvals, industry updates, health policy, market trends</span> and more" }
+};
+
+landingTypeBtn.addEventListener("click", function(e) {
+    e.stopPropagation();
+    landingDropdown.style.display = landingDropdown.style.display === "block" ? "none" : "block";
+});
+
+landingDropdown.querySelectorAll("div").forEach(function(opt) {
+    opt.addEventListener("click", function() {
+        var type = opt.getAttribute("data-type");
+        currentLandingType = type;
+        landingTypeBtn.innerHTML = type + ' <i class="fa-solid fa-chevron-down"></i>';
+        landingTypeHidden.value = type;
+        landingDropdown.style.display = "none";
+        // Update heading
+        var t = LANDING_TEXT[type] || LANDING_TEXT["PharmaProducts"];
+        document.getElementById("landingHeading").textContent = t.heading;
+        document.getElementById("landingExamples").innerHTML = t.examples;
+        // Update placeholder
+        var inp = document.getElementById("landingSearchInput");
+        if (type === "PharmaArticles") inp.placeholder = "Search articles, research papers…";
+        else if (type === "PharmaNews") inp.placeholder = "Search pharmaceutical news…";
+        else inp.placeholder = "Search medicines, products…";
+    });
+});
+
+document.addEventListener("click", function(e) {
+    if (!landingTypeBtn.contains(e.target)) landingDropdown.style.display = "none";
+});
+
+// Landing search form: inject type into URL
+document.getElementById("landingSearchForm").addEventListener("submit", function(e) {
+    var q = document.getElementById("landingSearchInput").value.trim();
+    if (!q) { e.preventDefault(); return; }
+    // Type is already in hidden input
+});
+
+/* ===== LANDING AUTOCOMPLETE ===== */
+(function() {
+    var productItems = [], articleItems = [], newsItems = [];
+    var inp = document.getElementById("landingSearchInput");
+    var box = document.getElementById("landingSuggestions");
+    var timer, activeIdx = -1;
+
+    fetch("data/database.json").then(function(r){return r.json();}).then(function(db) {
+        if (db.products) productItems = productItems.concat(Object.keys(db.products));
+        if (db.articles) articleItems = db.articles.map(function(a){return a.title;});
+        if (db.news) newsItems = db.news.map(function(n){return n.title;});
+    });
+
+    // Also load medicines.json for product names
+    fetch("data/medicines.json").then(function(r){return r.json();}).then(function(data){
+        var medNames = Object.keys(data);
+        productItems = productItems.concat(medNames);
+        // Deduplicate
+        productItems = productItems.filter(function(v,i,a){return a.indexOf(v)===i;});
+    }).catch(function(){});
+
+    inp.addEventListener("input", function() {
+        clearTimeout(timer);
+        timer = setTimeout(function() {
+            var q = inp.value.trim().toLowerCase();
+            box.innerHTML = ""; activeIdx = -1;
+            if (q.length < 2) { box.style.display = "none"; return; }
+            var pool;
+            if (currentLandingType === "PharmaArticles") pool = articleItems;
+            else if (currentLandingType === "PharmaNews") pool = newsItems;
+            else pool = productItems;
+            var matches = pool.filter(function(n){return simpleFuzzyMatch(n,q);})
+                .sort(function(a,b){return (b.toLowerCase().includes(q)?1:0)-(a.toLowerCase().includes(q)?1:0);}).slice(0,6);
+            if (!matches.length) { box.style.display = "none"; return; }
+            matches.forEach(function(name) {
+                var div = document.createElement("div");
+                div.className = "suggestion-item";
+                div.innerHTML = highlightText(name, q);
+                div.onclick = function() { window.location.href = "search.html?query=" + encodeURIComponent(name) + "&type=" + currentLandingType; };
+                box.appendChild(div);
+            });
+            box.style.display = "block";
+        }, 250);
+    });
+
+    document.addEventListener("click", function(e) {
+        if (!inp.contains(e.target) && !box.contains(e.target)) box.style.display = "none";
+    });
+})();
+
+
+/* ===== CAROUSEL SYSTEM ===== */
+
+function carouselScroll(trackId, dir) {
+    var track = document.getElementById(trackId);
+    if (!track) return;
+    var card = track.querySelector(".carousel-card");
+    if (!card) return;
+    var cardW = card.offsetWidth + 16; // gap
+    track.scrollBy({ left: dir * cardW, behavior: "smooth" });
+}
+
+// Enable mouse drag on carousel tracks
+document.querySelectorAll(".carousel-track").forEach(function(track) {
+    var isDown = false, startX, scrollLeft;
+    track.style.overflowX = "auto";
+    track.style.scrollbarWidth = "none";
+    track.style.msOverflowStyle = "none";
+
+    track.addEventListener("mousedown", function(e) { isDown = true; startX = e.pageX - track.offsetLeft; scrollLeft = track.scrollLeft; track.style.cursor = "grabbing"; });
+    track.addEventListener("mouseleave", function() { isDown = false; track.style.cursor = "grab"; });
+    track.addEventListener("mouseup", function() { isDown = false; track.style.cursor = "grab"; });
+    track.addEventListener("mousemove", function(e) {
+        if (!isDown) return; e.preventDefault();
+        var x = e.pageX - track.offsetLeft;
+        track.scrollLeft = scrollLeft - (x - startX);
+    });
+});
+
+function shuffle(arr) {
+    for (var i = arr.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var t = arr[i]; arr[i] = arr[j]; arr[j] = t;
+    }
+    return arr;
+}
+
+function getTypeIcon(t) {
+    if (!t) return "fa-capsules"; t = t.toLowerCase();
+    if (t.includes("device")||t.includes("monitor")) return "fa-stethoscope";
+    if (t.includes("cream")||t.includes("skin")) return "fa-pump-soap";
+    if (t.includes("injection")||t.includes("vaccine")) return "fa-syringe";
+    if (t.includes("drops")||t.includes("eye")) return "fa-eye-dropper";
+    if (t.includes("ayush")||t.includes("herbal")) return "fa-leaf";
+    if (t.includes("baby")||t.includes("feminine")) return "fa-baby";
+    if (t.includes("wellness")) return "fa-heart";
+    if (t.includes("wound")) return "fa-bandage";
+    if (t.includes("respiratory")) return "fa-lungs";
+    return "fa-capsules";
+}
+
+/* Load data and populate carousels */
+var dbProducts = {}, dbArticles = [], dbNews = [];
+
+Promise.all([
+    fetch("data/medicines.json").then(function(r){return r.json();}),
+    fetch("data/database.json").then(function(r){return r.json();})
+]).then(function(results) {
+    var medsData = results[0];
+    var db = results[1];
+
+    // Products: pick 1 from each of 10 categories
+    var byType = {};
+    Object.keys(medsData).forEach(function(name) {
+        var type = medsData[name].type || "Other";
+        if (!byType[type]) byType[type] = [];
+        byType[type].push({ name: name, data: medsData[name] });
+    });
+    var productCards = [];
+    Object.keys(byType).forEach(function(type) {
+        var items = byType[type];
+        var pick = items[Math.floor(Math.random() * items.length)];
+        productCards.push(pick);
+    });
+    shuffle(productCards);
+    renderProductCarousel(productCards);
+
+    // Articles
+    dbArticles = db.articles || [];
+    shuffle(dbArticles.slice());
+    renderArticleCarousel(dbArticles.slice(0, 10));
+
+    // News
+    dbNews = db.news || [];
+    shuffle(dbNews.slice());
+    renderNewsCarousel(dbNews.slice(0, 10));
+});
+
+function loadWikiImageIntoSlot(wrapEl, wikiTitle) {
+    if (!wikiTitle) return;
+    fetch("https://en.wikipedia.org/api/rest_v1/page/summary/" + encodeURIComponent(wikiTitle))
+        .then(function(r) { return r.json(); })
+        .then(function(d) {
+            if (d.thumbnail && d.thumbnail.source && wrapEl) {
+                var img = document.createElement("img");
+                img.src = d.thumbnail.source;
+                img.alt = wikiTitle;
+                img.style.cssText = "width:100%;height:100%;object-fit:cover;display:none;position:absolute;top:0;left:0;border-radius:0;";
+                img.onload = function() {
+                    img.style.display = "block";
+                    var icon = wrapEl.querySelector(".carousel-wiki-icon");
+                    if (icon) icon.style.opacity = "0";
+                };
+                wrapEl.style.position = "relative";
+                wrapEl.insertBefore(img, wrapEl.firstChild);
+            }
+        }).catch(function() {});
+}
+
+function renderProductCarousel(items) {
+    var track = document.getElementById("productTrack");
+    items.forEach(function(item) {
+        var icon = getTypeIcon(item.data.type || item.data.category || "");
+        var card = document.createElement("a");
+        card.className = "carousel-card";
+        card.href = "details.html?name=" + encodeURIComponent(item.name);
+        card.innerHTML =
+            '<div class="carousel-card-img" style="overflow:hidden;position:relative;">' +
+            '<i class="fas ' + icon + ' carousel-wiki-icon" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:38px;color:rgba(255,255,255,0.7);transition:opacity 0.3s;"></i>' +
+            '</div>' +
+            '<div class="carousel-card-body"><h4>' + item.name + '</h4><p>' + (item.data.category || item.data.type || "") + '</p></div>' +
+            '<div class="carousel-card-footer">' + (item.data.price || "") + '</div>';
+        track.appendChild(card);
+        // Fetch real image from Wikipedia API
+        var wrapEl = card.querySelector(".carousel-card-img");
+        loadWikiImageIntoSlot(wrapEl, item.data.wikiTitle);
+    });
+}
+
+function renderArticleCarousel(items) {
+    var track = document.getElementById("articleTrack");
+    items.forEach(function(art) {
+        var card = document.createElement("a");
+        card.className = "carousel-card";
+        card.href = "details.html?type=article&id=" + art.id;
+        card.innerHTML =
+            '<div class="carousel-card-body" style="padding:16px 14px;"><h4>' + art.title + '</h4>' +
+            '<p style="margin-top:6px;">' + (art.body || "").substring(0, 100) + '…</p></div>' +
+            '<div class="carousel-card-footer"><i class="fa-solid fa-calendar" style="margin-right:5px;"></i>' + art.date + '</div>';
+        track.appendChild(card);
+    });
+}
+
+function renderNewsCarousel(items) {
+    var track = document.getElementById("newsTrack");
+    items.forEach(function(news) {
+        var card = document.createElement("a");
+        card.className = "carousel-card";
+        card.href = "details.html?type=news&id=" + news.id;
+        card.innerHTML =
+            '<div class="carousel-card-body" style="padding:16px 14px;"><h4>' + news.title + '</h4>' +
+            '<p style="margin-top:6px;">' + (news.body || "").substring(0, 100) + '…</p></div>' +
+            '<div class="carousel-card-footer"><i class="fa-solid fa-clock" style="margin-right:5px;"></i>' + news.date + ' · ' + news.source + '</div>';
+        track.appendChild(card);
+    });
+}
+
+/* ===== INIT ===== */
+document.addEventListener("DOMContentLoaded", function() {
+    initPage(null, { headerMode: "expanded" });
+});
+</script>
+</body>
+</html>

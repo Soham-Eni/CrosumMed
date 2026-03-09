@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Privacy Policy | CrosumMed</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<div class="page-content">
+<div id="header-placeholder"></div>
+<div class="legal-page">
+<div class="legal-card">
+<h1>Privacy Policy</h1>
+<p class="last-updated">Last Updated: March 2026</p>
+
+<p>CrosumMed ("we", "our", "the platform") is committed to protecting the privacy of its users. This Privacy Policy explains how we collect, use, store, and protect your personal information when you use our platform.</p>
+
+<h2>1. Information We Collect</h2>
+<h3>1.1 Account Registration Data</h3>
+<p>When you create an account, we collect:</p>
+<ul>
+<li><strong>Email Address</strong> — Used for login authentication and subscription activation. We may use your email to send registration confirmations and important account notifications.</li>
+<li><strong>Full Name</strong> — Used to personalize your experience and for our AI assistant (Crosum) to provide contextual responses.</li>
+<li><strong>Age</strong> — Used to ensure age-appropriate content delivery and to help our AI assistant provide relevant health information context.</li>
+<li><strong>Password</strong> — Stored locally on your device. In future backend implementations, passwords will be encrypted using industry-standard hashing algorithms.</li>
+</ul>
+
+<h3>1.2 Usage Data</h3>
+<p>We may collect non-personally identifiable information about how you interact with CrosumMed, including pages visited, search queries, bookmarked items, and feature usage. This data is used solely to improve the platform.</p>
+
+<h3>1.3 Device Data</h3>
+<p>We may collect basic device information such as browser type, screen resolution, and operating system to optimize the user experience across devices. We use your device's theme preference (light/dark mode) to default to your preferred display mode.</p>
+
+<h2>2. How We Use Your Information</h2>
+<table>
+<tr><th>Data</th><th>Purpose</th></tr>
+<tr><td>Email Address</td><td>Login authentication, subscription management, account notifications</td></tr>
+<tr><td>Full Name</td><td>Profile display, AI assistant personalization</td></tr>
+<tr><td>Age</td><td>Content contextualization, AI assistant awareness</td></tr>
+<tr><td>Search Queries</td><td>Delivering search results, improving search algorithms</td></tr>
+<tr><td>Bookmarks</td><td>Saving user preferences for quick access</td></tr>
+<tr><td>Reviews/Ratings</td><td>Community product ratings, improving product data quality</td></tr>
+</table>
+
+<h2>3. Data Storage and Security</h2>
+<p>Currently, CrosumMed is a frontend-only application. All user data (account information, bookmarks, ratings, preferences) is stored in your browser's local storage on your device. This means:</p>
+<ul>
+<li>Your data stays on your device and is not transmitted to any external server</li>
+<li>Data will not persist if you clear your browser's local storage</li>
+<li>Data is not synced across different devices or browsers</li>
+</ul>
+<p>When a backend server is implemented in the future, all sensitive data will be encrypted in transit (HTTPS/TLS) and at rest. Passwords will be hashed using bcrypt or equivalent standards. We will never store plain-text passwords on any server.</p>
+<p><strong>We will never sell, trade, lease, or share your personal data with third parties for marketing purposes.</strong></p>
+
+<h2>4. Third-Party APIs and External Services</h2>
+<p>CrosumMed integrates with the following external APIs. These services may have their own privacy policies governing data they process.</p>
+
+<h3>4.1 APIs for Product Data</h3>
+<table>
+<tr><th>API</th><th>Organisation</th><th>Data Provided</th><th>Usage on CrosumMed</th></tr>
+<tr><td>PubChem API</td><td>NIH (National Library of Medicine)</td><td>Chemical formulas, molecular weight, CAS numbers</td><td>Chemistry tab on product pages</td></tr>
+<tr><td>OpenFDA API</td><td>U.S. Food &amp; Drug Administration</td><td>Drug labels, warnings, dosage, side effects</td><td>Dosage, warnings, side effects sections</td></tr>
+<tr><td>RxNorm API</td><td>National Library of Medicine</td><td>Generic names, drug synonyms</td><td>Generic name identification</td></tr>
+<tr><td>DailyMed API</td><td>U.S. National Library of Medicine</td><td>Official FDA drug labels</td><td>Detailed drug descriptions</td></tr>
+<tr><td>ClinicalTrials.gov API</td><td>NIH</td><td>Clinical trial data</td><td>Related clinical studies</td></tr>
+<tr><td>PubChem BioAssay</td><td>NIH</td><td>Drug activity, biological targets</td><td>Pharmacology explanations</td></tr>
+</table>
+
+<h3>4.2 APIs for Articles</h3>
+<table>
+<tr><th>API</th><th>Organisation</th><th>Data Provided</th><th>Article Category</th></tr>
+<tr><td>PubMed API (E-utilities)</td><td>NIH</td><td>Biomedical research papers</td><td>Drug Research &amp; Development</td></tr>
+<tr><td>ClinicalTrials.gov API</td><td>NIH</td><td>Clinical study data</td><td>Clinical Trials</td></tr>
+<tr><td>PubChem API</td><td>NIH</td><td>Pharmacology data</td><td>Drug Mechanism &amp; Pharmacology</td></tr>
+<tr><td>MedlinePlus API</td><td>NLM</td><td>Patient-friendly guides</td><td>Disease &amp; Treatment Guides</td></tr>
+<tr><td>OpenFDA API</td><td>U.S. FDA</td><td>Safety alerts</td><td>Drug Safety &amp; Side Effects</td></tr>
+<tr><td>WHO Global Health API</td><td>WHO</td><td>Global health statistics</td><td>Public Health &amp; Epidemiology</td></tr>
+<tr><td>CDC Open Data API</td><td>CDC</td><td>Epidemiology data</td><td>Public Health</td></tr>
+<tr><td>FDA Open Data</td><td>U.S. FDA</td><td>Regulatory updates</td><td>Pharma Industry &amp; Regulations</td></tr>
+</table>
+
+<h3>4.3 APIs for News</h3>
+<table>
+<tr><th>API</th><th>Organisation</th><th>Data Provided</th><th>Usage</th></tr>
+<tr><td>GDELT Project API</td><td>Global open data initiative</td><td>Global health news</td><td>Pharma &amp; healthcare news</td></tr>
+<tr><td>Mediastack API</td><td>Mediastack</td><td>News headlines</td><td>Industry news aggregation</td></tr>
+<tr><td>WHO News API (RSS)</td><td>WHO</td><td>Health updates</td><td>Global health news</td></tr>
+<tr><td>FDA News API</td><td>U.S. FDA</td><td>Drug approvals, safety alerts</td><td>Drug approval news</td></tr>
+<tr><td>CDC Newsroom API</td><td>CDC</td><td>Disease outbreaks</td><td>Public health updates</td></tr>
+</table>
+
+<h3>4.4 Other Integrations</h3>
+<table>
+<tr><th>Service</th><th>Purpose</th></tr>
+<tr><td>Razorpay API</td><td>Payment processing for subscription (₹27/month). Payment data is handled entirely by Razorpay and never stored on CrosumMed.</td></tr>
+<tr><td>Wikipedia API</td><td>Product images and supplementary information</td></tr>
+<tr><td>Google Maps API</td><td>Nearby pharmacy locator (uses your device's geolocation with your permission)</td></tr>
+<tr><td>Google OAuth</td><td>"Continue with Google" login (processes authentication through Google's servers)</td></tr>
+</table>
+
+<p>All product, article, and news APIs listed above are government scientific databases or recognized open data services. They are free, safe, and do not require any user data to be shared.</p>
+
+<h2>5. Cookies and Local Storage</h2>
+<p>CrosumMed uses browser local storage (not cookies) to store your preferences, login state, bookmarks, and ratings. You can clear this data at any time through your browser settings. We do not use tracking cookies, analytics cookies, or advertising cookies.</p>
+
+<h2>6. Children's Privacy</h2>
+<p>CrosumMed is intended for users aged 13 and above. We do not knowingly collect personal information from children under 13. If we become aware that a child under 13 has provided us with personal information, we will take steps to delete such information.</p>
+
+<h2>7. Your Rights</h2>
+<p>You have the right to:</p>
+<ul>
+<li>Access your personal data (viewable in your profile page)</li>
+<li>Delete your account data (by clearing your browser's local storage)</li>
+<li>Withdraw consent for data processing at any time</li>
+<li>Request information about how your data is used</li>
+</ul>
+
+<h2>8. Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated "Last Updated" date. We encourage you to review this policy periodically.</p>
+
+<h2>9. Contact Us</h2>
+<p>For privacy-related questions or concerns, contact us at: <strong>crosumsupport@gmail.com</strong></p>
+
+</div>
+</div>
+<div id="footer-placeholder"></div>
+</div>
+<script src="js/global.js"></script>
+<script>document.addEventListener("DOMContentLoaded",function(){initPage(null,{headerMode:"minimal"});});</script>
+</body>
+</html>

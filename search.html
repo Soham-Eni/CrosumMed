@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Search | CrosumMed</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/global.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+.container { width: 90%; max-width: 1200px; margin: 25px auto; background: var(--bg-card); padding: 28px 30px; border-radius: 12px; box-shadow: var(--shadow-card); border: 1px solid var(--border-light); transition: var(--transition-theme); }
+table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+th { background-color: var(--table-header-bg); color: var(--table-header-text); padding: 12px 8px; text-align: center; font-size: 14px; font-weight: 600; white-space: nowrap; }
+td { padding: 10px 12px; border-bottom: 1px solid var(--table-border); color: var(--text-primary); transition: var(--transition-theme); }
+tr:not(.no-result-row):hover { background-color: var(--table-hover); }
+tr:nth-child(even):not(.no-result-row) { background-color: var(--table-stripe); }
+.view-btn { background-color: var(--brand-primary); color: #fff; padding: 7px 14px; text-decoration: none; border-radius: 8px; font-size: 13px; font-weight: 600; transition: background 0.2s, transform 0.1s; display: inline-block; }
+.view-btn:hover { background-color: var(--brand-dark); color: #fff; transform: translateY(-1px); }
+.type-badge { display: inline-block; background-color: var(--bg-accent); color: var(--brand-primary); border: 1px solid var(--border-color); padding: 3px 10px; border-radius: 20px; font-size: 12px; font-weight: 600; white-space: nowrap; }
+
+@media (max-width: 900px) {
+    table, thead, tbody, th, tr { display: block; width: 100%; }
+    th { display: none; }
+    td { display: flex; justify-content: space-between; align-items: center; width: 100%; padding: 10px 14px; border: none; border-bottom: 1px solid var(--border-light); font-size: 14px; }
+    td::before { content: attr(data-label); font-weight: 700; color: var(--brand-primary); font-size: 12px; text-transform: uppercase; flex-shrink: 0; margin-right: 12px; }
+    tr { background: var(--bg-card); margin-bottom: 14px; border-radius: 10px; box-shadow: var(--shadow-sm); border: 1px solid var(--border-light); overflow: hidden; }
+}
+
+#resultsTable th, #resultsTable td { vertical-align: middle; }
+#resultsTable td { text-align: center; }
+.buy-container { display: inline-flex; gap: 5px; justify-content: center; align-items: center; flex-wrap: nowrap; }
+.buy-container .buy-btn { white-space: nowrap; padding: 4px 7px; font-size: 11px; }
+.empty-search-box { display: none; max-width: 1100px; margin: 40px auto; background: var(--bg-card); padding: 40px 30px; text-align: center; border-radius: 12px; box-shadow: var(--shadow-card); border: 1px solid var(--border-light); }
+.empty-title { color: var(--brand-primary); font-size: 26px; font-weight: 800; margin: 0 0 6px; }
+.empty-title::after { content: ""; display: block; width: 60px; height: 3px; background: var(--brand-primary); margin: 12px auto 18px; border-radius: 3px; }
+.empty-content { font-size: 16px; color: var(--text-secondary); text-align: left; display: inline-block; }
+.empty-content ul { margin-top: 10px; padding-left: 20px; }
+.empty-content li { margin: 6px 0; color: var(--text-secondary); }
+
+/* FILTER BAR */
+.filter-bar { display: flex; align-items: center; margin: 18px 0 4px; background: var(--bg-accent); border: 1px solid var(--border-color); border-radius: 10px; padding: 12px 18px; flex-wrap: wrap; gap: 0; row-gap: 10px; transition: var(--transition-theme); }
+.filter-group { display: flex; align-items: center; gap: 8px; }
+.filter-label { font-size: 13px; font-weight: 700; color: var(--brand-primary); white-space: nowrap; }
+.filter-select { appearance: none; -webkit-appearance: none; background-color: var(--bg-card); border: 1.5px solid var(--border-color); border-radius: 8px; padding: 8px 32px 8px 12px; font-size: 13px; color: var(--text-primary); cursor: pointer; outline: none; font-weight: 500; min-width: 160px; background-repeat: no-repeat; background-position: right 10px center; transition: border-color 0.2s, box-shadow 0.2s; background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%230B5394' stroke-width='1.8' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"); }
+[data-theme="dark"] .filter-select { background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%2390caf9' stroke-width='1.8' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"); }
+.filter-select:hover { border-color: var(--brand-primary); }
+.filter-select:focus { border-color: var(--brand-primary); box-shadow: 0 0 0 2px rgba(11,83,148,0.12); }
+.filter-divider { width: 1px; height: 28px; background: var(--border-color); margin: 0 14px; flex-shrink: 0; }
+#categoryWrapper { display: none; align-items: center; gap: 8px; }
+#categoryWrapper.visible { display: flex; }
+#dividerBeforeCat { display: none; }
+@media (max-width: 768px) { .filter-bar { flex-direction: column; align-items: flex-start; gap: 10px; } .filter-divider { display: none !important; } .filter-select { min-width: 100%; width: 100%; } .filter-group { width: 100%; } .filter-label { min-width: 90px; } }
+
+.results-header { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }
+.results-header .search-title { font-size: 20px; font-weight: 700; color: var(--brand-primary); }
+.results-header .results-count { display: none; font-size: 14px; font-weight: 600; color: var(--brand-primary); background: var(--bg-accent); padding: 4px 12px; border-radius: 8px; }
+.results-divider { height: 2px; background: var(--brand-primary); border: none; margin: 10px 0 0; opacity: 0.3; border-radius: 2px; }
+
+/* SEARCH LAYOUT: sidebar + main */
+.search-layout { display: flex; gap: 20px; margin-top: 16px; }
+.search-sidebar { width: 240px; flex-shrink: 0; }
+.search-main { flex: 1; min-width: 0; }
+@media (max-width: 900px) { .search-layout { flex-direction: column; } .search-sidebar { width: 100%; } }
+
+/* Cards container for articles/news */
+#cardResults { display: flex; flex-direction: column; gap: 0; }
+</style>
+</head>
+<body>
+<div class="page-content">
+<div id="header-placeholder"></div>
+<div id="didYouMeanBox"></div>
+
+<div id="emptySearchMessage" class="empty-search-box">
+    <h2 class="empty-title">Start Your Search</h2>
+    <div class="empty-content">Use the search bar above to find:<ul><li>PharmaProducts</li><li>PharmaArticles</li><li>PharmaNews</li></ul></div>
+</div>
+
+<div class="container" id="resultsContainer">
+
+    <!-- DISCLAIMER (products) -->
+    <div class="disclaimer-box" id="disclaimerProduct">
+        <i class="fa-solid fa-triangle-exclamation"></i>
+        <div><strong>Medical Disclaimer:</strong> Information on CrosumMed is for general informational purposes only. Always consult a qualified healthcare professional before using any pharmaceutical product.</div>
+    </div>
+    <!-- DISCLAIMER (articles/news) -->
+    <div class="disclaimer-box" id="disclaimerArticle" style="display:none;">
+        <i class="fa-solid fa-triangle-exclamation"></i>
+        <div><strong>Disclaimer:</strong> Articles and news are sourced from external databases and APIs. CrosumMed does not author this content. Always verify information from primary sources and consult professionals for medical decisions.</div>
+    </div>
+
+    <div class="results-header">
+        <span class="search-title" id="searchTitle">Search Results</span>
+        <span class="results-count" id="resultsCount"></span>
+    </div>
+    <hr class="results-divider">
+
+    <!-- ======= PRODUCT MODE ======= -->
+    <div id="productMode">
+        <div class="filter-bar">
+            <div class="filter-group"><span class="filter-label"><i class="fa-solid fa-layer-group" style="margin-right:5px;opacity:0.75;"></i>Product Type</span>
+                <select id="typeFilter" class="filter-select"><option value="all">All Types</option><option value="Oral Medicines">Oral Medicines</option><option value="Skin &amp; Topical">Skin &amp; Topical</option><option value="Respiratory">Respiratory</option><option value="Injectables">Injectables</option><option value="Eye, Ear &amp; Nose">Eye, Ear &amp; Nose</option><option value="Wound Care">Wound Care</option><option value="Medical Devices">Medical Devices</option><option value="Baby &amp; Feminine Care">Baby &amp; Feminine Care</option><option value="Wellness &amp; Nutrition">Wellness &amp; Nutrition</option><option value="AYUSH">AYUSH</option></select>
+            </div>
+            <div class="filter-divider" id="dividerBeforeCat"></div>
+            <div class="filter-group" id="categoryWrapper"><span class="filter-label"><i class="fa-solid fa-tag" style="margin-right:5px;opacity:0.75;"></i>Category</span>
+                <select id="categoryFilter" class="filter-select"><option value="all">All Categories</option></select>
+            </div>
+            <div class="filter-divider"></div>
+            <div class="filter-group"><span class="filter-label"><i class="fa-solid fa-arrow-up-wide-short" style="margin-right:5px;opacity:0.75;"></i>Price</span>
+                <select id="priceSort" class="filter-select" style="min-width:140px;"><option value="default">Default</option><option value="low-high">Low → High</option><option value="high-low">High → Low</option></select>
+            </div>
+        </div>
+        <table id="resultsTable"><tr><td colspan="9" style="text-align:center;">Loading...</td></tr></table>
+        <div id="paginationError"></div>
+        <div id="pagination"></div>
+    </div>
+
+    <!-- ======= ARTICLE MODE ======= -->
+    <div id="articleMode" style="display:none;">
+        <div class="search-layout">
+            <div class="search-sidebar">
+                <!-- Category Filter -->
+                <div class="year-range-panel">
+                    <div class="year-range-title"><i class="fa-solid fa-filter" style="margin-right:6px;"></i>Category</div>
+                    <select id="articleCatFilter" class="filter-select" style="width:100%;min-width:0;">
+                        <option value="all">All Categories</option>
+                        <option value="Clinical Trials">Clinical Trials</option>
+                        <option value="Drug Research & Development">Drug Research &amp; Development</option>
+                        <option value="Drug Mechanism & Pharmacology">Drug Mechanism &amp; Pharmacology</option>
+                        <option value="Disease & Treatment Guides">Disease &amp; Treatment Guides</option>
+                        <option value="Drug Safety & Side Effects">Drug Safety &amp; Side Effects</option>
+                        <option value="Medical Devices & Healthcare Technology">Medical Devices &amp; Healthcare Tech</option>
+                        <option value="Public Health & Epidemiology">Public Health &amp; Epidemiology</option>
+                        <option value="Pharmaceutical Industry & Regulations">Pharma Industry &amp; Regulations</option>
+                    </select>
+                </div>
+                <!-- Year Range -->
+                <div class="year-range-panel">
+                    <div class="year-range-title"><i class="fa-solid fa-calendar" style="margin-right:6px;"></i>Publication Date</div>
+                    <div class="year-range-inputs">
+                        <input type="number" id="articleYearFrom" placeholder="From" min="1900" max="2030">
+                        <span>to</span>
+                        <input type="number" id="articleYearTo" placeholder="To" min="1900" max="2030">
+                    </div>
+                    <div style="text-align:center;margin-top:10px;">
+                        <button type="button" class="view-btn" style="padding:6px 28px;font-size:12px;" onclick="displayArticleResults()">Set</button>
+                    </div>
+                </div>
+            </div>
+            <div class="search-main">
+                <div id="cardResults"></div>
+                <div id="articlePagError"></div>
+                <div id="articlePagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======= NEWS MODE ======= -->
+    <div id="newsMode" style="display:none;">
+        <div class="search-layout">
+            <div class="search-sidebar">
+                <div class="year-range-panel">
+                    <div class="year-range-title"><i class="fa-solid fa-sort" style="margin-right:6px;"></i>Sort Order</div>
+                    <select id="newsSort" class="filter-select" style="width:100%;min-width:0;">
+                        <option value="newest">Newest First</option>
+                        <option value="oldest">Oldest First</option>
+                    </select>
+                </div>
+                <div class="year-range-panel">
+                    <div class="year-range-title"><i class="fa-solid fa-calendar" style="margin-right:6px;"></i>Date Range</div>
+                    <div class="year-range-inputs">
+                        <input type="number" id="newsYearFrom" placeholder="From" min="1900" max="2030">
+                        <span>to</span>
+                        <input type="number" id="newsYearTo" placeholder="To" min="1900" max="2030">
+                    </div>
+                    <div style="text-align:center;margin-top:10px;">
+                        <button type="button" class="view-btn" style="padding:6px 28px;font-size:12px;" onclick="displayNewsResults()">Set</button>
+                    </div>
+                </div>
+            </div>
+            <div class="search-main">
+                <div id="newsCardResults"></div>
+                <div id="newsPagError"></div>
+                <div id="newsPagination"></div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div id="footer-placeholder"></div>
+</div>
+
+<script src="js/global.js"></script>
+<script>
+
+/* ===== SHARED STATE ===== */
+var searchMode = "products"; // products | articles | news
+var medicines = [], articles = [], news = [];
+var debounceTimer;
+var currentPage = parseInt(new URLSearchParams(window.location.search).get("page")) || 1;
+var RESULTS_PER_PAGE = 10;
+
+var TYPE_CATEGORIES_PLAIN = {
+    "Oral Medicines": ["Analgesic","Fever Reducer","Pain Reliever","Antibiotic","Diabetes","Antihistamine","Antacid","Cough & Cold","Rehydration","Vitamin","Cholesterol"],
+    "Skin & Topical": ["Anti-Infective Cream","Anti-Itch Cream","Pain Relief Gel","Moisturizer & Ointment","Acne Treatment","Hair Treatment"],
+    "Respiratory": ["MDI Inhaler","DPI Inhaler","Nebulizer Solution","Nebulizer Device"],
+    "Injectables": ["Insulin","Therapeutic Injection","Vaccine"],
+    "Eye, Ear & Nose": ["Eye Drops","Ear Drops","Nasal Drops & Spray"],
+    "Wound Care": ["Antiseptic Solution","Bandages & Dressings"],
+    "Medical Devices": ["Diagnostic Device","Supportive Aid"],
+    "Baby & Feminine Care": ["Baby Care","Feminine Care"],
+    "Wellness & Nutrition": ["Vitamins & Supplements","Health Food","Oral Care"],
+    "AYUSH": ["Ayurvedic Medicine","Herbal Supplement","Homeopathic Medicine"]
+};
+
+function getSearchTerm() { return new URLSearchParams(window.location.search).get("query") || ""; }
+function getSearchType() { return new URLSearchParams(window.location.search).get("type") || "PharmaProducts"; }
+
+/* ===== DETECT MODE FROM URL ===== */
+function detectMode() {
+    var type = getSearchType();
+    if (type === "PharmaArticles") return "articles";
+    if (type === "PharmaNews") return "news";
+    return "products";
+}
+
+function showMode(mode) {
+    searchMode = mode;
+    document.getElementById("productMode").style.display = mode === "products" ? "block" : "none";
+    document.getElementById("articleMode").style.display = mode === "articles" ? "block" : "none";
+    document.getElementById("newsMode").style.display = mode === "news" ? "block" : "none";
+    document.getElementById("disclaimerProduct").style.display = mode === "products" ? "flex" : "none";
+    document.getElementById("disclaimerArticle").style.display = mode !== "products" ? "flex" : "none";
+}
+
+/* ===== PRODUCT SEARCH (existing logic preserved) ===== */
+
+var table = document.getElementById("resultsTable");
+var typeFilter = document.getElementById("typeFilter");
+var categoryFilter = document.getElementById("categoryFilter");
+var categoryWrapper = document.getElementById("categoryWrapper");
+var dividerBeforeCat = document.getElementById("dividerBeforeCat");
+var priceSort = document.getElementById("priceSort");
+
+function populateCategoryDropdown(type) {
+    categoryFilter.innerHTML = '<option value="all">All Categories</option>';
+    var cats = TYPE_CATEGORIES_PLAIN[type];
+    if (cats) cats.forEach(function(cat) {
+        var opt = document.createElement("option"); opt.value = cat; opt.textContent = cat;
+        categoryFilter.appendChild(opt);
+    });
+}
+
+function updateCategoryVisibility() {
+    var sel = typeFilter.value;
+    if (sel === "all") { categoryWrapper.classList.remove("visible"); dividerBeforeCat.style.display = "none"; }
+    else { populateCategoryDropdown(sel); categoryWrapper.classList.add("visible"); dividerBeforeCat.style.display = "block"; }
+}
+
+function displayProductResults() {
+    var emptyMsg = document.getElementById("emptySearchMessage");
+    var container = document.getElementById("resultsContainer");
+    var countBox = document.getElementById("resultsCount");
+    var dymBox = document.getElementById("didYouMeanBox");
+    var searchTerm = getSearchTerm();
+    currentPage = Math.max(1, parseInt(new URLSearchParams(window.location.search).get("page")) || 1);
+
+    if (!searchTerm.trim()) { table.innerHTML = ""; dymBox.style.display = "none"; countBox.style.display = "none"; emptyMsg.style.display = "block"; container.style.display = "none"; return; }
+    emptyMsg.style.display = "none"; container.style.display = "block";
+
+    var q = searchTerm.trim().toLowerCase(), selType = typeFilter.value, selCat = categoryFilter.value;
+    table.innerHTML = ""; dymBox.style.display = "none"; dymBox.innerHTML = "";
+
+    var filtered = medicines.filter(function(m) {
+        return (!q || simpleFuzzyMatch(m.name, q)) && (selType === "all" || m.type === selType) && (selCat === "all" || m.category === selCat);
+    });
+
+    var sortOpt = priceSort.value;
+    if (sortOpt === "low-high") filtered.sort(function(a,b) { return parseFloat(a.price.replace(/[^0-9.]/g,"")) - parseFloat(b.price.replace(/[^0-9.]/g,"")); });
+    else if (sortOpt === "high-low") filtered.sort(function(a,b) { return parseFloat(b.price.replace(/[^0-9.]/g,"")) - parseFloat(a.price.replace(/[^0-9.]/g,"")); });
+
+    var exact = medicines.filter(function(m) { return m.name.toLowerCase().includes(q); });
+    if (q && exact.length === 0 && filtered.length > 0) { dymBox.innerHTML = '<div>Did you mean <a href="search.html?query=' + encodeURIComponent(filtered[0].name) + '">' + filtered[0].name + '</a>?</div>'; dymBox.style.display = "block"; }
+
+    if (!filtered.length) { table.innerHTML = '<tr class="no-result-row"><td colspan="9" style="text-align:center;padding:30px;"><b style="color:var(--danger-text);">No Result Found</b><br><span style="font-size:14px;color:var(--text-muted);">Try a different search term or remove filters</span></td></tr>'; document.getElementById("pagination").innerHTML = ""; countBox.style.display = "none"; return; }
+
+    countBox.style.display = "inline";
+    var s = (currentPage-1)*RESULTS_PER_PAGE+1, e = Math.min(currentPage*RESULTS_PER_PAGE, filtered.length);
+    countBox.innerText = "Showing " + s + "–" + e + " of " + filtered.length;
+
+    setupGlobalPagination({ data: filtered, itemsPerPage: RESULTS_PER_PAGE, containerId: "pagination", onRender: function(paged) {
+        table.innerHTML = '<tr><th>S.No.</th><th>Medicine Name</th><th>Rating</th><th>Type</th><th>Category</th><th>MRP</th><th>Details</th><th>Buy</th><th>Bookmark</th></tr>';
+        paged.forEach(function(med, idx) {
+            var row = table.insertRow();
+            var c0=row.insertCell(0); c0.setAttribute("data-label","S.No."); c0.innerText=(currentPage-1)*RESULTS_PER_PAGE+idx+1;
+            var c1=row.insertCell(1); c1.setAttribute("data-label","Name"); c1.innerHTML=highlightText(med.name,searchTerm); c1.style.fontWeight="600";
+            var c2=row.insertCell(2); c2.setAttribute("data-label","Rating"); c2.innerHTML=generateStarUI(getAvgRating(med.name));
+            var c3=row.insertCell(3); c3.setAttribute("data-label","Type"); c3.innerHTML='<span class="type-badge">'+(med.type||"—")+'</span>';
+            var c4=row.insertCell(4); c4.setAttribute("data-label","Category"); c4.innerText=med.category;
+            var c5=row.insertCell(5); c5.setAttribute("data-label","MRP"); c5.innerText=med.price; c5.style.fontWeight="600";
+            var c6=row.insertCell(6); c6.setAttribute("data-label","Details"); c6.innerHTML='<a class="view-btn" href="details.html?name='+encodeURIComponent(med.name)+'">View</a>';
+            var c7=row.insertCell(7); c7.setAttribute("data-label","Buy");
+            var bd=document.createElement("div"); bd.className="buy-container";
+            if (med.stores&&med.stores.length) { med.stores.forEach(function(st) { var a=document.createElement("a"); a.className="view-btn buy-btn"; a.target="_blank"; a.rel="noopener noreferrer"; a.href=st.link; a.innerText=st.name; bd.appendChild(a); }); } else { bd.innerHTML="<b style='color:var(--danger-text);'>N/A</b>"; }
+            c7.appendChild(bd);
+            var c8=row.insertCell(8); c8.setAttribute("data-label","Bookmark"); c8.classList.add("bookmark-column");
+            var bm=document.createElement("button"); bm.className="bookmark-btn";
+            if(isLoggedIn()&&isBookmarked(med.name,"products")){bm.innerHTML='<i class="fa-solid fa-bookmark"></i>';bm.classList.add("active");}else{bm.innerHTML='<i class="fa-regular fa-bookmark"></i>';}
+            bm.addEventListener("click",(function(n,b){return function(){var ok=toggleBookmark(n,"products");if(!ok)return;b.classList.toggle("active");b.innerHTML=b.classList.contains("active")?'<i class="fa-solid fa-bookmark"></i>':'<i class="fa-regular fa-bookmark"></i>';};})(med.name,bm));
+            c8.appendChild(bm);
+        });
+    }});
+}
+
+function getAvgRating(name) {
+    var r = getRatings(); if (r[name]&&r[name].length) { var t=r[name].reduce(function(a,b){return a+b;},0); return t/r[name].length; }
+    var m = medicines.find(function(x){return x.name===name;}); return (m&&m.rating)?m.rating:0;
+}
+function generateStarUI(avg) {
+    var sc=avg.toFixed(1),sv=avg/2,f=Math.floor(sv),h=sv%1>=0.5,html='<div class="rating-wrapper"><div class="stars-row">';
+    for(var i=1;i<=5;i++){if(i<=f)html+='<i class="fa-solid fa-star star-filled"></i>';else if(i===f+1&&h)html+='<i class="fa-solid fa-star-half-stroke star-filled"></i>';else html+='<i class="fa-regular fa-star star-empty"></i>';}
+    return html+'</div><div class="rating-score">'+sc+'/10</div></div>';
+}
+
+
+/* ===== ARTICLE SEARCH ===== */
+
+function displayArticleResults() {
+    var container = document.getElementById("resultsContainer");
+    var emptyMsg = document.getElementById("emptySearchMessage");
+    var countBox = document.getElementById("resultsCount");
+    var searchTerm = getSearchTerm();
+
+    if (!searchTerm.trim()) { emptyMsg.style.display = "block"; container.style.display = "none"; return; }
+    emptyMsg.style.display = "none"; container.style.display = "block";
+
+    var q = searchTerm.trim().toLowerCase();
+    var catFilter = document.getElementById("articleCatFilter").value;
+    var yearFrom = parseInt(document.getElementById("articleYearFrom").value) || 0;
+    var yearTo = parseInt(document.getElementById("articleYearTo").value) || 9999;
+
+    var filtered = articles.filter(function(a) {
+        var matchQ = simpleFuzzyMatch(a.title, q) || (a.body && a.body.toLowerCase().includes(q)) || (a.tags && a.tags.some(function(t){return t.toLowerCase().includes(q);}));
+        var matchCat = catFilter === "all" || a.category === catFilter;
+        var yr = parseInt(a.date); var matchYr = yr >= yearFrom && yr <= yearTo;
+        return matchQ && matchCat && matchYr;
+    });
+
+    var cardDiv = document.getElementById("cardResults");
+    cardDiv.innerHTML = "";
+
+    if (!filtered.length) { cardDiv.innerHTML = '<div style="text-align:center;padding:40px;color:var(--text-muted);"><i class="fa-solid fa-search" style="font-size:32px;opacity:0.3;display:block;margin-bottom:12px;"></i>No articles found. Try different keywords or filters.</div>'; document.getElementById("articlePagination").innerHTML = ""; countBox.style.display = "none"; return; }
+
+    setupGlobalPagination({ data: filtered, itemsPerPage: RESULTS_PER_PAGE, containerId: "articlePagination", onRender: function(paged, curPage, totalPages) {
+        var s = (curPage-1)*RESULTS_PER_PAGE+1, e = Math.min(curPage*RESULTS_PER_PAGE, filtered.length);
+        countBox.style.display = "inline"; countBox.innerText = "Showing " + s + "–" + e + " of " + filtered.length;
+        cardDiv.innerHTML = "";
+        paged.forEach(function(art) {
+            var card = document.createElement("div"); card.className = "result-card";
+            var matchSnippet = getMatchSnippet(art.body, searchTerm);
+            card.innerHTML =
+                '<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:10px;"><div style="flex:1;min-width:0;cursor:pointer;" onclick="window.location.href=\'details.html?type=article&id=' + art.id + '\'">' +
+                '<div class="result-card-title">' + highlightText(art.title, searchTerm) + '</div>' +
+                '<div class="result-card-meta"><span><i class="fa-solid fa-folder"></i> ' + art.category + '</span><span><i class="fa-solid fa-circle-check"></i> ' + (art.status||"Published") + '</span><span><i class="fa-solid fa-calendar"></i> ' + art.date + '</span><span><i class="fa-solid fa-building-columns"></i> ' + art.source + '</span></div>' +
+                '<div class="result-card-body">' + highlightText(matchSnippet, searchTerm) + '</div>' +
+                (art.tags ? '<div class="result-card-tags">' + art.tags.map(function(t){return '<span class="result-card-tag">'+t+'</span>';}).join("") + '</div>' : '') +
+                '</div><button class="bookmark-btn art-bm-btn" data-id="'+art.id+'" style="flex-shrink:0;margin-top:4px;font-size:22px;"><i class="'+(isLoggedIn()&&isBookmarked(art.id,"articles")?"fa-solid":"fa-regular")+' fa-bookmark"></i></button></div>';
+            cardDiv.appendChild(card);
+        });
+        // Attach bookmark handlers
+        cardDiv.querySelectorAll(".art-bm-btn").forEach(function(btn){
+            if(isLoggedIn()&&isBookmarked(btn.dataset.id,"articles")) btn.classList.add("active");
+            btn.addEventListener("click",function(ev){ev.stopPropagation();var ok=toggleBookmark(btn.dataset.id,"articles");if(!ok)return;btn.classList.toggle("active");btn.querySelector("i").className=btn.classList.contains("active")?"fa-solid fa-bookmark":"fa-regular fa-bookmark";});
+        });
+    }});
+}
+
+
+/* ===== NEWS SEARCH ===== */
+
+function displayNewsResults() {
+    var container = document.getElementById("resultsContainer");
+    var emptyMsg = document.getElementById("emptySearchMessage");
+    var countBox = document.getElementById("resultsCount");
+    var searchTerm = getSearchTerm();
+
+    if (!searchTerm.trim()) { emptyMsg.style.display = "block"; container.style.display = "none"; return; }
+    emptyMsg.style.display = "none"; container.style.display = "block";
+
+    var q = searchTerm.trim().toLowerCase();
+    var sortOrder = document.getElementById("newsSort").value;
+    var yearFrom = parseInt(document.getElementById("newsYearFrom").value) || 0;
+    var yearTo = parseInt(document.getElementById("newsYearTo").value) || 9999;
+
+    var filtered = news.filter(function(n) {
+        var matchQ = simpleFuzzyMatch(n.title, q) || (n.body && n.body.toLowerCase().includes(q)) || (n.tags && n.tags.some(function(t){return t.toLowerCase().includes(q);}));
+        var yr = parseInt(n.date); var matchYr = yr >= yearFrom && yr <= yearTo;
+        return matchQ && matchYr;
+    });
+
+    if (sortOrder === "newest") filtered.sort(function(a,b){return new Date(b.date)-new Date(a.date);});
+    else filtered.sort(function(a,b){return new Date(a.date)-new Date(b.date);});
+
+    var cardDiv = document.getElementById("newsCardResults");
+    cardDiv.innerHTML = "";
+
+    if (!filtered.length) { cardDiv.innerHTML = '<div style="text-align:center;padding:40px;color:var(--text-muted);"><i class="fa-solid fa-newspaper" style="font-size:32px;opacity:0.3;display:block;margin-bottom:12px;"></i>No news found. Try different keywords or date range.</div>'; document.getElementById("newsPagination").innerHTML = ""; countBox.style.display = "none"; return; }
+
+    setupGlobalPagination({ data: filtered, itemsPerPage: RESULTS_PER_PAGE, containerId: "newsPagination", onRender: function(paged, curPage, totalPages) {
+        var s = (curPage-1)*RESULTS_PER_PAGE+1, e = Math.min(curPage*RESULTS_PER_PAGE, filtered.length);
+        countBox.style.display = "inline"; countBox.innerText = "Showing " + s + "–" + e + " of " + filtered.length;
+        cardDiv.innerHTML = "";
+        paged.forEach(function(n) {
+            var card = document.createElement("div"); card.className = "result-card";
+            var matchSnippet = getMatchSnippet(n.body, searchTerm);
+            card.innerHTML =
+                '<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:10px;"><div style="flex:1;min-width:0;cursor:pointer;" onclick="window.location.href=\'details.html?type=news&id=' + n.id + '\'">' +
+                '<div class="result-card-title">' + highlightText(n.title, searchTerm) + '</div>' +
+                '<div class="result-card-meta"><span><i class="fa-solid fa-calendar"></i> ' + n.date + '</span><span><i class="fa-solid fa-building-columns"></i> ' + n.source + '</span></div>' +
+                '<div class="result-card-body">' + highlightText(matchSnippet, searchTerm) + '</div>' +
+                (n.tags ? '<div class="result-card-tags">' + n.tags.map(function(t){return '<span class="result-card-tag">'+t+'</span>';}).join("") + '</div>' : '') +
+                '</div><button class="bookmark-btn news-bm-btn" data-id="'+n.id+'" style="flex-shrink:0;margin-top:4px;font-size:22px;"><i class="'+(isLoggedIn()&&isBookmarked(n.id,"news")?"fa-solid":"fa-regular")+' fa-bookmark"></i></button></div>';
+            cardDiv.appendChild(card);
+        });
+        cardDiv.querySelectorAll(".news-bm-btn").forEach(function(btn){
+            if(isLoggedIn()&&isBookmarked(btn.dataset.id,"news")) btn.classList.add("active");
+            btn.addEventListener("click",function(ev){ev.stopPropagation();var ok=toggleBookmark(btn.dataset.id,"news");if(!ok)return;btn.classList.toggle("active");btn.querySelector("i").className=btn.classList.contains("active")?"fa-solid fa-bookmark":"fa-regular fa-bookmark";});
+        });
+    }});
+}
+
+
+/* ===== SNIPPET HELPER ===== */
+function getMatchSnippet(body, query) {
+    if (!body || !query) return (body || "").substring(0, 200);
+    var q = query.trim().toLowerCase();
+    var idx = body.toLowerCase().indexOf(q);
+    if (idx === -1) return body.substring(0, 200);
+    var start = Math.max(0, idx - 60);
+    var end = Math.min(body.length, idx + q.length + 140);
+    return (start > 0 ? "…" : "") + body.substring(start, end) + (end < body.length ? "…" : "");
+}
+
+
+/* ===== DEBOUNCE FILTERS ===== */
+function debounceSearch() {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(function() {
+        currentPage = 1;
+        var params = new URLSearchParams(window.location.search);
+        params.set("page", 1);
+        history.pushState(null, "", window.location.pathname + "?" + params.toString());
+        if (searchMode === "products") displayProductResults();
+        else if (searchMode === "articles") displayArticleResults();
+        else displayNewsResults();
+    }, 300);
+}
+
+typeFilter.addEventListener("change", function() { updateCategoryVisibility(); categoryFilter.value = "all"; debounceSearch(); });
+categoryFilter.addEventListener("change", debounceSearch);
+priceSort.addEventListener("change", debounceSearch);
+document.getElementById("articleCatFilter").addEventListener("change", debounceSearch);
+document.getElementById("newsSort").addEventListener("change", debounceSearch);
+
+function fillHeaderSearch() {
+    var q = new URLSearchParams(window.location.search).get("query");
+    var box = document.getElementById("globalSearch");
+    if (box && q) box.value = q;
+    // Sync header type selector with URL param AND create hidden input
+    var type = getSearchType();
+    var btn = document.getElementById("searchTypeBtn");
+    if (btn && type) btn.innerHTML = type + ' <i class="fa-solid fa-chevron-down"></i>';
+    // Ensure hidden input exists with correct type
+    var form = document.getElementById("globalSearchForm");
+    if (form) {
+        var hidden = document.getElementById("searchTypeHidden");
+        if (!hidden) { hidden = document.createElement("input"); hidden.type = "hidden"; hidden.name = "type"; hidden.id = "searchTypeHidden"; form.appendChild(hidden); }
+        hidden.value = type;
+    }
+}
+
+
+/* ===== LOAD DATA ===== */
+var dataReady = 0;
+
+// Load medicines.json for products
+fetch("data/medicines.json").then(function(r){return r.json();}).then(function(data) {
+    medicines = Object.keys(data).map(function(name) {
+        return { name: name, type: data[name].type||"", category: data[name].category||"", price: data[name].price||"0", rating: data[name].rating||0, stores: data[name].stores||[] };
+    });
+    dataReady++; if (dataReady >= 2) runSearch();
+}).catch(function(){ table.innerHTML = "<tr><td colspan='9' style='text-align:center;color:var(--danger-text);'>Failed to load product data</td></tr>"; });
+
+// Load database.json for articles & news
+fetch("data/database.json").then(function(r){return r.json();}).then(function(db) {
+    articles = db.articles || [];
+    news = db.news || [];
+    dataReady++; if (dataReady >= 2) runSearch();
+}).catch(function(){ console.error("Failed to load database.json"); dataReady++; if (dataReady >= 2) runSearch(); });
+
+function runSearch() {
+    var mode = detectMode();
+    showMode(mode);
+    var searchTerm = getSearchTerm();
+    if (searchTerm) document.getElementById("searchTitle").innerText = "Search Results for: " + searchTerm;
+    if (mode === "products") displayProductResults();
+    else if (mode === "articles") displayArticleResults();
+    else displayNewsResults();
+}
+
+
+/* ===== INIT ===== */
+document.addEventListener("DOMContentLoaded", function() {
+    initPage(function() {
+        fillHeaderSearch();
+    });
+});
+</script>
+</body>
+</html>

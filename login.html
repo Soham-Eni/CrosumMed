@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign In | CrosumMed</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+.auth-page { min-height: calc(100vh - 200px); display: flex; align-items: center; justify-content: center; padding: 40px 16px; }
+.auth-card { background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 16px; box-shadow: var(--shadow-md); width: 100%; max-width: 440px; padding: 36px 32px; transition: var(--transition-theme); }
+.auth-logo { text-align: center; margin-bottom: 24px; }
+.auth-logo a { text-decoration: none; }
+.auth-logo .logo-text { font-size: 28px; font-weight: 800; color: var(--brand-primary); }
+.auth-logo .logo-sub { font-size: 12px; color: var(--text-muted); margin-top: 2px; }
+.auth-title { font-size: 22px; font-weight: 700; color: var(--text-primary); text-align: center; margin: 0 0 6px; }
+.auth-subtitle { font-size: 14px; color: var(--text-muted); text-align: center; margin: 0 0 24px; }
+
+/* FORM ELEMENTS */
+.form-group { margin-bottom: 16px; }
+.form-label { display: block; font-size: 13px; font-weight: 600; color: var(--text-primary); margin-bottom: 6px; }
+.form-input { width: 100%; padding: 12px 14px; border: 1.5px solid var(--border-color); border-radius: 10px; font-size: 14.5px; color: var(--text-primary); background: var(--bg-secondary); transition: border-color 0.2s, box-shadow 0.2s; outline: none; box-sizing: border-box; }
+.form-input:focus { border-color: var(--brand-primary); box-shadow: 0 0 0 3px rgba(11,83,148,0.1); }
+.form-input.error { border-color: #e53935; }
+[data-theme="dark"] .form-input { background: var(--bg-tertiary); }
+
+/* PASSWORD TOGGLE */
+.password-wrap { position: relative; }
+.password-wrap .form-input { padding-right: 44px; }
+.password-toggle { position: absolute; right: 12px; top: 50%; transform: translateY(-50%); background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 16px; padding: 4px; }
+.password-toggle:hover { color: var(--brand-primary); }
+
+/* BUTTONS */
+.btn-primary { width: 100%; padding: 13px; background: var(--brand-primary); color: #fff; border: none; border-radius: 10px; font-size: 15px; font-weight: 600; cursor: pointer; transition: all 0.2s; }
+.btn-primary:hover { background: var(--brand-dark); transform: translateY(-1px); }
+.btn-primary:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
+
+/* DIVIDER */
+.auth-divider { display: flex; align-items: center; gap: 14px; margin: 20px 0; }
+.auth-divider span { font-size: 13px; color: var(--text-muted); white-space: nowrap; }
+.auth-divider::before, .auth-divider::after { content: ""; flex: 1; height: 1px; background: var(--border-color); }
+
+/* GOOGLE BUTTON */
+.btn-google { width: 100%; padding: 12px; background: var(--bg-secondary); color: var(--text-primary); border: 1.5px solid var(--border-color); border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 10px; transition: all 0.2s; }
+.btn-google:hover { border-color: var(--brand-primary); background: var(--bg-accent); }
+.btn-google img { width: 20px; height: 20px; }
+.google-g { font-size: 20px; font-weight: 700; }
+.google-g span:nth-child(1) { color: #4285F4; }
+.google-g span:nth-child(2) { color: #EA4335; }
+.google-g span:nth-child(3) { color: #FBBC05; }
+.google-g span:nth-child(4) { color: #34A853; }
+
+/* CHECKBOXES */
+.checkbox-group { margin-bottom: 12px; display: flex; align-items: flex-start; gap: 10px; }
+.checkbox-group input[type="checkbox"] { margin-top: 3px; width: 16px; height: 16px; accent-color: var(--brand-primary); flex-shrink: 0; cursor: pointer; }
+.checkbox-group label { font-size: 13px; color: var(--text-secondary); line-height: 1.5; cursor: pointer; }
+.checkbox-group a { color: var(--brand-primary); font-weight: 600; }
+
+/* ERROR MESSAGE */
+.form-error { display: none; background: #fde8e8; border: 1px solid #e53935; color: #c62828; padding: 10px 14px; border-radius: 8px; font-size: 13px; margin-bottom: 16px; text-align: center; }
+[data-theme="dark"] .form-error { background: #2d1111; border-color: #ef5350; color: #ef9a9a; }
+.form-error.visible { display: block; }
+
+/* SUCCESS */
+.form-success { display: none; background: #e8f5e9; border: 1px solid #43a047; color: #1b5e20; padding: 10px 14px; border-radius: 8px; font-size: 13px; margin-bottom: 16px; text-align: center; }
+[data-theme="dark"] .form-success { background: #0d2818; border-color: #66bb6a; color: #a5d6a7; }
+.form-success.visible { display: block; }
+
+/* SWITCH LINK */
+.auth-switch { text-align: center; margin-top: 20px; font-size: 14px; color: var(--text-muted); }
+.auth-switch a { color: var(--brand-primary); font-weight: 600; cursor: pointer; text-decoration: none; }
+.auth-switch a:hover { text-decoration: underline; }
+
+/* TAB SECTIONS */
+.auth-section { display: none; }
+.auth-section.active { display: block; }
+
+@media (max-width: 480px) {
+    .auth-card { padding: 28px 20px; }
+    .auth-title { font-size: 20px; }
+}
+</style>
+</head>
+<body>
+<div class="page-content">
+    <div id="header-placeholder"></div>
+
+    <div class="auth-page">
+        <div class="auth-card">
+
+            <div class="auth-logo">
+                <a href="landing.html">
+                    <div class="logo-text">CrosumMed</div>
+                    <div class="logo-sub">AI Powered Pharmaceutical Ecosystem Portal</div>
+                </a>
+            </div>
+
+            <!-- ===== LOGIN SECTION ===== -->
+            <div class="auth-section active" id="loginSection">
+                <h2 class="auth-title">Welcome Back</h2>
+                <p class="auth-subtitle">Sign in to your CrosumMed account</p>
+
+                <div class="form-error" id="loginError"></div>
+
+                <div class="form-group">
+                    <label class="form-label">Email Address</label>
+                    <input type="email" class="form-input" id="loginEmail" placeholder="you@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Password</label>
+                    <div class="password-wrap">
+                        <input type="password" class="form-input" id="loginPassword" placeholder="Enter your password">
+                        <button type="button" class="password-toggle" onclick="togglePw('loginPassword', this)"><i class="fa-solid fa-eye"></i></button>
+                    </div>
+                </div>
+
+                <button class="btn-primary" id="loginBtn">Sign In</button>
+
+                <div class="auth-divider"><span>or</span></div>
+
+                <button class="btn-google" id="googleLoginBtn">
+                    <span class="google-g"><span>G</span><span>o</span><span>o</span><span>g</span>le</span>
+                    Continue with Google
+                </button>
+
+                <div class="auth-switch">
+                    Not registered yet? <a onclick="showTab('register')">Create an account</a>
+                </div>
+            </div>
+
+            <!-- ===== REGISTER SECTION ===== -->
+            <div class="auth-section" id="registerSection">
+                <h2 class="auth-title">Create Account</h2>
+                <p class="auth-subtitle">Join CrosumMed today</p>
+
+                <div class="form-error" id="regError"></div>
+                <div class="form-success" id="regSuccess"></div>
+
+                <div class="form-group">
+                    <label class="form-label">Email Address</label>
+                    <input type="email" class="form-input" id="regEmail" placeholder="you@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Full Name</label>
+                    <input type="text" class="form-input" id="regName" placeholder="Your full name">
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Age</label>
+                    <input type="number" class="form-input" id="regAge" placeholder="Your age" min="1" max="150">
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Set Password</label>
+                    <div class="password-wrap">
+                        <input type="password" class="form-input" id="regPassword" placeholder="Min 6 characters">
+                        <button type="button" class="password-toggle" onclick="togglePw('regPassword', this)"><i class="fa-solid fa-eye"></i></button>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Confirm Password</label>
+                    <div class="password-wrap">
+                        <input type="password" class="form-input" id="regConfirm" placeholder="Re-enter password">
+                        <button type="button" class="password-toggle" onclick="togglePw('regConfirm', this)"><i class="fa-solid fa-eye"></i></button>
+                    </div>
+                </div>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="chkTerms">
+                    <label for="chkTerms">I agree to the <a href="terms.html" target="_blank">Terms &amp; Conditions</a></label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="chkPrivacy">
+                    <label for="chkPrivacy">I agree to the <a href="privacy.html" target="_blank">Privacy Policy</a></label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="chkSubscription">
+                    <label for="chkSubscription">I agree to the <a href="subscription.html" target="_blank">Subscription Policy</a></label>
+                </div>
+
+                <button class="btn-primary" id="regBtn" style="margin-top:8px;">Create Account</button>
+
+                <div class="auth-divider"><span>or</span></div>
+
+                <button class="btn-google" id="googleRegBtn">
+                    <span class="google-g"><span>G</span><span>o</span><span>o</span><span>g</span>le</span>
+                    Continue with Google
+                </button>
+
+                <div class="auth-switch">
+                    Already registered? <a onclick="showTab('login')">Sign in here</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="footer-placeholder"></div>
+</div>
+
+<script src="js/global.js"></script>
+<script>
+/* Tab switching */
+function showTab(tab) {
+    document.querySelectorAll(".auth-section").forEach(function(s) { s.classList.remove("active"); });
+    document.getElementById(tab === "register" ? "registerSection" : "loginSection").classList.add("active");
+    // Clear errors
+    document.querySelectorAll(".form-error, .form-success").forEach(function(e) { e.classList.remove("visible"); });
+}
+
+/* Password toggle */
+function togglePw(inputId, btn) {
+    var inp = document.getElementById(inputId);
+    if (inp.type === "password") {
+        inp.type = "text";
+        btn.innerHTML = '<i class="fa-solid fa-eye-slash"></i>';
+    } else {
+        inp.type = "password";
+        btn.innerHTML = '<i class="fa-solid fa-eye"></i>';
+    }
+}
+
+/* Show error */
+function showError(id, msg) {
+    var el = document.getElementById(id);
+    el.textContent = msg;
+    el.classList.add("visible");
+}
+
+function hideErrors() {
+    document.querySelectorAll(".form-error, .form-success").forEach(function(e) { e.classList.remove("visible"); });
+}
+
+/* Get redirect URL from params */
+function getRedirect() {
+    var params = new URLSearchParams(window.location.search);
+    return params.get("redirect") || "landing.html";
+}
+
+/* LOGIN */
+document.getElementById("loginBtn").addEventListener("click", function() {
+    hideErrors();
+    var email = document.getElementById("loginEmail").value.trim();
+    var pw = document.getElementById("loginPassword").value;
+
+    if (!email || !pw) { showError("loginError", "Please fill in all fields."); return; }
+    if (!isValidEmail(email)) { showError("loginError", "Please enter a valid email address."); return; }
+
+    var result = loginUser(email, pw);
+    if (!result.success) { showError("loginError", result.message); return; }
+
+    window.location.href = getRedirect();
+});
+
+/* REGISTER */
+document.getElementById("regBtn").addEventListener("click", function() {
+    hideErrors();
+    var email = document.getElementById("regEmail").value.trim();
+    var name = document.getElementById("regName").value.trim();
+    var age = document.getElementById("regAge").value.trim();
+    var pw = document.getElementById("regPassword").value;
+    var confirm = document.getElementById("regConfirm").value;
+
+    if (!email || !name || !age || !pw || !confirm) { showError("regError", "Please fill in all fields."); return; }
+    if (!isValidEmail(email)) { showError("regError", "Please enter a valid email address."); return; }
+    if (pw.length < 6) { showError("regError", "Password must be at least 6 characters."); return; }
+    if (pw !== confirm) { showError("regError", "Passwords do not match."); return; }
+    if (!document.getElementById("chkTerms").checked || !document.getElementById("chkPrivacy").checked || !document.getElementById("chkSubscription").checked) {
+        showError("regError", "Please accept all agreements to continue.");
+        return;
+    }
+
+    var result = registerUser({ email: email, name: name, age: age, password: pw });
+    if (!result.success) { showError("regError", result.message); return; }
+
+    // Show success then redirect
+    var suc = document.getElementById("regSuccess");
+    suc.textContent = "Account created successfully! Welcome to CrosumMed, " + name + ". Redirecting...";
+    suc.classList.add("visible");
+
+    setTimeout(function() { window.location.href = getRedirect(); }, 1500);
+});
+
+/* GOOGLE LOGIN (mock) */
+document.getElementById("googleLoginBtn").addEventListener("click", function() {
+    mockGoogleLogin(function() { window.location.href = getRedirect(); });
+});
+document.getElementById("googleRegBtn").addEventListener("click", function() {
+    mockGoogleLogin(function() { window.location.href = getRedirect(); });
+});
+
+/* ENTER KEY on login fields */
+["loginEmail", "loginPassword"].forEach(function(id) {
+    document.getElementById(id).addEventListener("keydown", function(e) {
+        if (e.key === "Enter") document.getElementById("loginBtn").click();
+    });
+});
+
+/* Check URL tab param */
+document.addEventListener("DOMContentLoaded", function() {
+    var params = new URLSearchParams(window.location.search);
+    if (params.get("tab") === "register") showTab("register");
+
+    // If already logged in, redirect
+    if (isLoggedIn() && !params.get("force")) {
+        window.location.href = getRedirect();
+        return;
+    }
+
+    initPage(null, { headerMode: "minimal" });
+});
+</script>
+</body>
+</html>

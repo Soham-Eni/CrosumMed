@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Profile | CrosumMed</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+.profile-hero{text-align:center;padding:24px 0 16px}
+.profile-hero-avatar{width:80px;height:80px;border-radius:50%;background:var(--brand-surface);border:3px solid var(--brand-primary);display:inline-flex;align-items:center;justify-content:center;font-size:34px;color:var(--brand-primary);font-weight:700;text-transform:uppercase}
+.profile-hero-name{font-size:20px;font-weight:700;color:var(--text-primary);margin-top:10px}
+.profile-hero-email{font-size:14px;color:var(--text-muted)}
+.info-row{display:flex;justify-content:space-between;padding:14px 0;border-bottom:1px solid var(--border-light);font-size:15px}
+.info-row:last-child{border-bottom:none}
+.info-label{font-weight:600;color:var(--brand-primary)}
+.info-value{color:var(--text-primary)}
+.bm-sub-tabs{display:flex;gap:6px;margin-bottom:18px;border-bottom:2px solid var(--border-light);padding-bottom:0}
+.bm-sub-tab{padding:10px 18px;border:none;background:transparent;font-size:14px;font-weight:600;color:var(--text-muted);cursor:pointer;border-bottom:3px solid transparent;margin-bottom:-2px;transition:all 0.2s}
+.bm-sub-tab:hover{color:var(--brand-primary)}
+.bm-sub-tab.active{color:var(--brand-primary);border-bottom-color:var(--brand-primary)}
+.bm-list{list-style:none;padding:0;margin:0}
+.bm-item{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;border:1px solid var(--border-light);border-radius:10px;margin-bottom:8px;background:var(--bg-secondary);transition:var(--transition-theme)}
+.bm-item:hover{border-color:var(--brand-primary)}
+.bm-item a{color:var(--brand-primary);font-weight:600;text-decoration:none;font-size:14.5px}
+.bm-item a:hover{text-decoration:underline}
+.bm-remove{background:none;border:none;color:var(--text-muted);cursor:pointer;font-size:16px;padding:4px;transition:color 0.2s}
+.bm-remove:hover{color:#e53935}
+.bm-empty{text-align:center;padding:40px 20px;color:var(--text-muted);font-size:14px}
+.sub-card{background:var(--bg-accent);border:2px solid var(--brand-primary);border-radius:14px;padding:28px;text-align:center;max-width:400px;margin:0 auto}
+.sub-price{font-size:40px;font-weight:800;color:var(--brand-primary)}
+.sub-price span{font-size:16px;font-weight:500;color:var(--text-muted)}
+.sub-features{text-align:left;margin:20px 0;padding-left:20px}
+.sub-features li{margin:8px 0;font-size:14.5px;color:var(--text-secondary);line-height:1.6}
+.sub-btn{display:inline-flex;align-items:center;gap:8px;padding:14px 36px;background:var(--brand-primary);color:#fff;border:none;border-radius:10px;font-size:16px;font-weight:600;cursor:pointer;transition:all 0.2s}
+.sub-btn:hover{background:var(--brand-dark);transform:translateY(-2px);box-shadow:0 4px 16px rgba(11,83,148,0.25)}
+.sub-note{font-size:12px;color:var(--text-muted);margin-top:14px}
+</style>
+</head>
+<body>
+<div class="page-content">
+<div id="header-placeholder"></div>
+
+<div class="profile-layout">
+    <!-- SIDEBAR TABS -->
+    <div class="profile-sidebar">
+        <button class="profile-tab-btn active" data-tab="account"><i class="fa-solid fa-user"></i> Account</button>
+        <button class="profile-tab-btn" data-tab="bookmarks"><i class="fa-solid fa-bookmark"></i> Bookmarks</button>
+        <button class="profile-tab-btn" data-tab="subscription"><i class="fa-solid fa-crown"></i> Subscription</button>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="profile-content">
+
+        <!-- ACCOUNT TAB -->
+        <div class="profile-panel active" id="tab-account">
+            <div class="profile-hero">
+                <div class="profile-hero-avatar" id="pAvatar">U</div>
+                <div class="profile-hero-name" id="pName">User</div>
+                <div class="profile-hero-email" id="pEmail">user@email.com</div>
+            </div>
+            <div id="pInfo">
+                <div class="info-row"><span class="info-label">Email</span><span class="info-value" id="pInfoEmail">—</span></div>
+                <div class="info-row"><span class="info-label">Full Name</span><span class="info-value" id="pInfoName">—</span></div>
+                <div class="info-row"><span class="info-label">Age</span><span class="info-value" id="pInfoAge">—</span></div>
+                <div class="info-row"><span class="info-label">Member Since</span><span class="info-value" id="pInfoDate">—</span></div>
+            </div>
+        </div>
+
+        <!-- BOOKMARKS TAB -->
+        <div class="profile-panel" id="tab-bookmarks" style="display:none;">
+            <h2 style="font-size:20px;font-weight:700;color:var(--brand-primary);margin:0 0 16px;">My Bookmarks</h2>
+            <div class="bm-sub-tabs">
+                <button class="bm-sub-tab active" data-sub="products"><i class="fa-solid fa-pills" style="margin-right:5px;"></i>Products</button>
+                <button class="bm-sub-tab" data-sub="articles"><i class="fa-solid fa-newspaper" style="margin-right:5px;"></i>Articles</button>
+                <button class="bm-sub-tab" data-sub="news"><i class="fa-solid fa-rss" style="margin-right:5px;"></i>News</button>
+            </div>
+            <div id="bmContent"></div>
+        </div>
+
+        <!-- SUBSCRIPTION TAB -->
+        <div class="profile-panel" id="tab-subscription" style="display:none;">
+            <h2 style="font-size:20px;font-weight:700;color:var(--brand-primary);margin:0 0 20px;text-align:center;">CrosumMed Premium</h2>
+            <div class="sub-card">
+                <div class="sub-price">₹27<span>/month</span></div>
+                <p style="color:var(--text-muted);margin:8px 0 0;font-size:14px;">Remove all ads and enjoy an uninterrupted experience</p>
+                <ul class="sub-features">
+                    <li><i class="fa-solid fa-check" style="color:var(--brand-primary);margin-right:6px;"></i> Ad-free browsing across all pages</li>
+                    <li><i class="fa-solid fa-check" style="color:var(--brand-primary);margin-right:6px;"></i> Priority access to new features</li>
+                    <li><i class="fa-solid fa-check" style="color:var(--brand-primary);margin-right:6px;"></i> Unlimited DOCX downloads</li>
+                    <li><i class="fa-solid fa-check" style="color:var(--brand-primary);margin-right:6px;"></i> Support CrosumMed development</li>
+                </ul>
+                <button class="sub-btn" id="subPayBtn" style="opacity:0.7;cursor:default;"><i class="fa-solid fa-clock"></i> Coming Soon</button>
+                <p class="sub-note">Payment gateway integration in progress.<br><a href="subscription.html" style="color:var(--brand-primary);">View full subscription policy</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="footer-placeholder"></div>
+</div>
+
+<script src="js/global.js"></script>
+<script>
+// Redirect if not logged in
+if(!isLoggedIn()){window.location.href="login.html?redirect="+encodeURIComponent(window.location.href);throw"";}
+
+var user=getUser();
+
+// Populate account
+document.getElementById("pAvatar").textContent=user.name?user.name.charAt(0).toUpperCase():"U";
+document.getElementById("pName").textContent=user.name||"User";
+document.getElementById("pEmail").textContent=user.email||"";
+document.getElementById("pInfoEmail").textContent=user.email||"—";
+document.getElementById("pInfoName").textContent=user.name||"—";
+document.getElementById("pInfoAge").textContent=user.age||"—";
+document.getElementById("pInfoDate").textContent=user.createdAt?new Date(user.createdAt).toLocaleDateString("en-IN",{year:"numeric",month:"long",day:"numeric"}):"—";
+
+// Tab switching
+document.querySelectorAll(".profile-tab-btn").forEach(function(btn){
+    btn.addEventListener("click",function(){
+        document.querySelectorAll(".profile-tab-btn").forEach(function(b){b.classList.remove("active");});
+        document.querySelectorAll(".profile-panel").forEach(function(p){p.style.display="none";});
+        btn.classList.add("active");
+        document.getElementById("tab-"+btn.dataset.tab).style.display="block";
+        if(btn.dataset.tab==="bookmarks")renderBookmarks("products");
+    });
+});
+
+// URL tab param
+var urlTab=new URLSearchParams(window.location.search).get("tab");
+if(urlTab){
+    document.querySelectorAll(".profile-tab-btn").forEach(function(b){b.classList.remove("active");});
+    document.querySelectorAll(".profile-panel").forEach(function(p){p.style.display="none";});
+    var target=document.querySelector('.profile-tab-btn[data-tab="'+urlTab+'"]');
+    if(target){target.classList.add("active");document.getElementById("tab-"+urlTab).style.display="block";}
+    if(urlTab==="bookmarks")renderBookmarks("products");
+}
+
+// Bookmark sub-tabs
+document.querySelectorAll(".bm-sub-tab").forEach(function(btn){
+    btn.addEventListener("click",function(){
+        document.querySelectorAll(".bm-sub-tab").forEach(function(b){b.classList.remove("active");});
+        btn.classList.add("active");
+        renderBookmarks(btn.dataset.sub);
+    });
+});
+
+function renderBookmarks(type){
+    var bm=getBookmarks(type);
+    var container=document.getElementById("bmContent");
+    if(!bm.length){container.innerHTML='<div class="bm-empty"><i class="fa-solid fa-bookmark" style="font-size:28px;opacity:0.3;display:block;margin-bottom:10px;"></i>No '+type+' bookmarked yet.</div>';return;}
+    var html='<ul class="bm-list">';
+    bm.forEach(function(item){
+        var link="";
+        if(type==="products")link='details.html?name='+encodeURIComponent(item);
+        else if(type==="articles")link='details.html?type=article&id='+encodeURIComponent(item);
+        else link='details.html?type=news&id='+encodeURIComponent(item);
+        html+='<li class="bm-item"><a href="'+link+'">'+item+'</a><button class="bm-remove" onclick="removeBm(\''+type+"','"+item.replace(/'/g,"\\'")+"')\" title=\"Remove\"><i class=\"fa-solid fa-trash-can\"></i></button></li>";
+    });
+    html+='</ul>';
+    container.innerHTML=html;
+}
+
+function removeBm(type,name){
+    toggleBookmark(name,type);
+    renderBookmarks(type);
+}
+
+// Razorpay placeholder
+document.getElementById("subPayBtn").addEventListener("click",function(){
+    alert("Coming Soon!\n\nRazorpay payment gateway integration is currently in progress.\nSubscription: ₹27/month — Ad-free CrosumMed experience.");
+});
+
+document.addEventListener("DOMContentLoaded",function(){initPage();});
+</script>
+</body>
+</html>
